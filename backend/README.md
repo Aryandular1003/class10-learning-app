@@ -1,10 +1,10 @@
 # BoardReady Backend
 
-This folder contains the Supabase database foundation for BoardReady.
+This folder contains the Supabase database foundation and Edge Functions for BoardReady.
 
 ## Migrations
 
-Run migrations `001` through `007` in order in the Supabase SQL editor:
+Run migrations `001` through `008` in order in the Supabase SQL editor:
 
 1. `supabase/migrations/001_initial_schema.sql` — Creates base tables (`profiles`, `subjects`, `chapters`, `content_items`, `student_progress`), role enum, `is_staff()` function, and base RLS policies.
 2. `supabase/migrations/002_auth_profile_trigger.sql` — Creates a trigger (`handle_new_user`) on `auth.users` to automatically provision a profile row on signup, plus backfill.
@@ -13,6 +13,7 @@ Run migrations `001` through `007` in order in the Supabase SQL editor:
 5. `supabase/migrations/005_progress_and_security.sql` — Hardens profile update column permissions, grants staff chapter write policies, and adds progress metadata.
 6. `supabase/migrations/006_updated_learning_schema.sql` — Adds `questions`, `question_options`, `pyqs`, `predicted_questions`, `quizzes`, `quiz_questions`, `mock_tests`, `mock_test_questions`, `quiz_attempts`, indexes, and premium access control.
 7. `supabase/migrations/007_auth_hardening.sql` — Hardens profile RLS policies with `((select auth.uid()) = id)` and re-verifies column-level update grants.
+8. `supabase/migrations/008_payments_and_orders.sql` — Creates `payments` table with student-only read RLS and service_role update controls.
 
 ## Critical Supabase Dashboard Settings
 
@@ -20,7 +21,29 @@ Run migrations `001` through `007` in order in the Supabase SQL editor:
 2. **Authentication → Email → Confirm email**: Enable in production so students verify their email addresses.
 3. **Authentication → Rate Limits**: Ensure adequate limits for production signup/sign-in volume.
 
-## Payment & Premium Security
+## Payment & Premium Security (Razorpay)
 
 - Never grant `is_premium` from frontend code. Column-level permissions in migration 006 revoke updates to `is_premium` and `premium_since` from authenticated users.
-- `profiles.is_premium` must only be set by a server-side verified payment flow (e.g. Supabase Edge Function or webhook service verifying Razorpay HMAC SHA256 signatures with `RAZORPAY_KEY_SECRET`).
+- `profiles.is_premium` must only be set by a server-side verified payment flow (Supabase Edge Function or webhook service verifying Razorpay HMAC-SHA256 signatures with `RAZORPAY_KEY_SECRET`).
+
+### Supabase Edge Functions
+
+Three production Edge Functions are provided in `supabase/functions/`:
+
+1. `create-razorpay-order` — Creates an authenticated order with Razorpay API and inserts an audit row into `payments`.
+2. `verify-razorpay-payment` — Cryptographically validates the HMAC-SHA256 signature and activates `profiles.is_premium = true`.
+3. `razorpay-webhook` — Listens for `order.paid` / `payment.captured` webhooks sent directly from Razorpay.
+
+### Deployment Instructions
+
+```bash
+# 1. Set environment secrets in your Supabase project:
+supabase secrets set RAZORPAY_KEY_ID=rzp_live_... \
+                     RAZORPAY_KEY_SECRET=your_secret \
+                     RAZORPAY_WEBHOOK_SECRET=your_webhook_secret
+
+# 2. Deploy functions:
+supabase functions deploy create-razorpay-order
+supabase functions deploy verify-razorpay-payment
+supabase functions deploy razorpay-webhook
+```

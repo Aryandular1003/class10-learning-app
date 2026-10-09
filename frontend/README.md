@@ -44,6 +44,7 @@ Run the following migrations **in order** in the Supabase SQL Editor:
 | 005 | `005_progress_and_security.sql` | Column-level grants, staff chapter writes |
 | 006 | `006_updated_learning_schema.sql` | Questions, PYQs, quizzes, mock tests, quiz attempts, premium entitlements, RLS |
 | 007 | `007_auth_hardening.sql` | Re-applied hardened profile RLS using `(select auth.uid())` |
+| 008 | `008_payments_and_orders.sql` | Payments and orders audit trail with student-only read RLS |
 
 ## Supabase Dashboard settings required manually
 
@@ -69,9 +70,32 @@ Set the **Build output directory** to `dist` and enable the **SPA routing** opti
 
 ## Payments (Razorpay)
 
-- Set `VITE_RAZORPAY_KEY_ID` to your publishable test key (`rzp_test_...`) for staging or live key (`rzp_live_...`) for production.
-- **Never** put `RAZORPAY_SECRET`, `RAZORPAY_WEBHOOK_SECRET`, or any server-only credential in frontend code or Vite env variables.
-- Payment signatures **must** be verified server-side (Supabase Edge Function or backend webhook). A webhook endpoint that verifies `razorpay_signature` and sets `profiles.is_premium = true` via service-role is still required before going live.
+The app implements a secure, server-verified payment workflow:
+
+1. **Frontend (`src/lib/razorpay.js`):**
+   - Calls the `create-razorpay-order` Supabase Edge Function to create an authenticated order.
+   - Opens Razorpay modal with `order_id` and public `VITE_RAZORPAY_KEY_ID`.
+   - On payment success, sends `razorpay_order_id`, `razorpay_payment_id`, and `razorpay_signature` to `verify-razorpay-payment`.
+   - Upon cryptographic verification, refreshes the user profile and unlocks PRO across the app.
+   - For offline testing or before Edge Functions deployment, a seamless test mode simulation is included.
+
+2. **Backend Edge Functions (`backend/supabase/functions/`):**
+   - `create-razorpay-order`: Authenticates user, creates Razorpay order for ₹99, records in `public.payments`.
+   - `verify-razorpay-payment`: Cryptographically verifies HMAC-SHA256 signature, marks payment captured, and sets `profiles.is_premium = true` using service-role.
+   - `razorpay-webhook`: Asynchronous webhook handler for Razorpay dashboard (`order.paid`, `payment.captured`).
+
+3. **Deploying Edge Functions to Supabase:**
+   ```bash
+   # Set secrets in Supabase
+   supabase secrets set RAZORPAY_KEY_ID=rzp_live_... RAZORPAY_KEY_SECRET=your_secret RAZORPAY_WEBHOOK_SECRET=your_webhook_secret
+
+   # Deploy functions
+   supabase functions deploy create-razorpay-order
+   supabase functions deploy verify-razorpay-payment
+   supabase functions deploy razorpay-webhook
+   ```
+
+> ⚠️ Never put `RAZORPAY_KEY_SECRET` or server credentials in frontend code or Vite environment variables. Only the public `VITE_RAZORPAY_KEY_ID` belongs in `.env.local` / hosting dashboard.
 
 ## Scripts
 

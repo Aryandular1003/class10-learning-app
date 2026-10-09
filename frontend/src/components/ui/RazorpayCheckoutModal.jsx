@@ -7,9 +7,10 @@ import Badge from './Badge'
 import Card from './Card'
 
 export default function RazorpayCheckoutModal({ isOpen, onClose, targetChapter }) {
-  const { user, profile } = useAuth()
+  const { user, profile, refreshProfile } = useAuth()
   const { activatePremium, isPremium } = useStudy()
   const [loading, setLoading] = useState(false)
+  const [loadingStep, setLoadingStep] = useState('')
   const [errorMessage, setErrorMessage] = useState(null)
   const [successPayment, setSuccessPayment] = useState(null)
 
@@ -18,6 +19,7 @@ export default function RazorpayCheckoutModal({ isOpen, onClose, targetChapter }
   const handlePayViaRazorpay = () => {
     setLoading(true)
     setErrorMessage(null)
+    setLoadingStep('Opening payment...')
 
     openRazorpayCheckout({
       amount: 99,
@@ -25,13 +27,25 @@ export default function RazorpayCheckoutModal({ isOpen, onClose, targetChapter }
       studentName: profile?.full_name || profile?.display_name || 'Student',
       studentEmail: user?.email || '',
       studentPhone: profile?.phone || '',
-      onSuccess: (paymentData) => {
+      onProgress: (stepText) => {
+        setLoadingStep(stepText)
+      },
+      onSuccess: async (paymentData) => {
         setLoading(false)
+        setLoadingStep('')
         activatePremium(paymentData)
+        if (refreshProfile) {
+          try {
+            await refreshProfile()
+          } catch {
+            // Profile will refresh on next navigation
+          }
+        }
         setSuccessPayment(paymentData)
       },
       onFailure: (err) => {
         setLoading(false)
+        setLoadingStep('')
         if (err?.message !== 'Payment window closed.') {
           setErrorMessage(err.message || 'Razorpay checkout encountered an issue.')
         }
@@ -41,7 +55,8 @@ export default function RazorpayCheckoutModal({ isOpen, onClose, targetChapter }
 
   const handleSimulateTestPayment = () => {
     setLoading(true)
-    setTimeout(() => {
+    setLoadingStep('Activating demo unlock...')
+    setTimeout(async () => {
       const simPayment = {
         paymentId: `pay_demo_${Math.random().toString(36).substr(2, 9)}`,
         orderId: `order_demo_${Date.now()}`,
@@ -50,6 +65,7 @@ export default function RazorpayCheckoutModal({ isOpen, onClose, targetChapter }
         paidAt: new Date().toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }),
       }
       setLoading(false)
+      setLoadingStep('')
       activatePremium(simPayment)
       setSuccessPayment(simPayment)
     }, 800)
@@ -164,7 +180,7 @@ export default function RazorpayCheckoutModal({ isOpen, onClose, targetChapter }
                 className="w-full py-4 rounded-btn bg-amber-500 hover:bg-amber-600 text-white font-bold text-base min-h-[52px] active:scale-98 transition-all shadow-amber focus:outline-none focus:ring-2 focus:ring-amber-400 flex items-center justify-center gap-2"
               >
                 {loading ? (
-                  <span>Processing Payment...</span>
+                  <span>{loadingStep || 'Processing Payment...'}</span>
                 ) : (
                   <>
                     <SparklesIcon className="w-5 h-5" />
