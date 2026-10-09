@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-cream-100 dark:bg-stone-900 text-stone-900 dark:text-stone-100 font-sans antialiased transition-colors duration-200;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@layer components {
+  /* Minimum touch-target enforcement */
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px] flex items-center justify-center;
+  }
+
+  /* Card base */
+  .card {
+    @apply bg-white dark:bg-stone-800/90 dark:border dark:border-stone-700/60 rounded-card shadow-card p-5 transition-colors duration-200;
+  }
+
+  /* Progress bar base */
+  .progress-bar {
+    @apply h-2 rounded-full bg-stone-100 dark:bg-stone-700/60 overflow-hidden;
+  }
+  .progress-fill {
+    @apply h-full rounded-full transition-all duration-700 ease-out;
+  }
+
+  /* Section label */
+  .section-label {
+    @apply text-xs font-semibold uppercase tracking-widest text-stone-400 dark:text-stone-500;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

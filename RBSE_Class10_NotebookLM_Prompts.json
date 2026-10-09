@@ -1,0 +1,42 @@
+{
+  "name": "RBSE Class 10 NotebookLM Prompt & Content Research Library",
+  "version": "2.0",
+  "subjects": ["science", "math", "english", "social-science"],
+  "usage": {
+    "instruction": "Upload your official RBSE / NCERT Class 10 textbooks or study guides to NotebookLM. Run these prompts to extract verified study packs, PYQs, and predicted questions, then import the exported JSON via BoardReady Founder Workspace (/content-review).",
+    "recommended_workflow": [
+      "1. Select target subject and chapter in NotebookLM.",
+      "2. Run prompt 'core-01' for Chapter Revision Notes.",
+      "3. Run prompt 'core-02' for 20 Board PYQs with Model Answers.",
+      "4. Run prompt 'core-03' for 20 AI-Predicted Board Questions.",
+      "5. Run prompt 'core-04' for 20 Board-Oriented MCQs.",
+      "6. Download Content Pack JSON and import in BoardReady app."
+    ]
+  },
+  "prompts": [
+    {
+      "id": "core-01",
+      "title": "Comprehensive Chapter Study Notes & Formula Sheet",
+      "variables": ["[SUBJECT]", "[CHAPTER NAME]", "[WEIGHTAGE%]"],
+      "prompt": "Using the uploaded RBSE Class 10 [SUBJECT] sources, generate an exhaustive, exam-oriented study guide for Chapter '[CHAPTER NAME]' (Board Weightage: [WEIGHTAGE%]).\n\nInclude the following sections:\n1. Chapter Overview & Board Exam Significance\n2. Key Definitions, Concepts & Fundamental Laws\n3. Formulas, Mathematical Derivations & Ray Diagrams (if applicable)\n4. Step-by-Step Solved Board Examples\n5. Top 5 Common Student Mistakes / Exam Traps\n6. 1-Page Exam Day Summary Sheet\n7. Source References & Page Citations\n\nRules:\n- Maintain extreme technical accuracy according to the latest RBSE Class 10 marking scheme.\n- Format formulas clearly with standard variables.\n- Output in clean JSON matching BoardReady Content Pack schema."
+    },
+    {
+      "id": "core-02",
+      "title": "20 Verified Previous Year Board Questions (PYQs)",
+      "variables": ["[SUBJECT]", "[CHAPTER NAME]"],
+      "prompt": "Extract 20 verified Previous Year Questions (PYQs) from 2019 to 2025 for RBSE Class 10 [SUBJECT] chapter '[CHAPTER NAME]'.\n\nFor each question provide:\n1. Question ID & Exam Year\n2. Exact Question Text\n3. Marks Weightage (1, 2, 3, or 5 marks)\n4. Chapter/Topic Name\n5. Step-by-Step Model Answer matching RBSE marking scheme\n6. Repeat Frequency & High-Priority Tagging\n7. Source Citation\n\nIf exact year is unverified, label as 'Year Unverified'. Do not fabricate fake questions."
+    },
+    {
+      "id": "core-03",
+      "title": "20 AI-Predicted Board Questions for 2026",
+      "variables": ["[SUBJECT]", "[CHAPTER NAME]"],
+      "prompt": "Based on historical RBSE Class 10 exam patterns, repetition frequency, and core curriculum weightage, generate 20 PREDICTED Board Exam Questions for '[CHAPTER NAME]' in [SUBJECT].\n\nFor each question provide:\n1. Prediction ID\n2. Predicted Question Text\n3. Marks Weightage\n4. Probability Rating: 🔥 High Probability / ⚡ Must Prepare / 🎯 Practice\n5. Prediction Rationale (e.g., 'Repeated every 2 years', 'Core 5-mark theorem')\n6. Model Answer Outline with Key Technical Keywords\n7. Related Past-Year Question Reference"
+    },
+    {
+      "id": "core-04",
+      "title": "20 Board-Oriented Multiple Choice Questions (MCQs)",
+      "variables": ["[SUBJECT]", "[CHAPTER NAME]"],
+      "prompt": "Create 20 high-quality MCQs for RBSE Class 10 [SUBJECT] chapter '[CHAPTER NAME]'.\n\nDistribution:\n- 5 Factual & Definition Questions\n- 5 Conceptual & Formula Application Questions\n- 5 Diagram / Reaction / Text-based Questions\n- 5 Common Trap & Tricky Questions\n\nFor each MCQ provide: Question, 4 Options (A, B, C, D), Correct Option Index, and Detailed Step-by-Step Explanation."
+    }
+  ]
+}
