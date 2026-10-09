@@ -4,7 +4,6 @@ const NAV_ITEMS = [
   { id: 'dashboard', label: 'Home',     icon: '🏠' },
   { id: 'chapters',  label: 'Chapters', icon: '📚' },
   { id: 'pyqs',      label: 'PYQs',     icon: '📝' },
-  { id: 'papers',    label: 'Papers',   icon: '📄' },
   { id: 'practice',  label: 'Practice', icon: '✏️' },
   { id: 'profile',   label: 'Profile',  icon: '👤' },
 ]

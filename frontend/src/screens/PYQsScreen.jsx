@@ -6,6 +6,7 @@ import Badge from '../components/ui/Badge'
 import Card from '../components/ui/Card'
 import ScreenHeader from '../components/ui/ScreenHeader'
 import BottomNav from '../components/ui/BottomNav'
+import { PAPER_LIBRARY, PAPER_SUBJECTS, PAPER_TYPES } from '../data/paperLibrary'
 
 // ─── PYQ Data ─────────────────────────────────────────────────────────────────
 const PYQS = [
@@ -250,16 +251,39 @@ function QuestionCard({ pyq, onLockedClick, onReveal }) {
   )
 }
 
+function PaperCard({ paper }) {
+  return (
+    <Card className="p-4">
+      <div className="flex items-start justify-between gap-3">
+        <div className="min-w-0">
+          <div className="flex flex-wrap items-center gap-2 mb-2">
+            <Badge variant={paper.type === 'Model paper' ? 'violet' : 'teal'}>{paper.type}</Badge>
+            <Badge variant="stone">{paper.year}</Badge>
+            <Badge variant="accent">{paper.subject}</Badge>
+          </div>
+          <h2 className="font-bold leading-snug">{paper.title}</h2>
+          <p className="text-xs text-stone-500 dark:text-stone-400 mt-1">{paper.filename}</p>
+        </div>
+        <a href={paper.path} target="_blank" rel="noreferrer" className="shrink-0 min-h-[42px] px-3 rounded-btn bg-teal-600 hover:bg-teal-700 text-white text-xs font-bold flex items-center">
+          Open PDF
+        </a>
+      </div>
+    </Card>
+  )
+}
+
 // ─── Main Screen ────────────────────────────────────────────────────────────────
 
-export default function PYQsScreen({ onNavigate, initialChapterFilter }) {
+export default function PYQsScreen({ onNavigate, initialChapterFilter, initialTab = 'pyq' }) {
   const { theme, toggleTheme } = useTheme()
   const { recordStudyActivity } = useStudy()
-  const [activeTab, setActiveTab] = useState('pyq') // 'pyq' | 'predicted'
+  const [activeTab, setActiveTab] = useState(['papers', 'pyq', 'predicted'].includes(initialTab) ? initialTab : 'pyq')
   const [chapterFilter, setChapterFilter] = useState(
     initialChapterFilter && CHAPTERS.includes(initialChapterFilter) ? initialChapterFilter : 'All chapters'
   )
   const [yearFilter, setYearFilter] = useState('All years')
+  const [paperSubjectFilter, setPaperSubjectFilter] = useState('All subjects')
+  const [paperTypeFilter, setPaperTypeFilter] = useState('All papers')
   const [lockedModal, setLockedModal] = useState(null)
 
   const activeDataset = activeTab === 'pyq' ? PYQS : PREDICTED_QUESTIONS
@@ -270,17 +294,33 @@ export default function PYQsScreen({ onNavigate, initialChapterFilter }) {
     return chapterMatch && yearMatch
   })
 
+  const filteredPapers = PAPER_LIBRARY.filter((paper) =>
+    (paperSubjectFilter === 'All subjects' || paper.subject === paperSubjectFilter || paper.subject === 'All subjects') &&
+    (paperTypeFilter === 'All papers' || paper.type === paperTypeFilter) &&
+    (yearFilter === 'All years' || paper.year === yearFilter)
+  )
+
   return (
     <div className="min-h-screen bg-cream-100 dark:bg-stone-900 text-stone-900 dark:text-stone-100 transition-colors duration-200">
       <ScreenHeader
-        title={activeTab === 'pyq' ? 'Previous Year Questions' : 'Predicted Board Questions'}
+        title={activeTab === 'papers' ? 'PYQ & Model Papers' : activeTab === 'pyq' ? 'Previous Year Questions' : 'Predicted Board Questions'}
         theme={theme}
         toggleTheme={toggleTheme}
       />
 
       <main className="max-w-2xl mx-auto px-4 pb-40 pt-6">
         {/* Mode Tab Switcher */}
-        <div className="flex bg-stone-200/80 dark:bg-stone-800 p-1 rounded-card mb-5">
+        <div className="grid grid-cols-3 gap-1 bg-stone-200/80 dark:bg-stone-800 p-1 rounded-card mb-5">
+          <button
+            onClick={() => setActiveTab('papers')}
+            className={`py-2.5 rounded-btn text-xs sm:text-sm font-bold transition-all min-h-[44px] flex items-center justify-center gap-1.5 ${
+              activeTab === 'papers'
+                ? 'bg-teal-600 text-white shadow-sm'
+                : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100'
+            }`}
+          >
+            <span>📄 PDF Papers</span>
+          </button>
           <button
             onClick={() => setActiveTab('pyq')}
             className={`flex-1 py-2.5 rounded-btn text-xs sm:text-sm font-bold transition-all min-h-[44px] flex items-center justify-center gap-1.5 ${
@@ -289,7 +329,7 @@ export default function PYQsScreen({ onNavigate, initialChapterFilter }) {
                 : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100'
             }`}
           >
-            <span>📝 Past Year Papers</span>
+            <span>📝 PYQ Questions</span>
           </button>
           <button
             onClick={() => setActiveTab('predicted')}
@@ -305,22 +345,35 @@ export default function PYQsScreen({ onNavigate, initialChapterFilter }) {
 
         <div className="mb-5">
           <div className="flex items-center gap-2 mb-1">
-            <span className="text-2xl" aria-hidden="true">{activeTab === 'pyq' ? '📝' : '✨'}</span>
+            <span className="text-2xl" aria-hidden="true">{activeTab === 'papers' ? '📄' : activeTab === 'pyq' ? '📝' : '✨'}</span>
             <h1 className="text-h2 font-bold text-stone-900 dark:text-stone-100">
-              {activeTab === 'pyq' ? 'Previous Year Questions' : '2026 Predicted Board Questions'}
+              {activeTab === 'papers' ? 'PYQ & Model Papers' : activeTab === 'pyq' ? 'Previous Year Questions' : '2026 Predicted Board Questions'}
             </h1>
           </div>
           <p className="text-sm text-stone-500 dark:text-stone-400 leading-relaxed">
-            {activeTab === 'pyq'
+            {activeTab === 'papers'
+              ? 'Open the RBSE Class 10 previous-year and model-paper PDFs collected for your board preparation.'
+              : activeTab === 'pyq'
               ? 'RBSE Class 10 board-style questions from 2022–2025. Practice with real exam questions and model answers.'
               : 'AI-curated high-probability questions predicted for the 2026 RBSE Class 10 board exams based on past repetition patterns.'}
           </p>
           <div className="mt-2 flex gap-2">
             <Badge variant="teal">RBSE Class 10</Badge>
+            {activeTab === 'papers' && <Badge variant="accent">14 PDFs ready</Badge>}
             {activeTab === 'predicted' && <Badge variant="accent">🔥 High Probability</Badge>}
           </div>
         </div>
 
+        {activeTab === 'papers' ? (
+          <Card className="p-4 mb-5">
+            <p className="section-label mb-3">Filter Papers</p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <FilterSelect label="Subject" value={paperSubjectFilter} onChange={setPaperSubjectFilter} options={PAPER_SUBJECTS} />
+              <FilterSelect label="Type" value={paperTypeFilter} onChange={setPaperTypeFilter} options={PAPER_TYPES} />
+              <FilterSelect label="Year" value={yearFilter} onChange={setYearFilter} options={['All years', '2024', '2025', '2026']} />
+            </div>
+          </Card>
+        ) : (
         <Card className="p-4 mb-5">
           <p className="section-label mb-3">Filter Questions</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -347,12 +400,15 @@ export default function PYQsScreen({ onNavigate, initialChapterFilter }) {
             )}
           </div>
         </Card>
+        )}
 
         <div className="flex items-center justify-between mb-4">
           <p className="text-sm font-semibold text-stone-700 dark:text-stone-300">
-            {filtered.length} question{filtered.length !== 1 ? 's' : ''} found
+            {activeTab === 'papers'
+              ? `${filteredPapers.length} paper${filteredPapers.length !== 1 ? 's' : ''} found`
+              : `${filtered.length} question${filtered.length !== 1 ? 's' : ''} found`}
           </p>
-          {(chapterFilter !== 'All chapters' || yearFilter !== 'All years') && (
+          {activeTab !== 'papers' && (chapterFilter !== 'All chapters' || yearFilter !== 'All years') && (
             <button
               onClick={() => { setChapterFilter('All chapters'); setYearFilter('All years') }}
               className="text-xs font-semibold text-amber-700 dark:text-amber-400 hover:underline min-h-[44px] px-2 flex items-center focus:outline-none focus:ring-2 focus:ring-amber-400 rounded"
@@ -362,7 +418,19 @@ export default function PYQsScreen({ onNavigate, initialChapterFilter }) {
           )}
         </div>
 
-        {filtered.length === 0 ? (
+        {activeTab === 'papers' ? (
+          filteredPapers.length === 0 ? (
+            <div className="text-center py-16">
+              <div className="text-5xl mb-4" aria-hidden="true">🔍</div>
+              <p className="text-base font-semibold text-stone-700 dark:text-stone-300 mb-2">No papers found</p>
+              <p className="text-sm text-stone-500 dark:text-stone-400">Try another subject, paper type, or year.</p>
+            </div>
+          ) : (
+            <div className="flex flex-col gap-4">
+              {filteredPapers.map((paper) => <PaperCard key={paper.id} paper={paper} />)}
+            </div>
+          )
+        ) : filtered.length === 0 ? (
           <div className="text-center py-16">
             <div className="text-5xl mb-4" aria-hidden="true">🔍</div>
             <p className="text-base font-semibold text-stone-700 dark:text-stone-300 mb-2">No questions found</p>

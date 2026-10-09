@@ -10,7 +10,6 @@ import { SUBJECT_CATALOGUE } from './data/appData'
 
 const NotesReader = lazy(() => import('./screens/NotesReader'))
 const PYQsScreen = lazy(() => import('./screens/PYQsScreen'))
-const PapersScreen = lazy(() => import('./screens/PapersScreen'))
 const PracticeScreen = lazy(() => import('./screens/PracticeScreen'))
 const ProfileScreen = lazy(() => import('./screens/ProfileScreen'))
 const FounderDashboardScreen = lazy(() => import('./screens/FounderDashboardScreen'))
@@ -111,9 +110,12 @@ function AppRoutes() {
       const chapterId = state.chapterId || state.chapter?.id || chapters[0]?.id
       if (chapterId) navigate(`/notes/${chapterId}`)
     } else if (screen === 'pyqs') {
-      const filter = state.chapterFilter ? `?chapter=${encodeURIComponent(state.chapterFilter)}` : ''
+      const params = new URLSearchParams()
+      if (state.chapterFilter) params.set('chapter', state.chapterFilter)
+      if (state.tab) params.set('tab', state.tab)
+      const filter = params.toString() ? `?${params.toString()}` : ''
       navigate(`/pyqs${filter}`)
-    } else if (screen === 'papers') navigate('/papers')
+    } else if (screen === 'papers') navigate('/pyqs?tab=papers')
     else if (screen === 'question-bank') navigate('/question-bank')
     else if (screen === 'predicted') navigate('/predicted')
     else if (screen === 'revision') {
@@ -133,6 +135,7 @@ function AppRoutes() {
 
   const openChapter = (chapter, initialView = 'unlocked') => navigate(`/notes/${chapter.id}${initialView === 'locked' ? '?preview=locked' : ''}`)
   const pyqFilter = new URLSearchParams(location.search).get('chapter') || undefined
+  const pyqTab = new URLSearchParams(location.search).get('tab') || 'pyq'
 
   return (
     <Suspense fallback={<RouteLoading />}>
@@ -140,8 +143,8 @@ function AppRoutes() {
       <Route path="/auth" element={<PublicOnlyRoute><AuthScreen /></PublicOnlyRoute>} />
       <Route path="/" element={<ProtectedRoute><HomeDashboard onOpenChapterNotes={(chapter) => openChapter(chapter)} onOpenLockedNotes={(chapter) => openChapter(chapter, 'locked')} onNavigate={handleNavigate} /></ProtectedRoute>} />
       <Route path="/notes/:chapterId" element={<ProtectedRoute><NotesRoute onNavigate={handleNavigate} /></ProtectedRoute>} />
-      <Route path="/pyqs" element={<ProtectedRoute><PYQsScreen onNavigate={handleNavigate} initialChapterFilter={pyqFilter} /></ProtectedRoute>} />
-      <Route path="/papers" element={<ProtectedRoute><PapersScreen onNavigate={handleNavigate} /></ProtectedRoute>} />
+      <Route path="/pyqs" element={<ProtectedRoute><PYQsScreen onNavigate={handleNavigate} initialChapterFilter={pyqFilter} initialTab={pyqTab} /></ProtectedRoute>} />
+      <Route path="/papers" element={<Navigate to="/pyqs?tab=papers" replace />} />
       <Route path="/question-bank" element={<ProtectedRoute><QuestionBankScreen onNavigate={handleNavigate} /></ProtectedRoute>} />
       <Route path="/predicted" element={<ProtectedRoute><PredictedScreen onNavigate={handleNavigate} /></ProtectedRoute>} />
       <Route path="/revision/:chapterId" element={<ProtectedRoute><RevisionScreen onNavigate={handleNavigate} /></ProtectedRoute>} />
