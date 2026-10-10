@@ -266,8 +266,8 @@ export default function HomeDashboard({ onOpenChapterNotes, onOpenLockedNotes, o
             className="p-3 rounded-card bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 shadow-card hover:border-teal-400 text-left transition-all active:scale-95 group"
           >
             <span className="text-xl">⏱️</span>
-            <p className="font-bold text-xs text-teal-700 dark:text-teal-300 mt-1">Mock Tests</p>
-            <p className="text-[10px] text-stone-500 dark:text-stone-400">Board blueprint</p>
+            <p className="font-bold text-xs text-teal-700 dark:text-teal-300 mt-1">Practice Papers</p>
+            <p className="text-[10px] text-stone-500 dark:text-stone-400">Board-level instructions</p>
           </button>
         </section>
 
