@@ -1,5 +1,8 @@
 // Razorpay Payment SDK Client Helper for BoardReady Class 10
-// Connects to /api/create-order and /api/verify-payment backend endpoints
+// Uses authenticated Supabase Edge Functions for server-side order creation
+// and signature verification, with the Vercel API retained as a fallback.
+
+import { isSupabaseConfigured, supabase } from './supabase'
 
 const RAZORPAY_SCRIPT_URL = 'https://checkout.razorpay.com/v1/checkout.js'
 
@@ -18,6 +21,19 @@ export function loadRazorpayScript() {
 }
 
 export async function createOrder({ amount = 19900, currency = 'INR', receipt }) {
+  if (isSupabaseConfigured && supabase) {
+    const { data, error } = await supabase.functions.invoke('create-razorpay-order', {
+      body: { amount, currency, receipt: receipt || `rcpt_${Date.now()}` },
+    })
+    if (error) throw new Error(error.message || 'Failed to create payment order')
+    return {
+      order_id: data?.order_id || data?.orderId,
+      amount: data?.amount,
+      currency: data?.currency || currency,
+      keyId: data?.keyId,
+    }
+  }
+
   const response = await fetch('/api/create-order', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -37,6 +53,19 @@ export async function createOrder({ amount = 19900, currency = 'INR', receipt })
 }
 
 export async function verifyPayment({ order_id, payment_id, signature }) {
+  if (isSupabaseConfigured && supabase) {
+    const { data, error } = await supabase.functions.invoke('verify-razorpay-payment', {
+      body: {
+        razorpay_order_id: order_id,
+        razorpay_payment_id: payment_id,
+        razorpay_signature: signature,
+      },
+    })
+    if (error) throw new Error(error.message || 'Payment signature verification failed')
+    if (!data?.success) throw new Error(data?.error || 'Payment signature verification failed')
+    return data
+  }
+
   const response = await fetch('/api/verify-payment', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -91,7 +120,7 @@ export async function openRazorpayCheckout({
     return
   }
 
-  const razorpayKey = import.meta.env.VITE_RAZORPAY_KEY_ID || 'rzp_test_TleIyHZJw45OdI'
+  const razorpayKey = orderData.keyId || import.meta.env.VITE_RAZORPAY_KEY_ID || 'rzp_test_TleIyHZJw45OdI'
 
   // Step 2: Open Razorpay Modal with order_id
   const options = {

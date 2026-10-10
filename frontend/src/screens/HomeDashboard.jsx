@@ -393,6 +393,28 @@ export default function HomeDashboard({ onOpenChapterNotes, onOpenLockedNotes, o
             <span className="text-xs text-stone-500 dark:text-stone-400">{completedCount}/{chapters.filter(c => !c.locked).length} done</span>
           </div>
           <p className="text-xs text-stone-500 dark:text-stone-400 mb-4">Track your revision by chapter and focus on the highest-weightage topics first.</p>
+          <div className="mb-4 p-3 rounded-card bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 shadow-card">
+            <div className="flex items-center justify-between gap-3 mb-2">
+              <p className="section-label">Change subject</p>
+              <span className="text-[11px] text-stone-400 dark:text-stone-500">{subjectDefinition.label} selected</span>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2" role="tablist" aria-label="Change study subject">
+              {subjects.map((subject) => (
+                <button
+                  key={subject.id}
+                  role="tab"
+                  aria-selected={activeSubject === subject.id}
+                  onClick={() => setActiveSubject(subject.id)}
+                  className={`min-h-[42px] px-2 rounded-btn text-xs font-bold transition-all focus:outline-none focus:ring-2 focus:ring-amber-400 ${activeSubject === subject.id
+                    ? 'bg-amber-500 text-white shadow-sm'
+                    : 'bg-stone-100 dark:bg-stone-700 text-stone-700 dark:text-stone-300 hover:bg-stone-200 dark:hover:bg-stone-600'
+                  }`}
+                >
+                  <span aria-hidden="true" className="mr-1">{subject.emoji}</span>{subject.shortLabel}
+                </button>
+              ))}
+            </div>
+          </div>
           <div className="space-y-5">
             {subjectParts.map((part) => {
               const partChapters = scaledChapters.filter((chapter) => chapter.partId === part.id)
