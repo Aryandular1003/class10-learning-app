@@ -1,8 +1,8 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useTheme } from '../theme/useTheme'
 import { useStudy } from '../hooks/useStudy'
 import { useAuth } from '../hooks/useAuth'
-import { STUDENT_META, toDateKey } from '../data/appData'
+import { toDateKey } from '../data/appData'
 import {
   FireIcon,
   ClockIcon,
@@ -142,9 +142,33 @@ function UnlockTeaser({ onOpenPreview }) {
 export default function HomeDashboard({ onOpenChapterNotes, onOpenLockedNotes, onNavigate }) {
   const { theme, toggleTheme } = useTheme()
   const { profile } = useAuth()
-  const { chapters, studyState, completedCount, monthlyPct, currentStreak, subjectDefinition, subjects, activeSubject, setActiveSubject } = useStudy()
+  const { chapters, studyState, completedCount, monthlyPct, currentStreak, subjectDefinition, subjects, activeSubject, setActiveSubject, setBoardExamDate } = useStudy()
   const [activeModal, setActiveModal] = useState(null)
   const [showNotifications, setShowNotifications] = useState(false)
+  const [showExamDateEditor, setShowExamDateEditor] = useState(false)
+  const [examDateDraft, setExamDateDraft] = useState(studyState.boardExamDate || '')
+  const [now, setNow] = useState(() => new Date())
+
+  useEffect(() => {
+    const timer = window.setInterval(() => setNow(new Date()), 60 * 1000)
+    return () => window.clearInterval(timer)
+  }, [])
+
+  useEffect(() => {
+    setExamDateDraft(studyState.boardExamDate || '')
+  }, [studyState.boardExamDate])
+
+  const boardExamDate = studyState.boardExamDate || ''
+  const examDate = boardExamDate ? new Date(`${boardExamDate}T23:59:59`) : null
+  const daysToExam = examDate ? Math.max(0, Math.ceil((examDate.getTime() - now.getTime()) / 86400000)) : null
+  const examDateLabel = examDate
+    ? examDate.toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })
+    : null
+
+  const saveExamDate = () => {
+    setBoardExamDate(examDateDraft)
+    setShowExamDateEditor(false)
+  }
 
   const streakDays = currentStreak
   const displayName = profile?.full_name || profile?.display_name || 'Student'
@@ -220,10 +244,12 @@ export default function HomeDashboard({ onOpenChapterNotes, onOpenLockedNotes, o
               <div>
                 <Badge variant="stone" className="bg-white/20 text-white font-semibold backdrop-blur-sm">RBSE Board Exam</Badge>
                 <div className="flex items-baseline gap-2 mt-2">
-                  <span className="text-4xl font-extrabold tracking-tight">{STUDENT_META.daysToBoards}</span>
-                  <span className="text-lg font-semibold text-amber-100">days left</span>
+                  <span className="text-4xl font-extrabold tracking-tight">{daysToExam ?? '—'}</span>
+                  <span className="text-lg font-semibold text-amber-100">{daysToExam === null ? 'set paper date' : 'days until paper'}</span>
                 </div>
-                <p className="text-amber-100 text-xs mt-1 font-medium">Consistent revision beats last-minute cramming! 💪</p>
+                <p className="text-amber-100 text-xs mt-1 font-medium">
+                  {examDateLabel ? `RBSE paper: ${examDateLabel}` : 'Add the RBSE board paper date to start the countdown.'}
+                </p>
               </div>
               <div className="flex-shrink-0 bg-white/10 p-2.5 rounded-2xl backdrop-blur-sm">
                 <ClockIcon className="w-10 h-10 text-amber-100" />
@@ -238,6 +264,32 @@ export default function HomeDashboard({ onOpenChapterNotes, onOpenLockedNotes, o
                 <div className="h-full rounded-full bg-white transition-all duration-700" style={{ width: `${monthlyPct}%` }} />
               </div>
             </div>
+            <div className="mt-3 flex items-center justify-between gap-3">
+              <button
+                type="button"
+                onClick={() => setShowExamDateEditor((value) => !value)}
+                className="text-xs font-bold text-white underline underline-offset-2 hover:text-amber-100 focus:outline-none focus:ring-2 focus:ring-white/70 rounded"
+              >
+                {boardExamDate ? 'Change paper date' : 'Set paper date'}
+              </button>
+              {boardExamDate && <span className="text-[11px] text-amber-100">Countdown updates every minute</span>}
+            </div>
+            {showExamDateEditor && (
+              <div className="mt-3 p-3 rounded-btn bg-white/15 border border-white/25 backdrop-blur-sm">
+                <label htmlFor="board-exam-date" className="block text-xs font-semibold text-white mb-1.5">RBSE board paper date</label>
+                <div className="flex flex-wrap items-center gap-2">
+                  <input
+                    id="board-exam-date"
+                    type="date"
+                    value={examDateDraft}
+                    onChange={(event) => setExamDateDraft(event.target.value)}
+                    className="min-h-[40px] rounded-btn border-0 px-3 text-sm text-stone-800 focus:outline-none focus:ring-2 focus:ring-white"
+                  />
+                  <button type="button" onClick={saveExamDate} className="min-h-[40px] px-3 rounded-btn bg-white text-amber-700 text-xs font-bold">Save</button>
+                  <button type="button" onClick={() => { setBoardExamDate(''); setExamDateDraft(''); setShowExamDateEditor(false) }} className="min-h-[40px] px-3 rounded-btn bg-black/15 text-white text-xs font-semibold">Clear</button>
+                </div>
+              </div>
+            )}
           </div>
         </section>
 

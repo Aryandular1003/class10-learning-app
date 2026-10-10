@@ -36,12 +36,30 @@ export function addDays(dateKey, amount) {
   return toDateKey(date)
 }
 
+export function isDateKey(value) {
+  return typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(new Date(`${value}T12:00:00`).getTime())
+}
+
+export function getPremiumExpiryDate(startDate, boardExamDate) {
+  const start = new Date(startDate)
+  if (Number.isNaN(start.getTime())) return null
+
+  const oneYearLater = new Date(start)
+  oneYearLater.setFullYear(oneYearLater.getFullYear() + 1)
+  if (!isDateKey(boardExamDate)) return oneYearLater
+
+  const oneMonthAfterBoard = new Date(`${boardExamDate}T23:59:59`)
+  oneMonthAfterBoard.setMonth(oneMonthAfterBoard.getMonth() + 1)
+  return oneMonthAfterBoard < oneYearLater ? oneMonthAfterBoard : oneYearLater
+}
+
 const todayKey = toDateKey()
 const seededStudyDates = Array.from({ length: 14 }, (_, index) => addDays(todayKey, index - 13))
 
 // Default study state — used when localStorage has nothing or gets reset
 export const DEFAULT_STUDY_STATE = {
   activeSubject: 'science',
+  boardExamDate: '',
   // chapter completion: map of chapterId -> boolean
   completedChapters: { 'science-1': true },
   completedChaptersBySubject: { science: { 'science-1': true } },
@@ -84,6 +102,7 @@ export function createEmptyStudyState() {
     importedContent: [],
     practiceHistory: [],
     lastOpenedChapterId: null,
+    boardExamDate: '',
   }
 }
 
@@ -131,6 +150,7 @@ export function loadStudyState(storageKey = STORAGE_KEY, fallbackState = DEFAULT
       ? parsed.contentReview
       : fallbackState.contentReview
     const importedContent = Array.isArray(parsed.importedContent) ? parsed.importedContent : fallbackState.importedContent
+    const boardExamDate = isDateKey(parsed.boardExamDate) ? parsed.boardExamDate : (fallbackState.boardExamDate || '')
     return {
       ...fallbackState,
       ...parsed,
@@ -145,6 +165,7 @@ export function loadStudyState(storageKey = STORAGE_KEY, fallbackState = DEFAULT
       earnedAchievements,
       contentReview,
       importedContent,
+      boardExamDate,
     }
   } catch {
     return { ...fallbackState }

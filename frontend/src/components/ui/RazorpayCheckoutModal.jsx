@@ -148,7 +148,7 @@ export default function RazorpayCheckoutModal({ isOpen, onClose, targetChapter }
                 <span className="text-sm line-through text-amber-200">₹499</span>
                 <span className="text-xs bg-white/20 px-2 py-0.5 rounded-full font-bold">60% OFF</span>
               </div>
-              <p className="text-xs text-amber-100 mt-1">One-time payment • Lifetime access for 2026 Boards</p>
+              <p className="text-xs text-amber-100 mt-1">One-time payment • Valid for 1 year or until 1 month after the RBSE board exam, whichever comes first</p>
             </div>
 
             {/* Feature List */}
@@ -158,6 +158,7 @@ export default function RazorpayCheckoutModal({ isOpen, onClose, targetChapter }
                 '2026 AI-Predicted Board Questions with step-by-step model answers',
                 'Verified Previous Year Question Bank (2019-2025) with marking schemes',
                 'Instant access across Mobile, Tablet, and Laptop',
+                'Access validity: 1 year or until 1 month after the board exam, whichever comes first',
               ].map((feat, i) => (
                 <div key={i} className="flex items-start gap-2.5 p-2 bg-stone-50 dark:bg-stone-800/80 rounded-btn border border-stone-200/60 dark:border-stone-700/50">
                   <CheckCircleIcon className="w-4 h-4 text-teal-600 dark:text-teal-400 flex-shrink-0 mt-0.5" />

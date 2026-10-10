@@ -11,6 +11,8 @@ import {
   CONTENT_REVIEW_ITEMS,
   STORAGE_KEY,
   createEmptyStudyState,
+  getPremiumExpiryDate,
+  isDateKey,
 } from '../data/appData'
 import { flattenContentPack, validateContentPack } from '../data/contentSchema'
 import { loadRemoteReviewItems, loadStudentProgress, saveContentPack, syncStudentProgress } from '../data/contentRepository'
@@ -160,20 +162,33 @@ export function StudyProvider({ children }) {
     })
   }, [userStorageKey])
 
-  const isPremium = Boolean(studyState.isPremium || profile?.is_premium)
   const paymentDetails = studyState.paymentDetails || null
+  const premiumStartedAt = paymentDetails?.premiumStartedAt || profile?.premium_since || null
+  const premiumExpiresAt = premiumStartedAt
+    ? getPremiumExpiryDate(premiumStartedAt, studyState.boardExamDate)
+    : null
+  const isPremium = Boolean((studyState.isPremium || profile?.is_premium) && (!premiumExpiresAt || new Date() < premiumExpiresAt))
 
   const activatePremium = useCallback((paymentData) => {
     setStudyState((prev) => {
+      const premiumStartedAt = new Date().toISOString()
       const next = {
         ...prev,
         isPremium: true,
-        paymentDetails: paymentData,
+        paymentDetails: {
+          ...paymentData,
+          premiumStartedAt,
+          premiumExpiresAt: getPremiumExpiryDate(premiumStartedAt, prev.boardExamDate)?.toISOString() || null,
+        },
       }
       saveStudyState(next, userStorageKey)
       return next
     })
   }, [userStorageKey])
+
+  const setBoardExamDate = useCallback((date) => {
+    update({ boardExamDate: isDateKey(date) ? date : '' })
+  }, [update])
 
   // ── Derived chapter list (with live done status) ──
   const completedForSubject = studyState.completedChaptersBySubject?.[activeSubject]
@@ -436,7 +451,9 @@ export function StudyProvider({ children }) {
     achievements,
     isPremium,
     paymentDetails,
+    premiumExpiresAt,
     activatePremium,
+    setBoardExamDate,
     setActiveSubject,
     importContentPack,
     toggleChapterComplete,
