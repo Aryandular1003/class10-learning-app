@@ -17,6 +17,7 @@ import Badge from '../components/ui/Badge'
 import Card from '../components/ui/Card'
 import BottomNav from '../components/ui/BottomNav'
 import { CHAPTER_NOTES } from '../data/chapterNotesData'
+import { useContent } from '../hooks/useContent'
 
 const DEFAULT_CHAPTER = {
   id: 'science-1',
@@ -37,6 +38,7 @@ export default function NotesReader({
 }) {
   const { theme, toggleTheme } = useTheme()
   const { bookmarkedChapters, toggleChapterComplete, toggleBookmark, setLastOpenedChapter, subjectDefinition } = useStudy()
+  const { content: remoteContent } = useContent(chapter.id, chapter.subjectId || 'math')
 
   const [viewMode, setViewMode] = useState(initialView)
   const [fontSize, setFontSize] = useState('base')
@@ -249,7 +251,7 @@ export default function NotesReader({
           {viewMode === 'unlocked' ? (
             <>
               {(() => {
-                const noteData = CHAPTER_NOTES[chapter.id] || {
+                const noteData = remoteContent?.notes || CHAPTER_NOTES[chapter.id] || {
                   title: chapter.name,
                   subject: subjectDefinition.label,
                   weight: chapter.weight,

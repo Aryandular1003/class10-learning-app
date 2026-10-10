@@ -7,6 +7,7 @@ export const SUBJECTS = [
   { id: 'math', label: 'Mathematics', emoji: '📐', shortLabel: 'Math' },
   { id: 'english', label: 'English', emoji: '📖', shortLabel: 'English' },
   { id: 'social-science', label: 'Social Science', emoji: '🌍', shortLabel: 'Social Science' },
+  { id: 'hindi', label: 'हिंदी', emoji: '📚', shortLabel: 'Hindi' },
 ]
 
 export const SUBJECT_CHAPTERS = {
@@ -79,6 +80,9 @@ export const SUBJECT_CHAPTERS = {
     'Sectors of the Indian Economy',
     'Money and Credit',
   ],
+  hindi: [
+    'सूरदास के पद (भ्रमरगीत से)',
+  ],
 }
 
 const WEIGHTS = {
@@ -86,6 +90,7 @@ const WEIGHTS = {
   math: [8, 7, 8, 8, 9, 10, 7, 8, 7, 7, 6, 8, 9, 4],
   english: [7, 7, 6, 6, 7, 5, 6, 6, 6, 5, 5, 5, 5, 5, 5, 12],
   'social-science': [7, 9, 5, 5, 6, 5, 5, 7, 6, 6, 5, 6, 6, 5, 6, 5, 5, 5],
+  hindi: [8],
 }
 
 export const CONTENT_TYPES = ['notes', 'pyq', 'practice', 'predicted']
