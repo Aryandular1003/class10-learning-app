@@ -57,7 +57,7 @@ export default function PredictedScreen({ onNavigate }) {
       <ScreenHeader
         title="Predicted Questions"
         subtitle="RBSE 2026 High-Probability Board Exam Questions"
-        actionLabel={isPremium ? '👑 PRO Active' : 'Unlock All (₹99)'}
+        actionLabel={isPremium ? '👑 PRO Active' : 'Unlock All (₹199)'}
         onAction={isPremium ? undefined : () => setShowCheckout(true)}
       />
 

@@ -68,7 +68,7 @@ export default function RevisionScreen({ onNavigate }) {
       <ScreenHeader
         title="Chapter Revision"
         subtitle={currentChapter.name}
-        actionLabel={isPremium ? '👑 PRO' : 'Get PRO (₹99)'}
+        actionLabel={isPremium ? '👑 PRO' : 'Get PRO (₹199)'}
         onAction={isPremium ? undefined : () => setShowCheckout(true)}
       />
 
@@ -195,7 +195,7 @@ export default function RevisionScreen({ onNavigate }) {
                   onClick={() => setShowCheckout(true)}
                   className="w-full py-3 rounded-btn bg-amber-500 hover:bg-amber-600 text-stone-900 font-bold text-sm shadow-md transition-transform active:scale-95"
                 >
-                  Unlock 1-Hour Sprint with PRO (₹99) →
+                  Unlock 1-Hour Sprint with PRO (₹199) →
                 </button>
               </div>
             ) : (

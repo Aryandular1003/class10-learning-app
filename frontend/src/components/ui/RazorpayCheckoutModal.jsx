@@ -22,7 +22,7 @@ export default function RazorpayCheckoutModal({ isOpen, onClose, targetChapter }
     setLoadingStep('Opening payment...')
 
     openRazorpayCheckout({
-      amount: 99,
+      amount: 199,
       currency: 'INR',
       studentName: profile?.full_name || profile?.display_name || 'Student',
       studentEmail: user?.email || '',
@@ -60,7 +60,7 @@ export default function RazorpayCheckoutModal({ isOpen, onClose, targetChapter }
       const simPayment = {
         paymentId: `pay_demo_${Math.random().toString(36).substr(2, 9)}`,
         orderId: `order_demo_${Date.now()}`,
-        amount: 99,
+        amount: 199,
         currency: 'INR',
         paidAt: new Date().toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }),
       }
@@ -80,7 +80,7 @@ export default function RazorpayCheckoutModal({ isOpen, onClose, targetChapter }
           <div>
             <div className="flex items-center gap-2">
               <Badge variant="amber">🔥 Limited Time Offer</Badge>
-              <Badge variant="teal">₹99 One-Time</Badge>
+              <Badge variant="teal">₹199 One-Time</Badge>
             </div>
             <h2 className="text-xl font-extrabold text-stone-900 dark:text-stone-100 mt-1">
               Unlock BoardReady Premium
@@ -111,7 +111,7 @@ export default function RazorpayCheckoutModal({ isOpen, onClose, targetChapter }
             <Card className="p-4 bg-teal-50/60 dark:bg-teal-950/40 border border-teal-200/50 dark:border-teal-800/40 text-left text-xs space-y-1.5">
               <div className="flex justify-between font-semibold text-stone-800 dark:text-stone-200">
                 <span>Amount Paid:</span>
-                <span className="text-teal-700 dark:text-teal-300 font-bold">₹99.00 INR</span>
+                <span className="text-teal-700 dark:text-teal-300 font-bold">₹199.00 INR</span>
               </div>
               <div className="flex justify-between text-stone-600 dark:text-stone-400">
                 <span>Payment ID:</span>
@@ -144,9 +144,9 @@ export default function RazorpayCheckoutModal({ isOpen, onClose, targetChapter }
             <div className="bg-amber-gradient rounded-card p-4 text-white text-center shadow-amber">
               <p className="text-xs text-amber-100 font-semibold uppercase tracking-wider">Full Syllabus & Predicted Questions Pass</p>
               <div className="flex items-baseline justify-center gap-2 mt-1">
-                <span className="text-4xl font-extrabold">₹99</span>
+                <span className="text-4xl font-extrabold">₹199</span>
                 <span className="text-sm line-through text-amber-200">₹499</span>
-                <span className="text-xs bg-white/20 px-2 py-0.5 rounded-full font-bold">80% OFF</span>
+                <span className="text-xs bg-white/20 px-2 py-0.5 rounded-full font-bold">60% OFF</span>
               </div>
               <p className="text-xs text-amber-100 mt-1">One-time payment • Lifetime access for 2026 Boards</p>
             </div>
@@ -184,7 +184,7 @@ export default function RazorpayCheckoutModal({ isOpen, onClose, targetChapter }
                 ) : (
                   <>
                     <SparklesIcon className="w-5 h-5" />
-                    <span>Pay ₹99 with Razorpay</span>
+                    <span>Pay ₹199 with Razorpay</span>
                   </>
                 )}
               </button>

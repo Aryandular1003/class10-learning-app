@@ -80,7 +80,7 @@ The app implements a secure, server-verified payment workflow:
    - For offline testing or before Edge Functions deployment, a seamless test mode simulation is included.
 
 2. **Backend Edge Functions (`backend/supabase/functions/`):**
-   - `create-razorpay-order`: Authenticates user, creates Razorpay order for ₹99, records in `public.payments`.
+   - `create-razorpay-order`: Authenticates user, creates Razorpay order for ₹199, records in `public.payments`.
    - `verify-razorpay-payment`: Cryptographically verifies HMAC-SHA256 signature, marks payment captured, and sets `profiles.is_premium = true` using service-role.
    - `razorpay-webhook`: Asynchronous webhook handler for Razorpay dashboard (`order.paid`, `payment.captured`).
 

@@ -72,3 +72,48 @@ describe('content and profile boundaries', () => {
     expect(safe.premium_since).toBeUndefined()
   })
 })
+
+describe('razorpay server verification', () => {
+  it('verifies valid HMAC-SHA256 signatures correctly', async () => {
+    process.env.RAZORPAY_KEY_SECRET = 'EZeEYnyr3CB2lDcS9ZmMQZTs'
+    const { handleVerifySignature } = await import('../server/razorpayApi.js')
+    const crypto = await import('crypto')
+
+    const order_id = 'order_test_123'
+    const payment_id = 'pay_test_456'
+    const validSignature = crypto.default
+      .createHmac('sha256', 'EZeEYnyr3CB2lDcS9ZmMQZTs')
+      .update(`${order_id}|${payment_id}`)
+      .digest('hex')
+
+    const result = handleVerifySignature({
+      order_id,
+      payment_id,
+      signature: validSignature,
+    })
+
+    expect(result.success).toBe(true)
+  })
+
+  it('rejects tampered or invalid signatures', async () => {
+    process.env.RAZORPAY_KEY_SECRET = 'EZeEYnyr3CB2lDcS9ZmMQZTs'
+    const { handleVerifySignature } = await import('../server/razorpayApi.js')
+
+    expect(() => {
+      handleVerifySignature({
+        order_id: 'order_test_123',
+        payment_id: 'pay_test_456',
+        signature: 'invalid_tampered_signature',
+      })
+    }).toThrow('Invalid signature')
+  })
+
+  it('uses the authoritative ₹199 order amount', async () => {
+    process.env.RAZORPAY_KEY_ID = 'rzp_test_TleIyHZJw45OdI'
+    process.env.RAZORPAY_KEY_SECRET = 'EZeEYnyr3CB2lDcS9ZmMQZTs'
+    const { handleCreateOrder } = await import('../server/razorpayApi.js')
+
+    const order = await handleCreateOrder({ amount: 50 })
+    expect(order.amount).toBe(19900)
+  })
+})

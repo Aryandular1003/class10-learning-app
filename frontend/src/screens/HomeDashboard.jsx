@@ -19,6 +19,7 @@ import ScreenHeader from '../components/ui/ScreenHeader'
 import BottomNav from '../components/ui/BottomNav'
 import SubjectSwitcher from '../components/ui/SubjectSwitcher'
 import RazorpayCheckoutModal from '../components/ui/RazorpayCheckoutModal'
+import { getSubjectParts } from '../data/subjects'
 
 // ─── Sub-components ────────────────────────────────────────────────────────────
 
@@ -162,6 +163,7 @@ export default function HomeDashboard({ onOpenChapterNotes, onOpenLockedNotes, o
   const todayFocus = chapters.filter((c) => !c.done && !c.locked).slice(0, 2)
   const maxWeight = Math.max(...chapters.map((chapter) => chapter.weight || 0), 1)
   const scaledChapters = chapters.map((chapter) => ({ ...chapter, maxWeight }))
+  const subjectParts = getSubjectParts(activeSubject)
 
   // Continue studying card: last opened chapter that isn't completed
   const lastOpened = studyState.lastOpenedChapterId
@@ -391,16 +393,33 @@ export default function HomeDashboard({ onOpenChapterNotes, onOpenLockedNotes, o
             <span className="text-xs text-stone-500 dark:text-stone-400">{completedCount}/{chapters.filter(c => !c.locked).length} done</span>
           </div>
           <p className="text-xs text-stone-500 dark:text-stone-400 mb-4">Track your revision by chapter and focus on the highest-weightage topics first.</p>
-          <div className="flex flex-col gap-3">
-            {scaledChapters.map((chapter, i) => (
-              <ChapterCard
-                key={chapter.id}
-                chapter={chapter}
-                index={i}
-                onSelectChapter={(chap) => onOpenChapterNotes ? onOpenChapterNotes(chap) : setActiveModal({ type: 'chapter', chapter: chap })}
-                onSelectLocked={(chap) => onOpenLockedNotes ? onOpenLockedNotes(chap) : setActiveModal({ type: 'upgrade', lockedChapter: chap })}
-              />
-            ))}
+          <div className="space-y-5">
+            {subjectParts.map((part) => {
+              const partChapters = scaledChapters.filter((chapter) => chapter.partId === part.id)
+              if (!partChapters.length) return null
+              return (
+                <div key={part.id}>
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="w-7 h-7 rounded-full bg-amber-100 dark:bg-amber-950/70 text-amber-700 dark:text-amber-300 flex items-center justify-center text-xs font-extrabold">{partChapters.length}</span>
+                    <div>
+                      <h3 className="text-sm font-extrabold text-stone-800 dark:text-stone-200">{part.label}</h3>
+                      {part.description && <p className="text-[11px] text-stone-500 dark:text-stone-400">{part.description}</p>}
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-3">
+                    {partChapters.map((chapter) => (
+                      <ChapterCard
+                        key={chapter.id}
+                        chapter={chapter}
+                        index={scaledChapters.indexOf(chapter)}
+                        onSelectChapter={(chap) => onOpenChapterNotes ? onOpenChapterNotes(chap) : setActiveModal({ type: 'chapter', chapter: chap })}
+                        onSelectLocked={(chap) => onOpenLockedNotes ? onOpenLockedNotes(chap) : setActiveModal({ type: 'upgrade', lockedChapter: chap })}
+                      />
+                    ))}
+                  </div>
+                </div>
+              )
+            })}
           </div>
         </section>
 

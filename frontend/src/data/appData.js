@@ -1,9 +1,9 @@
 ﻿// ─── Shared App Data ──────────────────────────────────────────────────────────
 // Single source of truth for all static master data used across the app.
 
-import { SUBJECTS, SUBJECT_CATALOGUE, CONTENT_REVIEW_ITEMS, getSubject } from './subjects'
+import { SUBJECTS, SUBJECT_CATALOGUE, CONTENT_REVIEW_ITEMS, getSubject, getSubjectParts } from './subjects'
 
-export { SUBJECTS, SUBJECT_CATALOGUE, CONTENT_REVIEW_ITEMS, getSubject }
+export { SUBJECTS, SUBJECT_CATALOGUE, CONTENT_REVIEW_ITEMS, getSubject, getSubjectParts }
 
 export const STUDENT_META = {
   name: 'Student',

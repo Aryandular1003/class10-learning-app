@@ -50,8 +50,8 @@ serve(async (req) => {
       })
     }
 
-    // Authoritative pricing: Rs 99 = 9900 paise
-    const fixedAmountInPaise = 9900
+    // Authoritative pricing: Rs 199 = 19900 paise
+    const fixedAmountInPaise = 19900
     const currency = 'INR'
 
     // Call Razorpay API to create an order

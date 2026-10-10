@@ -52,8 +52,8 @@ export default function MockTestScreen({ onNavigate }) {
   return (
     <div className="min-h-screen bg-cream-100 dark:bg-stone-900 pb-24 transition-colors duration-200">
       <ScreenHeader
-        title="Mock Test"
-        subtitle={mockTest?.title || 'RBSE Board Model Paper'}
+        title="Practice Paper"
+        subtitle={mockTest?.title || 'RBSE Board-Level Practice Paper'}
         actionLabel={isPremium ? '👑 Full Access' : 'Upgrade to PRO'}
         onAction={isPremium ? undefined : () => setShowCheckout(true)}
       />
@@ -85,14 +85,14 @@ export default function MockTestScreen({ onNavigate }) {
               onClick={() => setShowCheckout(true)}
               className="w-full py-3 rounded-btn bg-amber-500 hover:bg-amber-600 text-stone-900 font-bold text-sm shadow-md transition-transform active:scale-95"
             >
-              Unlock All Mock Tests (₹99) →
+              Unlock Board Practice Papers (₹199) →
             </button>
           </div>
         ) : !testStarted ? (
           /* TEST INSTRUCTIONS & START SCREEN */
           <div className="bg-white dark:bg-stone-800 rounded-card p-6 border border-stone-200 dark:border-stone-700 shadow-card space-y-4">
             <h2 className="text-base font-bold text-stone-900 dark:text-stone-100">
-              Exam Instructions & Blueprint
+              Board-Level Practice Paper — Instructions
             </h2>
             <div className="grid grid-cols-2 gap-2 text-xs">
               <div className="p-2.5 rounded-lg bg-stone-50 dark:bg-stone-900 border border-stone-200 dark:border-stone-700">
@@ -105,10 +105,26 @@ export default function MockTestScreen({ onNavigate }) {
               </div>
             </div>
 
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-[11px]">
+              {[
+                ['Section A', 'Objective', '6 × 1'],
+                ['Section B', 'Short answer', '4 × 2'],
+                ['Section C', 'Analytical', '4 × 3'],
+                ['Section D', 'Application', '1 × 4'],
+              ].map(([section, label, marks]) => (
+                <div key={section} className="p-2 rounded-lg bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-800/50">
+                  <p className="font-extrabold text-amber-800 dark:text-amber-300">{section}</p>
+                  <p className="text-stone-600 dark:text-stone-400">{label}</p>
+                  <p className="font-bold text-stone-800 dark:text-stone-200">{marks} marks</p>
+                </div>
+              ))}
+            </div>
+
             <ul className="text-xs text-stone-600 dark:text-stone-300 space-y-1 list-disc list-inside">
-              <li>All questions are compulsory according to the RBSE blueprint.</li>
-              <li>Calculators or mobile phones are strictly prohibited.</li>
-              <li>Timer will auto-submit the exam when it hits 00:00.</li>
+              <li>Attempt the paper in one sitting and follow the section order.</li>
+              <li>Write answers step-by-step and show formulas, units and diagrams where required.</li>
+              <li>Calculators, notes and mobile phones are not allowed during the attempt.</li>
+              <li>The timer auto-submits the practice paper at 00:00.</li>
             </ul>
 
             <button

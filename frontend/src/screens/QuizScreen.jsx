@@ -106,7 +106,7 @@ export default function QuizScreen({ onNavigate }) {
       <ScreenHeader
         title="Chapter Quiz"
         subtitle={currentChapter.name}
-        actionLabel={isPremium ? '👑 Unlimited' : 'Unlock All (₹99)'}
+        actionLabel={isPremium ? '👑 Unlimited' : 'Unlock All (₹199)'}
         onAction={isPremium ? undefined : () => setShowCheckout(true)}
       />
 
@@ -160,7 +160,7 @@ export default function QuizScreen({ onNavigate }) {
                   onClick={() => setShowCheckout(true)}
                   className="mt-2.5 px-3 py-1.5 rounded-btn bg-purple-600 hover:bg-purple-700 text-white font-bold text-xs shadow-xs"
                 >
-                  Upgrade to PRO (₹99) →
+                  Upgrade to PRO (₹199) →
                 </button>
               </div>
             )}

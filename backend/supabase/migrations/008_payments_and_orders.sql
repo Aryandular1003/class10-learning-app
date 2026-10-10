@@ -8,7 +8,7 @@ create table if not exists public.payments (
   razorpay_order_id text not null unique,
   razorpay_payment_id text unique,
   razorpay_signature text,
-  amount integer not null default 9900 check (amount > 0), -- amount in paise (9900 = Rs 99)
+  amount integer not null default 19900 check (amount > 0), -- amount in paise (19900 = Rs 199)
   currency text not null default 'INR',
   status text not null default 'created' check (status in ('created', 'captured', 'failed', 'refunded')),
   package_name text not null default 'Class 10 RBSE Board Prep',

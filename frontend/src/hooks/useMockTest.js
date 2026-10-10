@@ -45,7 +45,7 @@ export function useMockTest(testId) {
         if (active) {
           setMockTest({
             id: testId || 'mock-rbse-math-1',
-            title: 'RBSE Class 10 Board Pattern Model Test (Math & Science)',
+            title: 'RBSE Class 10 Board-Level Practice Paper',
             total_marks: 30,
             duration_minutes: 45,
             level: 'Subject Test',

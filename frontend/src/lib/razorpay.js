@@ -1,8 +1,5 @@
-// Razorpay Payment SDK Helper for BoardReady Class 10
-// Supports both server-side verified orders via Supabase Edge Functions
-// and seamless client-side development fallback.
-
-import { supabase, isSupabaseConfigured } from './supabase'
+// Razorpay Payment SDK Client Helper for BoardReady Class 10
+// Connects to /api/create-order and /api/verify-payment backend endpoints
 
 const RAZORPAY_SCRIPT_URL = 'https://checkout.razorpay.com/v1/checkout.js'
 
@@ -20,38 +17,49 @@ export function loadRazorpayScript() {
   })
 }
 
-export async function createServerRazorpayOrder(amount = 99) {
-  if (!isSupabaseConfigured || !supabase) return null
-  try {
-    const { data, error } = await supabase.functions.invoke('create-razorpay-order', {
-      body: { amount },
-    })
-    if (error || !data?.orderId) {
-      return null
-    }
-    return data
-  } catch {
-    return null
+export async function createOrder({ amount = 19900, currency = 'INR', receipt }) {
+  const response = await fetch('/api/create-order', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      amount: Math.round(amount),
+      currency,
+      receipt: receipt || `rcpt_${Date.now()}`,
+    }),
+  })
+
+  const data = await response.json()
+  if (!response.ok) {
+    throw new Error(data.error || 'Failed to create payment order')
   }
+
+  return data
 }
 
-export async function verifyServerRazorpayPayment({ orderId, paymentId, signature }) {
-  if (!isSupabaseConfigured || !supabase) return { verified: true, simulated: true }
-  const { data, error } = await supabase.functions.invoke('verify-razorpay-payment', {
-    body: {
-      razorpay_order_id: orderId,
-      razorpay_payment_id: paymentId,
+export async function verifyPayment({ order_id, payment_id, signature }) {
+  const response = await fetch('/api/verify-payment', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      order_id,
+      payment_id,
+      signature,
+      razorpay_order_id: order_id,
+      razorpay_payment_id: payment_id,
       razorpay_signature: signature,
-    },
+    }),
   })
-  if (error) {
-    throw new Error(error.message || 'Payment signature verification failed on server.')
+
+  const data = await response.json()
+  if (!response.ok || !data.success) {
+    throw new Error(data.error || 'Payment signature verification failed')
   }
-  return { verified: true, ...data }
+
+  return data
 }
 
 export async function openRazorpayCheckout({
-  amount = 99,
+  amount = 199,
   currency = 'INR',
   studentName = 'Student',
   studentEmail = '',
@@ -66,27 +74,34 @@ export async function openRazorpayCheckout({
     return
   }
 
-  if (onProgress) onProgress('Preparing secure order...')
+  if (onProgress) onProgress('Creating order...')
 
-  // Attempt to create a cryptographically bound order on the server
-  let serverOrder = null
+  // Step 1: Call Backend to Create Order
+  let orderData = null
+  const amountInPaise = Math.round(amount * 100)
+
   try {
-    serverOrder = await createServerRazorpayOrder(amount)
-  } catch {
-    // Continue with client fallback if edge function is not deployed yet
+    orderData = await createOrder({
+      amount: amountInPaise,
+      currency,
+    })
+  } catch (err) {
+    console.error('Error creating order:', err)
+    if (onFailure) onFailure(err)
+    return
   }
 
-  const razorpayKey = serverOrder?.keyId || import.meta.env.VITE_RAZORPAY_KEY_ID || 'rzp_test_boardready_99'
-  const amountInPaise = serverOrder?.amount || Math.round(amount * 100)
+  const razorpayKey = import.meta.env.VITE_RAZORPAY_KEY_ID || 'rzp_test_TleIyHZJw45OdI'
 
+  // Step 2: Open Razorpay Modal with order_id
   const options = {
     key: razorpayKey,
-    amount: amountInPaise,
-    currency: serverOrder?.currency || currency,
+    amount: orderData.amount,
+    currency: orderData.currency,
     name: 'BoardReady Class 10',
     description: 'Full Syllabus & 2026 Predicted Questions Unlock',
     image: 'https://cdn-icons-png.flaticon.com/512/3135/3135715.png',
-    ...(serverOrder?.orderId ? { order_id: serverOrder.orderId } : {}),
+    order_id: orderData.order_id,
     prefill: {
       name: studentName,
       email: studentEmail,
@@ -94,35 +109,34 @@ export async function openRazorpayCheckout({
     },
     notes: {
       package: 'Class 10 RBSE Board Prep',
-      price: '₹99',
+      price: '₹199',
     },
     theme: {
       color: '#d97706', // Amber theme
     },
     handler: async function (response) {
-      if (onProgress) onProgress('Verifying payment on server...')
+      if (onProgress) onProgress('Verifying payment signature...')
       try {
-        if (serverOrder?.orderId && response.razorpay_signature) {
-          // Cryptographic verification on backend Edge Function
-          await verifyServerRazorpayPayment({
-            orderId: response.razorpay_order_id || serverOrder.orderId,
-            paymentId: response.razorpay_payment_id,
-            signature: response.razorpay_signature,
-          })
-        }
+        // Step 3: Call Backend to Verify Signature
+        await verifyPayment({
+          order_id: response.razorpay_order_id,
+          payment_id: response.razorpay_payment_id,
+          signature: response.razorpay_signature,
+        })
 
         if (onSuccess) {
           onSuccess({
-            paymentId: response.razorpay_payment_id || `pay_sim_${Date.now()}`,
-            orderId: response.razorpay_order_id || serverOrder?.orderId || `order_sim_${Date.now()}`,
-            signature: response.razorpay_signature || 'simulated_signature',
+            paymentId: response.razorpay_payment_id,
+            orderId: response.razorpay_order_id,
+            signature: response.razorpay_signature,
             amount,
             currency,
             paidAt: new Date().toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }),
           })
         }
-      } catch (err) {
-        if (onFailure) onFailure(err)
+      } catch (verificationError) {
+        console.error('Payment verification failed:', verificationError)
+        if (onFailure) onFailure(verificationError)
       }
     },
     modal: {
@@ -134,6 +148,13 @@ export async function openRazorpayCheckout({
 
   try {
     const rzp = new window.Razorpay(options)
+
+    // Handle payment.failed event
+    rzp.on('payment.failed', function (response) {
+      const errorMsg = response.error?.description || response.error?.reason || 'Payment failed'
+      if (onFailure) onFailure(new Error(errorMsg))
+    })
+
     rzp.open()
   } catch (error) {
     if (onFailure) onFailure(error)

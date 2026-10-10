@@ -166,7 +166,7 @@ export default function ContentCard({
             onClick={onUnlock}
             className="px-3.5 py-1.5 rounded-btn bg-amber-500 hover:bg-amber-600 text-stone-900 font-bold text-xs shadow-sm transition-transform active:scale-95"
           >
-            Unlock with PRO (₹99) →
+            Unlock with PRO (₹199) →
           </button>
         </div>
       ) : (
