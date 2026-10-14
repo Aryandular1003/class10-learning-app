@@ -26,9 +26,10 @@ export const SUBJECT_PARTS = {
     { id: 'footprints-language', label: 'Footprints & Language', description: 'Supplementary reader, grammar and writing', chapterIds: ['english-12', 'english-13', 'english-14', 'english-15', 'english-16'] },
   ],
   'social-science': [
-    { id: 'history', label: 'History', description: 'India and the modern world', chapterIds: ['social-science-1', 'social-science-2', 'social-science-3', 'social-science-4'] },
-    { id: 'geography', label: 'Geography', description: 'Resources, agriculture and industries', chapterIds: ['social-science-5', 'social-science-6', 'social-science-7', 'social-science-8', 'social-science-9', 'social-science-10', 'social-science-11'] },
-    { id: 'civics-economics', label: 'Civics & Economics', description: 'Democracy, development and money', chapterIds: ['social-science-12', 'social-science-13', 'social-science-14', 'social-science-15', 'social-science-16', 'social-science-17', 'social-science-18'] },
+    { id: 'history', label: 'History', description: 'India and the modern world', chapterIds: ['social-science-1', 'social-science-2', 'social-science-3', 'social-science-4', 'social-science-5'] },
+    { id: 'geography', label: 'Geography', description: 'Resources, agriculture and industries', chapterIds: ['social-science-6', 'social-science-7', 'social-science-8', 'social-science-9', 'social-science-10', 'social-science-11', 'social-science-12'] },
+    { id: 'civics', label: 'Civics', description: 'Democracy and political institutions', chapterIds: ['social-science-13', 'social-science-14', 'social-science-15', 'social-science-16', 'social-science-17'] },
+    { id: 'economics', label: 'Economics', description: 'Development and the Indian economy', chapterIds: ['social-science-18', 'social-science-19', 'social-science-20', 'social-science-21', 'social-science-22'] },
   ],
 }
 
@@ -86,7 +87,8 @@ export const SUBJECT_CHAPTERS = {
     'The Rise of Nationalism in Europe',
     'Nationalism in India',
     'The Making of a Global World',
-    'Print Culture & Modern World',
+    'The Age of Industrialisation',
+    'Print Culture and the Modern World',
     'Resources and Development',
     'Forest and Wildlife Resources',
     'Water Resources',
@@ -98,9 +100,12 @@ export const SUBJECT_CHAPTERS = {
     'Federalism',
     'Gender, Religion and Caste',
     'Political Parties',
+    'Outcomes of Democracy',
     'Development',
     'Sectors of the Indian Economy',
     'Money and Credit',
+    'Globalisation and the Indian Economy',
+    'Consumer Rights',
   ],
 }
 
@@ -108,7 +113,7 @@ const WEIGHTS = {
   science: [10, 9, 8, 9, 7, 8, 6, 8, 9, 7, 7, 6, 6],
   math: [8, 7, 8, 8, 9, 10, 7, 8, 7, 7, 6, 8, 9, 4],
   english: [7, 7, 6, 6, 7, 5, 6, 6, 6, 5, 5, 5, 5, 5, 5, 12],
-  'social-science': [7, 9, 5, 5, 6, 5, 5, 7, 6, 6, 5, 6, 6, 5, 6, 5, 5, 5],
+  'social-science': [4, 4, 4, 4, 4, 3, 2, 3, 5, 2, 3, 4, 4, 4, 4, 5, 3, 5, 5, 5, 5, 4],
 }
 
 export const CONTENT_TYPES = ['notes', 'pyq', 'practice', 'predicted']

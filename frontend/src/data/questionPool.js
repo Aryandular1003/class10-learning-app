@@ -1,7 +1,9 @@
-// Comprehensive master pool of verified RBSE questions
-// Used when Supabase tables are not populated or while offline
+import { SOCIAL_SCIENCE_QUESTIONS_POOL } from './socialScienceQuestions.js'
+import { MATH_PREDICTED_QUESTIONS } from './mathContent.js'
 
 export const VERIFIED_QUESTIONS_POOL = [
+  ...MATH_PREDICTED_QUESTIONS,
+  ...SOCIAL_SCIENCE_QUESTIONS_POOL,
   // ── MATH CH1: REAL NUMBERS ──
   {
     id: 'math-1-mcq-1',

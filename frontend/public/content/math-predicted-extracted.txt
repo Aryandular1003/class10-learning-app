@@ -1,0 +1,319 @@
+<!-- PAGE 1 -->
+RBSE CLASS 10 MATHEMATICS 20 PREDICTED BOARD EXAM QUESTIONS
+RBSE Class 10 Mathematics
+Top 20 Predicted Board Examination Questions (2025–2026)
+Based on Past 10-Year PYQ Trend Analysis (2015–2024), Blueprint & Marking Schemes
+Exam Pattern Summary & Blueprint Weightage
+Section Question Type Question Range Marks per Question
+Section A MCQs / Fill-ups / VSA Questions 1–6 1 Mark
+Section B Short Answer Type I Questions 7–12 2 Marks
+Section C Analytical & Proofs Questions 13–16 3 Marks
+Section D Long Essay / Applications Questions 17–20 4 Marks
+SECTION A: Objective & Short Recall Questions (1 Mark Each)
+Question 1 (MCQ – Chapter 1: Real Numbers)
+Question: The HCF of two numbers is 27 and their LCM is 162. If one number is 54, find the
+second number.
+(A) 81 (B) 27 (C) 54 (D) 18
+Prediction Reason: Direct application of HCF×LCM = a×b. Repeated in 2024 Board Exam
+and official model papers.
+Detailed Solution:
+Formula: HCF(a,b)×LCM(a,b) = a×b
+27×162 162
+27×162 = 54×b =⇒ b = = = 81
+54 2
+Correct Option: (A) 81
+Question 2 (MCQ – Chapter 8: Introduction to Trigonometry)
+Question: The value of 2sin45◦cos45◦ is:
+(A) 2 (B) 0 (C) 1 (D) 1
+2
+Prediction Reason: Evaluates basic trigonometric ratios at standard 45◦ angle, highly frequent
+in Section A.
+Detailed Solution:
+1 1
+Since sin45◦ = √ and cos45◦ = √
+2 2
+1 1 1
+2sin45◦cos45◦ = 2× √ × √ = 2× = 1
+2 2 2
+Correct Option: (D) 1
+Question 3 (MCQ – Chapter 7: Coordinate Geometry)
+Question: The distance of the point (0,3) from the x-axis is:
+(A) 3 units (B) 0 units (C) 2 units (D) 1 unit
+Page 1
+
+<!-- PAGE 2 -->
+RBSE CLASS 10 MATHEMATICS 20 PREDICTED BOARD EXAM QUESTIONS
+PredictionReason: Testsfundamentalspatialconceptofperpendiculardistancefromcoordinate
+axes.
+Detailed Solution:
+Distance of any point (x,y) from the x-axis = |y-coordinate| = |3| = 3 units
+Correct Option: (A) 3 units
+Question 4 (Fill in the Blank – Chapter 13: Statistics)
+Question: The empirical relationship between Mean, Median, and Mode is given by: Mode =
+3Median− .
+Prediction Reason: Appears almost every year in Section A fill-in-the-blank or MCQ format.
+Detailed Solution:
+Empirical Formula: Mode = 3Median−2Mean
+Answer: 2Mean
+Question 5 (VSA – Chapter 14: Probability)
+Question: What is the probability of getting 53 Sundays in a non-leap year?
+Prediction Reason: High probability calendar math question in Section A.
+Detailed Solution: A non-leap year has 365 days = 52 weeks+1 day.
+The 52 weeks contain 52 Sundays. The remaining 1 day can be any of the 7 days of the week.
+Total outcomes = 7. Favorable outcome (Sunday) = 1.
+Required Probability P(E) = 1.
+7
+Question 6 (VSA – Chapter 2: Polynomials)
+Question: Find the zeroes of the quadratic polynomial x2−3.
+Prediction Reason: Standard zero-calculation problem from NCERT Chapter 2.
+Detailed Solution:
+√
+x2−3 = 0 =⇒ x2 = 3 =⇒ x = ± 3
+√ √
+Zeroes are α = 3 and β = − 3
+Page 2
+
+<!-- PAGE 3 -->
+RBSE CLASS 10 MATHEMATICS 20 PREDICTED BOARD EXAM QUESTIONS
+SECTION B: Short Answer Questions (2 Marks Each)
+Question 7 (Chapter 1: Real Numbers)
+Question: Find the HCF and LCM of 96 and 404 by prime factorization method, and verify that
+HCF×LCM = Product of two numbers.
+Prediction Reason: Classic 2-mark verification question recurring across RBSE board exams.
+Detailed Solution: Prime Factorization:
+96 = 25×3, 404 = 22×101
+HCF(96,404) = 22 = 4
+LCM(96,404) = 25×3×101 = 9696
+Verification:
+LHS = HCF×LCM = 4×9696 = 38784
+RHS = 96×404 = 38784
+Since LHS = RHS, the relationship is verified.
+Question 8 (Chapter 5: Arithmetic Progressions)
+Question: How many three-digit natural numbers are divisible by 7?
+Prediction Reason: High-yield AP application testing nth term formula.
+Detailed Solution: Smallest3-digitnumberdivisibleby7is105. Largest3-digitnumberdivisible
+by 7 is 994.
+The sequence forms an AP: 105,112,119,...,994, where a = 105, d = 7, a = 994.
+n
+Using a = a+(n−1)d:
+n
+994 = 105+(n−1)7 =⇒ 889 = 7(n−1)
+n−1 = 127 =⇒ n = 128
+There are 128 three-digit natural numbers divisible by 7.
+Question 9 (Chapter 7: Coordinate Geometry)
+Question: Find the coordinates of the point which divides the line segment joining the points
+(−1,7) and (4,−3) internally in the ratio 2 : 3.
+Prediction Reason: Direct calculation using Section Formula.
+Detailed Solution: Let P(x,y) be the required point, with (x ,y ) = (−1,7), (x ,y ) = (4,−3),
+1 1 2 2
+m = 2, m = 3.
+1 2
+By Section Formula:
+m x +m x 2(4)+3(−1) 8−3
+1 2 2 1
+x = = = = 1
+m +m 2+3 5
+1 2
+m y +m y 2(−3)+3(7) −6+21
+1 2 2 1
+y = = = = 3
+m +m 2+3 5
+1 2
+Required Point Coordinates = (1,3).
+Page 3
+
+<!-- PAGE 4 -->
+RBSE CLASS 10 MATHEMATICS 20 PREDICTED BOARD EXAM QUESTIONS
+Question 10 (Chapter 10: Circles)
+Question: Two concentric circles are of radii 5 cm and 3 cm. Find the length of the chord of the
+larger circle which touches the smaller circle.
+Prediction Reason: Standard geometry application combining Theorem 10.1 and Pythagoras
+theorem.
+Detailed Solution: Let O be the common center, AB be the chord of larger circle touching
+smaller circle at P.
+OP ⊥ AB (Theorem 10.1) and OP = 3 cm, OA = 5 cm.
+In right-angled ∆OAP:
+AP2 = OA2−OP2 = 52−32 = 25−9 = 16 =⇒ AP = 4 cm
+Perpendicular from center bisects the chord: AB = 2×AP = 2×4 = 8 cm.
+Question 11 (Chapter 11: Areas Related to Circles)
+Question: The length of the minute hand of a clock is 14 cm. Find the area swept by the minute
+hand in 5 minutes.
+Prediction Reason: Standard sector area application in real-world context.
+Detailed Solution: Angle swept by minute hand in 60 minutes = 360◦.
+Angle swept in 5 minutes θ = 360◦ ×5 = 30◦. Radius r = 14 cm.
+60
+Area of Sector = θ ×πr2 = 30◦ × 22 ×14×14
+360◦ 360◦ 7
+1 154
+Area = ×22×2×14 = = 51.33 cm2
+12 3
+Question 12 (Chapter 4: Quadratic Equations)
+Question: Find the discriminant of the quadratic equation 2x2 −4x+3 = 0 and hence find the
+nature of its roots.
+Prediction Reason: Core discriminant problem from Section B.
+Detailed Solution: Comparing with ax2+bx+c = 0: a = 2,b = −4,c = 3.
+Discriminant D = b2−4ac = (−4)2−4(2)(3) = 16−24 = −8.
+Since D < 0, the quadratic equation has no real roots (complex/imaginary roots).
+Page 4
+
+<!-- PAGE 5 -->
+RBSE CLASS 10 MATHEMATICS 20 PREDICTED BOARD EXAM QUESTIONS
+SECTION C: Analytical & Proof Questions (3 Marks Each)
+Question 13 (Chapter 1: Real Numbers)
+√
+Question: Prove that 3+2 5 is an irrational number.
+√
+Prediction Reason: Proof by contradiction for a+b c composite radical. High priority.
+√
+Detailed Solution: Assume on the contrary that 3+2 5 is a rational number.
+√
+Then 3+2 5 = a, where a,b are coprime integers (b ̸= 0).
+b
+Rearranging:
+√ a a−3b √ a−3b
+2 5 = −3 = =⇒ 5 =
+b b 2b
+√
+Since a,b are integers, a−3b is rational, which implies 5 is rational.
+2b √
+But this contradicts the fact that 5 is irrational.
+√
+Hence, our assumption is wrong and 3+2 5 is irrational.
+Question 14 (Chapter 8: Introduction to Trigonometry)
+Question: Prove the identity: sinθ + 1+cosθ = 2cscθ.
+1+cosθ sinθ
+Prediction Reason: Standard identity proof frequently asked in Section C.
+Detailed Solution: Taking LHS:
+sin2θ+(1+cosθ)2
+LHS =
+sinθ(1+cosθ)
+Expanding numerator: sin2θ+1+cos2θ+2cosθ
+Using sin2θ+cos2θ = 1:
+Numerator = 1+1+2cosθ = 2+2cosθ = 2(1+cosθ)
+Substituting back:
+2(1+cosθ) 2
+LHS = = = 2cscθ = RHS (Proved)
+sinθ(1+cosθ) sinθ
+Question 15 (Chapter 6: Triangles)
+Question: State and prove Basic Proportionality Theorem (Thales Theorem).
+Prediction Reason: High-probability theorem proof in geometry.
+Detailed Solution: Statement: If a line is drawn parallel to one side of a triangle to intersect
+the other two sides in distinct points, the other two sides are divided in the same ratio.
+Given: In ∆ABC, line DE ∥ BC intersects AB at D and AC at E.
+To Prove: AD = AE.
+DB EC
+Construction: Join BE,CD. Draw EF ⊥ AB and DG ⊥ AC.
+Proof:
+1 1
+Area(∆ADE) = ×AD×EF, Area(∆BDE) = ×DB×EF
+2 2
+Area(∆ADE) AD
+= — (i)
+Area(∆BDE) DB
+Area(∆ADE) AE
+Similarly, = — (ii)
+Area(∆DEC) EC
+Since ∆BDE and ∆DEC lie on same base DE between same parallels DE ∥ BC:
+Area(∆BDE) = Area(∆DEC)
+Page 5
+
+<!-- PAGE 6 -->
+RBSE CLASS 10 MATHEMATICS 20 PREDICTED BOARD EXAM QUESTIONS
+From (i) and (ii): AD = AE.
+DB EC
+Question 16 (Chapter 10: Circles)
+Question: Prove that the parallelogram circumscribing a circle is a rhombus. (Verified 2024
+Board PYQ)
+Prediction Reason: High-frequency PYQ theorem application.
+Detailed Solution: Let ABCD be a parallelogram circumscribing a circle touching at P,Q,R,S.
+Tangents from external points are equal:
+AP = AS, BP = BQ, CR = CQ, DR = DS
+Adding all four: (AP +BP)+(CR+DR) = (AS +DS)+(BQ+CQ)
+AB+CD = AD+BC
+Since ABCD is a parallelogram, AB = CD and AD = BC:
+2AB = 2AD =⇒ AB = AD
+Parallelogram with equal adjacent sides is a rhombus.
+Page 6
+
+<!-- PAGE 7 -->
+RBSE CLASS 10 MATHEMATICS 20 PREDICTED BOARD EXAM QUESTIONS
+SECTION D: Long Essay / Application Questions (4 Marks Each)
+Question 17 (Chapter 4: Quadratic Equations – Word Problem)
+Question: The altitude of a right-angled triangle is 7 cm less than its base. If the hypotenuse is
+13 cm, find the lengths of the other two sides.
+Prediction Reason: High-weightage Section D geometric word problem.
+Detailed Solution: Let base = x cm. Altitude = (x−7) cm. Hypotenuse = 13 cm.
+By Pythagoras Theorem:
+x2+(x−7)2 = 132
+x2+x2−14x+49 = 169 =⇒ 2x2−14x−120 = 0
+x2−7x−60 = 0
+Factoring:
+(x−12)(x+5) = 0 =⇒ x = 12 (since x > 0)
+Base = 12 cm, Altitude = 12−7 = 5 cm.
+Question 18 (Chapter 9: Some Applications of Trigonometry)
+Question: The shadow of a tower standing on level ground is found to be 40 m longer when the
+Sun’s altitude decreases from 60◦ to 30◦. Find the height of the tower. (Verified 2024 PYQ)
+Prediction Reason: Multi-triangle heights and distances application in Section D.
+Detailed Solution: Let height of tower = h m, initial shadow = x m.
+√
+In ∆ABC (60◦): tan60◦ = h =⇒ 3 = h =⇒ x = √h .
+x x 3 √
+In ∆ABD (30◦): tan30◦ = h =⇒ √1 = h =⇒ x+40 = h 3.
+x+40 3 x+40
+Substituting x:
+h √ √ h
+√ +40 = h 3 =⇒ h 3− √ = 40
+3 3
+(cid:18) 3−1 (cid:19) 2h √
+h √ = 40 =⇒ √ = 40 =⇒ h = 20 3 m ≈ 34.64 m
+3 3
+Question 19 (Chapter 12: Surface Areas and Volumes)
+Question: A medicine capsule is in the shape of a cylinder with two hemispheres stuck to each
+of its ends. The length of the entire capsule is 14 mm and the diameter of the capsule is 5 mm.
+Find its surface area.
+Prediction Reason: Standard combination solid problem from NCERT/PYQ.
+Detailed Solution: Radius r = 5 = 2.5 mm.
+2
+Height of cylinder h = 14−(2.5+2.5) = 14−5 = 9 mm.
+Total Surface Area = CSA of Cylinder+2×CSA of Hemisphere
+TSA = 2πrh+2(2πr2) = 2πr(h+2r)
+22 5 22 5
+TSA = 2× × ×(9+5) = 2× × ×14
+7 2 7 2
+TSA = 22×5×2 = 220 mm2
+Page 7
+
+<!-- PAGE 8 -->
+RBSE CLASS 10 MATHEMATICS 20 PREDICTED BOARD EXAM QUESTIONS
+Question 20 (Chapter 13: Statistics – Grouped Data Calculation)
+Question: FindtheMean(usingStep-DeviationMethod)andModeforthefollowingdistribution:
+Class Interval 0−10 10−20 20−30 30−40 40−50
+Frequency (f ) 5 8 12 10 5
+i
+Prediction Reason: Guaranteed 4-mark Section D statistics calculation question.
+Detailed Solution:
+(cid:80)
+1. Mean Calculation: Class Marks (x ): 5,15,25,35,45. Total Frequency f = 40.
+i i
+Assumed Mean a = 25, Class size h = 10.
+u = xi−25: −2,−1,0,1,2.
+i 10
+(cid:80)
+f u : −10,−8,0,10,10 =⇒ f u = 2.
+i i i i
+Mean x¯ = a+
+(cid:16)(cid:80)fiui (cid:17)
+×h = 25+ (cid:0) 2 (cid:1) ×10 = 25+0.5 = 25.5.
+(cid:80)fi 40
+2. Mode Calculation: Modal Class = 20−30 (highest frequency f = 12).
+1
+l = 20,f = 8,f = 12,f = 10,h = 10.
+0 1 2
+(cid:16) (cid:17) (cid:16) (cid:17)
+Mode = l+ f1−f0 ×h = 20+ 12−8 ×10
+2f1−f0−f2 24−8−10
+Mode = 20+
+(cid:0)4(cid:1)
+×10 = 20+6.67 = 26.67.
+6
+Page 8

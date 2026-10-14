@@ -2,6 +2,9 @@ import { useState, useEffect } from 'react'
 import { isSupabaseConfigured, supabase } from '../lib/supabase'
 import { RBSE_MATH_CH1_CONTENT } from '../data/rbseVerifiedData'
 import { CHAPTER_NOTES } from '../data/chapterNotesData'
+import { getSocialScienceSource, parseSocialScienceMarkdown } from '../data/socialScienceContent'
+import { MATH_CHAPTERS } from '../data/mathContent'
+import { SCIENCE_CHAPTERS } from '../data/scienceContent'
 
 function toRevisionContent(notes) {
   if (!notes) return null
@@ -81,6 +84,44 @@ export function useContent(chapterId, subjectId = 'math') {
             setLoading(false)
           }
           return
+        }
+
+        const socialScienceSource = getSocialScienceSource(chapterId)
+        if (socialScienceSource) {
+          const response = await fetch(`/content/social-science/${socialScienceSource.file}`)
+          if (!response.ok) throw new Error(`Unable to load ${socialScienceSource.file}`)
+          const markdown = await response.text()
+          if (active) {
+            setContent({ notes: parseSocialScienceMarkdown(markdown, { id: chapterId, name: chapterId, weight: 5 }) })
+            setLoading(false)
+          }
+          return
+        }
+
+        const mathSource = MATH_CHAPTERS.find((m) => m.id === chapterId)
+        if (mathSource) {
+          const response = await fetch(`/content/math/${mathSource.file}`)
+          if (response.ok) {
+            const markdown = await response.text()
+            if (active) {
+              setContent({ notes: parseSocialScienceMarkdown(markdown, { id: chapterId, name: mathSource.title, weight: 6 }) })
+              setLoading(false)
+            }
+            return
+          }
+        }
+
+        const scienceSource = SCIENCE_CHAPTERS.find((s) => s.id === chapterId)
+        if (scienceSource) {
+          const response = await fetch(`/content/science/${scienceSource.file}`)
+          if (response.ok) {
+            const markdown = await response.text()
+            if (active) {
+              setContent({ notes: parseSocialScienceMarkdown(markdown, { id: chapterId, name: scienceSource.title, weight: 6 }) })
+              setLoading(false)
+            }
+            return
+          }
         }
 
         if (active) {

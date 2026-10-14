@@ -1,0 +1,302 @@
+<!-- PAGE 1 -->
+BOARDREADY MASTER REVISION
+HANDBOOK
+RBSE CLASS 10 SCIENCE — COMPLETE SUBJECT NOTES (2026–27)
+Board: Board of Secondary Education, Rajasthan (RBSE), Ajmer | Subject Code: 07 (Science)
+Curriculum Framework: Rationalized NCERT & Official RBSE 2026–27 Blueprint | Theory Marks: 80 Marks (13
+Chapters)
+Official Syllabus Architecture & Unit Marks Weightage
+Unit / Domain Title Chapter ID & Name Weightage Blueprint Breakdown
+Ch 1: Chemical Reactions & 25 Marks Comprehensive Chemistry
+Equations (3 Marks) Domain: Reactions,
+Unit I: Chemical
+Ch 2: Acids, Bases and Salts (6 Marks) stoichiometry, pH scale,
+Substances
+Ch 3: Metals and Non-metals (5 Marks) metallurgy, and carbon
+Ch 4: Carbon and its Compounds (7 Marks) bonding.
+25 Marks Biology Domain: Human
+Ch 5: Life Processes
+(8 Marks) physiology, plant
+Unit II: World of Ch 6: Control and Coordination
+(6 Marks) hormones, reproduction,
+Living Ch 7: Reproduction in Organisms
+(7 Marks) genetics, and Mendel's
+Ch 8: Heredity
+(4 Marks) laws.
+Ch 9: Light – Reflection &
+25 Marks
+Refraction Physics Domain: Optics,
+(8 Marks)
+Unit III & IV: Physics Ch 10: Human Eye & Colourful lens/mirror numericals,
+(4 Marks)
+Phenomena World circuits, Ohm's law, and
+(7 Marks)
+Ch 11: Electricity electromagnetism.
+(6 Marks)
+Ch 12: Magnetic Effects of Current
+Environmental Science:
+Unit V: Natural 5 Marks Ecosystems, 10% energy
+Ch 13: Our Environment
+Resources (5 Marks) law, biomagnification, and
+ozone layer.
+TOTAL 80 Theory + 20
+Duration: 3 Hours 15
+EXAMINATION 13 Prescribed Chapters Sessional = 100
+Minutes
+SCHEME Marks
+UNIT I: CHEMICAL SUBSTANCES — NATURE & BEHAVIOUR (25
+MARKS)
+Chapter 1: Chemical Reactions and Equations [3 Marks Marks | Unit I]
+1. Key Concepts & Definitions:
+• Chemical Reaction: A process in which chemical bonds break and form new substances with entirely
+different chemical properties.
+• Balanced Chemical Equation: An equation where the total number of atoms of each element is equal
+on both reactant and product sides, strictly satisfying the Law of Conservation of Mass.
+2. Types of Chemical Reactions:
+BoardReady Master Series • Grounded in Official RBSE/NCERT Curriculum Page 1 of 7
+
+<!-- PAGE 2 -->
+RBSE CLASS 10 SCIENCE — MASTER REVISION HANDBOOK (2026–27)
+1. Combination Reaction: Two or more reactants combine to form a single product. Example: 2Mg + O₂
+→ 2MgO (Dazzling white flame).
+2. Decomposition Reaction: A single reactant breaks down into simpler products via Heat (Thermal),
+Light (Photolytic), or Electricity (Electrolytic). Example: 2FeSO₄(s) Δ→ Fe₂O₃(s) + SO₂(g) + SO₃(g).
+3. Displacement Reaction: A more reactive element displaces a less reactive element from its salt
+solution. Example: Fe(s) + CuSO₄(aq) [Blue] → FeSO₄(aq) [Pale Green] + Cu(s).
+4. Double Displacement: Exchange of ions between two compounds forming an insoluble precipitate.
+Example: Na₂SO₄(aq) + BaCl₂(aq) → BaSO₄(s) [White ppt] + 2NaCl(aq).
+5. Redox Reactions: Simultaneous Oxidation (gain of oxygen / loss of hydrogen) and Reduction (loss of
+oxygen / gain of hydrogen). Example: CuO + H₂ Δ→ Cu + H₂O (CuO is reduced to Cu; H₂ is oxidized to
+H₂O).
+3. Corrosion & Rancidity: Corrosion is the slow oxidation of metals by atmospheric gases/moisture
+(e.g., rusting of iron: Fe₂O₃·xH₂O). Rancidity is the oxidation of fats/oils causing unpleasant odor;
+prevented by flushing nitrogen gas or adding antioxidants.
+Chapter 2: Acids, Bases and Salts [6 Marks Marks | Unit I]
+1. Definitions & Indicators:
+• Acids: Produce H⁺(aq) / H₃O⁺ ions in aqueous solution; turn blue litmus red; pH < 7.
+• Bases: Produce OH⁻(aq) ions in water; turn red litmus blue; feel soapy; pH > 7.
+• Indicators: Natural (Litmus, Turmeric) and Synthetic (Phenolphthalein: colorless in acid, pink in base;
+Methyl Orange: red in acid, yellow in base). Olfactory indicators change smell (Onion, Vanilla).
+2. Chemical Properties & Reactions:
+• Acid + Metal → Salt + Hydrogen gas (tested via pop-sound burning test).
+• Acid + Metal Carbonate/Bicarbonate → Salt + Water + CO₂ (turns lime water milky due to CaCO₃
+precipitate).
+• Neutralization Reaction: Acid + Base → Salt + Water (Exothermic process).
+3. pH Scale & Importance: pH = -log[H⁺]. Range 0 to 14. Neutral pH = 7. Tooth decay starts below pH
+5.5. Acid rain has pH < 5.6.
+4. Important Industrial Chemical Compounds:
+• Bleaching Powder (CaOCl₂): Produced by action of chlorine on dry slaked lime Ca(OH)₂. Used as
+disinfectant and bleaching agent.
+• Baking Soda (NaHCO₃): Sodium hydrogen carbonate. Mild non-corrosive base. Used in baking powder
+and antacids.
+• Washing Soda (Na₂CO₃·10H₂O): Sodium carbonate decahydrate. Used in glass/soap industry and
+removing permanent water hardness.
+• Plaster of Paris (CaSO₄·½H₂O): Calcium sulphate hemihydrate. Prepared by heating Gypsum
+(CaSO₄·2H₂O) at 373 K. Sets hard upon adding water.
+Chapter 3: Metals and Non-metals [5 Marks Marks | Unit I]
+1. Physical & Chemical Comparison:
+• Metals are malleable, ductile, sonorous, good conductors of heat/electricity (Silver is best, Lead is
+poorest). Mercury is liquid metal; Iodine is lustrous non-metal; Gallium/Cesium melt on palm.
+• Amphoteric Oxides: Metal oxides that react with both acids and bases to yield salt and water (e.g.,
+Al₂O₃ and ZnO).
+• Reactivity Series: K > Na > Ca > Mg > Al > Zn > Fe > Pb > [H] > Cu > Hg > Ag > Au. Potassium and
+sodium are stored under kerosene oil to prevent violent reaction with air/water.
+BoardReady Master Series • Grounded in Official RBSE/NCERT Curriculum Page 2 of 7
+
+<!-- PAGE 3 -->
+RBSE CLASS 10 SCIENCE — MASTER REVISION HANDBOOK (2026–27)
+2. Ionic Bonding: Formed by complete transfer of electrons from a metal to a non-metal (e.g., NaCl,
+MgCl₂). High melting points, soluble in water, conduct electricity in molten or aqueous state.
+3. Metallurgy & Extraction:
+• Roasting: Heating sulfide ores strongly in the presence of excess air (2ZnS + 3O₂ → 2ZnO + 2SO₂).
+• Calcination: Heating carbonate ores strongly in limited air (ZnCO₃ → ZnO + CO₂).
+• Thermite Process: Reduction of iron oxide using aluminum powder (Fe₂O₃ + 2Al → 2Fe + Al₂O₃ +
+Heat), used for welding railway tracks.
+Chapter 4: Carbon and its Compounds [7 Marks Marks | Unit I]
+1. Covalent Bonding & Tetravalency: Carbon has atomic number 6 (configuration 2,4).
+Forms covalent bonds by sharing electrons. Exhibits Catenation (self-linking property)
+and Tetravalency.
+2. Allotropes of Carbon: Diamond (rigid 3D structure, hardest natural substance, insulator), Graphite
+(hexagonal layers, smooth/slippery, good conductor due to free electrons), and Fullerenes (C-60,
+buckyball).
+3. Hydrocarbons & Homologous Series:
+• Alkanes (C_n H_{2n+2}): Saturated single bond (e.g., Methane CH₄, Ethane C₂H₆).
+• Alkenes (C_n H_{2n}): Unsaturated double bond (e.g., Ethene C₂H₄).
+• Alkynes (C_n H_{2n-2}): Unsaturated triple bond (e.g., Ethyne C₂H₂).
+• Homologous Series: Series of organic compounds with same functional group where adjacent
+members differ by -CH₂- unit and 14 u atomic mass.
+4. Functional Groups: Alcohol (-OH), Aldehyde (-CHO), Ketone (>C=O), Carboxylic Acid (-COOH),
+Halogens (-Cl, -Br).
+5. Important Organic Reactions:
+• Esterification: Ethanoic acid + Ethanol → Ethyl Ethanoate (sweet smelling ester) + Water (catalyst:
+conc. H₂SO₄).
+• Saponification: Ester + NaOH → Sodium Ethanoate (Soap) + Ethanol.
+• Soaps vs. Detergents: Soaps are sodium/potassium salts of long-chain fatty acids (form scum with
+hard water). Detergents are ammonium/sulfonate salts (effective in hard water). Micelle formation cleans
+grease.
+UNIT II: WORLD OF LIVING — BIOLOGY (25 MARKS)
+Chapter 5: Life Processes [8 Marks Marks | Unit II]
+1. Nutrition: Autotrophic (Photosynthesis: 6CO₂ + 12H₂O + Sunlight/Chlorophyll →
+C₆H₁₂O₆ + 6O₂ + 6H₂O) and Heterotrophic (Amoeba holozoic nutrition via pseudopodia;
+Human digestive tract).
+• Human Digestive System: Salivary Amylase digests starch → Pepsin in stomach digests protein
+(acidic medium HCl) → Bile from liver emulsifies fats & creates alkaline medium → Trypsin & Lipase in
+small intestine complete digestion → Villi absorb nutrients.
+2. Respiration: Breakdown of Glucose (C₆H₁₂O₆) → Pyruvate (3-carbon) in cytoplasm.
+Fate of Pyruvate: (a) Absence of O₂ (Yeast): Ethanol + CO₂ + 2 ATP; (b) Lack of O₂
+(Muscle cramps): Lactic Acid + 2 ATP; (c) Presence of O₂ (Mitochondria): CO₂ + H₂O +
+38 ATP.
+BoardReady Master Series • Grounded in Official RBSE/NCERT Curriculum Page 3 of 7
+
+<!-- PAGE 4 -->
+RBSE CLASS 10 SCIENCE — MASTER REVISION HANDBOOK (2026–27)
+3. Transportation: Human double circulation (Systemic & Pulmonary). Heart
+chambers: 4-chambered (Right atrium/ventricle carry deoxygenated blood; Left
+atrium/ventricle carry oxygenated blood). Plant transport: Xylem transports
+water/minerals (transpiration pull); Phloem translocates sucrose (requires ATP).
+4. Excretion: Human excretory system (Kidneys, Ureters, Urinary Bladder, Urethra).
+Functional unit: Nephron (Bowman's Capsule, Glomerulus filtration, Selective
+Reabsorption of glucose/amino acids/salts in tubules).
+Chapter 6: Control and Coordination [6 Marks Marks | Unit II]
+1. Nervous System & Reflex Arc: Neuron structure (Dendrite → Cell Body → Axon →
+Synaptic Terminal). Synapse is the chemical gap crossed by neurotransmitters. Reflex
+Arc: Receptor → Sensory Neuron → Spinal Cord (Relay Neuron) → Motor Neuron →
+Effector Muscle.
+2. Human Brain: Forebrain (Cerebrum: main thinking area, memory), Midbrain
+(involuntary actions), Hindbrain (Cerebellum: posture/balance; Medulla: blood
+pressure, salvation, vomiting; Pons: respiration rate).
+3. Plant Hormones (Phytohormones): Auxin (cell elongation, phototropism bending
+toward light), Gibberellin (stem growth), Cytokinin (cell division in fruits/seeds),
+Abscisic Acid (stress hormone, inhibits growth, wilting of leaves). Plant movements:
+Tropic (directional: photo-, geo-, hydro-, chemo-) vs Nastic (non-directional: *Mimosa
+pudica* touch response).
+4. Human Endocrine Glands & Hormones: Pituitary (Growth Hormone), Thyroid
+(Thyroxin - requires iodine to prevent Goitre), Pancreas (Insulin - regulates blood
+sugar, prevents Diabetes), Adrenal (Adrenaline - fight or flight hormone), Testes
+(Testosterone), Ovaries (Estrogen).
+Chapter 7: Reproduction in Organisms [7 Marks Marks | Unit II]
+1. DNA Copying & Asexual Reproduction: DNA replication creates cellular machinery;
+minor inaccuracies cause species variation. Asexual modes: Binary Fission (*Amoeba*,
+*Leishmania*), Multiple Fission (*Plasmodium*), Fragmentation (*Spirogyra*),
+Regeneration (*Planaria*, *Hydra*), Budding (*Hydra*, Yeast), Spore Formation
+(*Rhizopus*), Vegetative Propagation (*Bryophyllum* leaf notches).
+2. Sexual Reproduction in Plants: Flower anatomy (Stamen = Male: Anther + Filament;
+Pistil = Female: Stigma + Style + Ovary). Pollination (Self vs Cross). Double
+Fertilization: Syngamy (Male gamete + Egg → Zygote → Embryo) & Triple Fusion
+(Endosperm). Post-fertilization: Ovule → Seed; Ovary → Fruit.
+3. Human Reproductive Systems: Male (Testes in Scrotum for 2-3°C lower temp for
+sperms, Testosterone, Vas Deferens, Prostate/Seminal Vesicles). Female (Ovaries,
+Fallopian Tube/Oviduct = site of fertilization, Uterus = implantation site, Placenta
+nourish fetus). Unfertilized egg leads to Menstruation (2-8 days).
+4. Reproductive Health & Contraception: STDs (Bacterial: Gonorrhea, Syphilis; Viral:
+Warts, HIV-AIDS). Contraception: Barriers (Condoms - prevent STDs), Chemical (Oral
+Pills), IUCDs (Copper-T), Surgical (Vasectomy in males, Tubectomy in females).
+Chapter 8: Heredity [4 Marks Marks | Unit II]
+1. Heredity & Traits: Transmission of traits across generations. Inherited Traits
+(changes in germ cell DNA, transmissible) vs Acquired Traits (somatic tissue changes,
+BoardReady Master Series • Grounded in Official RBSE/NCERT Curriculum Page 4 of 7
+
+<!-- PAGE 5 -->
+RBSE CLASS 10 SCIENCE — MASTER REVISION HANDBOOK (2026–27)
+non-transmissible).
+2. Mendel's Experiments (*Pisum sativum*):
+• Monohybrid Cross (TT × tt): F₁ generation = All Tall (Tt). F₂ generation Phenotypic Ratio = 3 : 1 (3
+Tall : 1 Dwarf); Genotypic Ratio = 1 : 2 : 1 (1 TT : 2 Tt : 1 tt). Demonstrates Dominant vs Recessive
+alleles.
+• Dihybrid Cross (RRYY × rryy): F₂ Phenotypic Ratio = 9 : 3 : 3 : 1 (Round Yellow, Round Green,
+Wrinkled Yellow, Wrinkled Green). Demonstrates Law of Independent Assortment.
+3. Sex Determination in Humans: 23 pairs of chromosomes (22 autosomes + 1 pair sex
+chromosomes). Females = XX, Males = XY. Mother provides X egg; Father's sperm
+provides 50% X or 50% Y. Father determines child's biological sex (50% probability).
+*Note: Evolution section is excluded from syllabus.*
+UNIT III & IV: PHYSICS PHENOMENA (25 MARKS)
+Chapter 9: Light – Reflection and Refraction [8 Marks Marks | Unit III]
+1. Spherical Mirrors: Concave (Converging, negative f) and Convex (Diverging,
+positive f, wide field of view for rear-view mirrors). Focal relation: f = R / 2.
+• Mirror Formula: 1/f = 1/v + 1/u | Magnification: m = -v/u = h'/h. (Negative m = Real/Inverted;
+Positive m = Virtual/Erect).
+2. Refraction & Refractive Index: Snell's Law: sin(i)/sin(r) = constant = n₂₁. Absolute
+Refractive Index n = c / v. Glass slab causes lateral displacement.
+3. Spherical Lenses: Convex (Converging) and Concave (Diverging).
+• Lens Formula: 1/f = 1/v - 1/u | Magnification: m = +v/u = h'/h.
+• Optical Power (P): P = 1 / f(in meters). SI Unit: Dioptre (D). Convex lens P > 0; Concave lens P < 0.
+Power combination: P = P₁ + P₂.
+Chapter 10: The Human Eye and the Colourful World [4 Marks Marks |
+Unit III]
+1. Human Eye Anatomy: Cornea (refraction window), Iris (controls pupil size), Pupil
+(regulates light), Eye Lens (convex, fibrous jelly), Ciliary Muscles (modifies focal
+length during accommodation), Retina (screen with rods/cones). Near point D = 25
+cm; Far point = Infinity.
+2. Vision Defects & Corrections:
+• Myopia (Near-sightedness): Sees near objects clearly. Image forms in front of retina. Causes:
+excessive lens curvature, elongated eyeball. Correction: Concave Lens.
+• Hypermetropia (Far-sightedness): Sees distant objects clearly. Image forms behind retina. Causes:
+lens focal length too long, short eyeball. Correction: Convex Lens.
+• Presbyopia: Old-age defect due to weak ciliary muscles. Correction: Bifocal Lens.
+3. Prism Dispersion & Phenomena: White light splits into VIBGYOR spectrum (Red
+bends least, Violet bends most). Rainbow formation involves Dispersion, Internal
+Reflection, and Refraction. Atmospheric Refraction causes twinkling of stars,
+advanced sunrise (2 min), and delayed sunset (2 min). Scattering causes blue sky and
+red sunrise/sunset.
+BoardReady Master Series • Grounded in Official RBSE/NCERT Curriculum Page 5 of 7
+
+<!-- PAGE 6 -->
+RBSE CLASS 10 SCIENCE — MASTER REVISION HANDBOOK (2026–27)
+Chapter 11: Electricity [7 Marks Marks | Unit IV]
+1. Charge, Current & Potential: Charge Q = ne (e = 1.6×10⁻¹⁹ C). Current I = Q / t (Unit:
+Ampere A, measured in series by Ammeter). Potential Difference V = W / Q (Unit: Volt
+V, measured in parallel by Voltmeter).
+2. Ohm's Law & Resistance: V = I R at constant temperature. Resistance R = ρ (l / A).
+Resistivity ρ depends only on material and temperature (Unit: Ω·m). Alloys have high
+resistivity and don't oxidize at high temp (used in heaters/irons).
+3. Resistor Networks:
+• Series Combination: R_s = R₁ + R₂ + R₃ (Current identical; Voltage divides).
+• Parallel Combination: 1/R_p = 1/R₁ + 1/R₂ + 1/R₃ (Voltage identical; Current divides; used in
+domestic wiring).
+4. Joule's Heating & Power: Heat H = I² R t = V I t = (V²/R) t. Electric Power P = V I = I²
+R = V²/R (Unit: Watt W). Commercial Unit of Energy: 1 kWh = 3.6 × 10⁶ Joules.
+Chapter 12: Magnetic Effects of Electric Current [6 Marks Marks | Unit
+IV]
+1. Magnetic Field & Lines: Oersted experiment proved current produces magnetic
+field. Field lines emerge from North, enter South externally; closed loops; never
+intersect.
+2. Conductor Field Rules: Straight wire field = concentric circles. Right-Hand Thumb
+Rule: Thumb = Current direction, Curled fingers = Field lines. Solenoid field is uniform
+inside (like bar magnet). Electromagnet = Soft iron core inside solenoid.
+3. Force & Left-Hand Rule: Force is maximum when conductor is perpendicular to
+magnetic field. Fleming's Left-Hand Rule: Forefinger = Field (B), Middle finger =
+Current (I), Thumb = Force/Motion (F).
+4. Domestic Wiring: Live Wire (Red, 220V), Neutral Wire (Black, 0V), Earth Wire
+(Green, 0V safety against shocks). 50 Hz AC supply. Short-circuiting (live and neutral
+touch) & Overloading (excessive load) prevented by Electric Fuse. *Note:
+Motor/Generator excluded.*
+UNIT V: NATURAL RESOURCES & ENVIRONMENT (5 MARKS)
+Chapter 13: Our Environment [5 Marks Marks | Unit V]
+1. Ecosystem Structure: Self-sustaining unit of biotic (producers, consumers,
+decomposers) and abiotic components (temp, soil, water). Natural (forest, pond) vs
+Artificial (aquarium, crop field). Decomposers (bacteria/fungi) enable nutrient cycling.
+2. Food Chain & 10% Energy Law: Producers capture 1% solar energy. Lindeman's 10%
+Law: Only 10% energy transfers to next higher trophic level; 90% lost as metabolic
+heat. Food chains limited to 3-4 steps.
+3. Biological Magnification: Progressive accumulation and increasing concentration of
+non-biodegradable toxic chemicals (e.g., DDT) at higher trophic levels (maximum in
+human top carnivores).
+4. Ozone Layer & Waste Management: Stratospheric Ozone (O₃) absorbs lethal solar
+UV radiation (O₂ + UV → O + O; O + O₂ → O₃). Depleted by Chlorofluorocarbons (CFCs,
+BoardReady Master Series • Grounded in Official RBSE/NCERT Curriculum Page 6 of 7
+
+<!-- PAGE 7 -->
+RBSE CLASS 10 SCIENCE — MASTER REVISION HANDBOOK (2026–27)
+Montreal Protocol 1987). Biodegradable waste (decomposed naturally) vs
+Non-biodegradable waste (plastics, persistent). Garbage management: Composting, 3
+Rs, Recycling.
+BoardReady Master Final Revision Checklist
+✓ Chemistry (25 Marks): Balanced chemical equations, chemical names & formulas of 4 salt compounds,
+reactivity series order, esterification equation, saponification.
+✓ Biology (25 Marks): Photosynthesis steps, glucose breakdown pathways, human heart diagram labels, reflex
+arc sequence, Mendel's 3:1 & 9:3:3:1 ratios, human sex determination.
+✓ Physics (25 Marks): Mirror & Lens sign conventions, numericals on 1/f = 1/v ± 1/u, Myopia/Hypermetropia ray
+diagrams, Ohm's law V=IR, series/parallel equivalent resistance derivations, 1 kWh = 3.6×10⁶ J.
+✓ Environment (5 Marks): 10% energy calculation numericals, biomagnification definition, ozone formation
+chemical equations, CFC depletion.
+BoardReady Master Series • Grounded in Official RBSE/NCERT Curriculum Page 7 of 7
