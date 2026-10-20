@@ -19,6 +19,7 @@ import { CHAPTER_NOTES } from '../data/chapterNotesData'
 import { useContent } from '../hooks/useContent'
 import { useQuiz } from '../hooks/useQuiz'
 import { useQuestions } from '../hooks/useQuestions'
+import StudyText from '../components/ui/StudyText'
 
 const DEFAULT_CHAPTER = {
   id: 'science-1',
@@ -421,8 +422,8 @@ export default function NotesReader({
                           </h3>
                         )}
                       </div>
-                      <div className={`${fontSizeClass} text-stone-700 dark:text-stone-300 whitespace-pre-line leading-relaxed`}>
-                        {sec.content}
+                      <div className={`${fontSizeClass} text-stone-700 dark:text-stone-300`}>
+                        <StudyText value={sec.content} />
                       </div>
 
                       {sec.keyBox && (
@@ -434,7 +435,7 @@ export default function NotesReader({
                             {(sec.keyBox.items || []).map((item, itemIdx) => (
                               <li key={itemIdx} className="flex items-start gap-2">
                                 <span className="text-amber-600 dark:text-amber-400 font-bold">•</span>
-                                <span>{item.replace(/\*\*/g, '')}</span>
+                                <div className="min-w-0 flex-1"><StudyText value={item} /></div>
                               </li>
                             ))}
                           </ul>
@@ -516,10 +517,10 @@ export default function NotesReader({
                   Self Assessment
                 </p>
                 <h2 className="text-xl sm:text-2xl font-extrabold text-stone-900 dark:text-stone-100">
-                  {chapter.name} — 15-MCQ Quiz
+                  {chapter.name} — {quizQuestions.length}-Question Quiz
                 </h2>
               </div>
-              <Badge variant="accent">15 Questions</Badge>
+              <Badge variant="accent">{quizQuestions.length} Questions</Badge>
             </div>
 
             {quizQuestions.length === 0 ? (

@@ -17,6 +17,16 @@ export function useQuiz(chapterId) {
         (q) => q.chapter_id === chapterId && q.question_type === 'mcq'
       )
 
+      const isMcq = (question) => question?.question_type === 'mcq'
+      const mergeQuestions = (remoteQuestions = []) => {
+        const merged = new Map()
+        remoteQuestions.filter(isMcq).forEach((question) => merged.set(question.id, question))
+        localMcqs.forEach((question) => {
+          if (!merged.has(question.id)) merged.set(question.id, question)
+        })
+        return [...merged.values()]
+      }
+
       try {
         if (isSupabaseConfigured && supabase) {
           // Check for quizzes associated with chapter
@@ -29,13 +39,15 @@ export function useQuiz(chapterId) {
           if (quizData) {
             const { data: qLinks } = await supabase
               .from('quiz_questions')
-              .select('question_id, questions(*)')
+              .select('question_id, order_index, questions(*)')
               .eq('quiz_id', quizData.id)
 
             if (qLinks && qLinks.length > 0) {
-              const merged = new Map(qLinks.map((item) => item.questions).filter(Boolean).map((question) => [question.id, question]))
-              localMcqs.forEach((question) => merged.set(question.id, question))
-              const qs = [...merged.values()]
+              const linkedQuestions = qLinks
+                .sort((a, b) => (a.order_index ?? 0) - (b.order_index ?? 0))
+                .map((item) => item.questions)
+                .filter(Boolean)
+              const qs = mergeQuestions(linkedQuestions)
               if (active && qs.length > 0) {
                 setQuizQuestions(qs)
                 setLoading(false)
@@ -52,13 +64,12 @@ export function useQuiz(chapterId) {
             .eq('question_type', 'mcq')
 
           if (mcqs && mcqs.length > 0) {
-            const merged = new Map(mcqs.map((question) => [question.id, question]))
-            localMcqs.forEach((question) => merged.set(question.id, question))
+            const qs = mergeQuestions(mcqs)
             if (active) {
-              setQuizQuestions([...merged.values()])
+              setQuizQuestions(qs)
               setLoading(false)
             }
-            if (merged.size > 0) return
+            if (qs.length > 0) return
           }
         }
 

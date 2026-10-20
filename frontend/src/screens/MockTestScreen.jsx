@@ -49,6 +49,20 @@ export default function MockTestScreen({ onNavigate }) {
     })
   }
 
+  const paperMarks = questions.reduce((sum, question) => sum + (Number(question.marks) || 1), 0)
+  const paperSections = [
+    { label: 'Objective', types: ['mcq', 'very_short'] },
+    { label: 'Short answer', types: ['short'] },
+    { label: 'Long answer', types: ['long', 'case_based', 'source_based'] },
+    { label: 'Numerical/application', types: ['numerical', 'assertion_reason', 'diagram_based'] },
+  ].map((section) => ({
+    ...section,
+    count: questions.filter((question) => section.types.includes(question.question_type)).length,
+    marks: questions.filter((question) => section.types.includes(question.question_type)).reduce((sum, question) => sum + (Number(question.marks) || 1), 0),
+  })).filter((section) => section.count > 0)
+
+  const getSectionLabel = (questionType) => paperSections.find((section) => section.types.includes(questionType))?.label || 'Board answer'
+
   return (
     <div className="min-h-screen bg-cream-100 dark:bg-stone-900 pb-24 transition-colors duration-200">
       <ScreenHeader
@@ -97,25 +111,20 @@ export default function MockTestScreen({ onNavigate }) {
             <div className="grid grid-cols-2 gap-2 text-xs">
               <div className="p-2.5 rounded-lg bg-stone-50 dark:bg-stone-900 border border-stone-200 dark:border-stone-700">
                 <span className="text-stone-500 dark:text-stone-400">Total Marks:</span>
-                <p className="font-bold text-stone-900 dark:text-stone-100 text-sm">{mockTest?.total_marks || 30} Marks</p>
+                <p className="font-bold text-stone-900 dark:text-stone-100 text-sm">{mockTest?.total_marks || paperMarks || 30} Marks</p>
               </div>
               <div className="p-2.5 rounded-lg bg-stone-50 dark:bg-stone-900 border border-stone-200 dark:border-stone-700">
                 <span className="text-stone-500 dark:text-stone-400">Duration:</span>
-                <p className="font-bold text-stone-900 dark:text-stone-100 text-sm">{mockTest?.duration_minutes || 45} Minutes</p>
+                <p className="font-bold text-stone-900 dark:text-stone-100 text-sm">{mockTest?.time_limit_minutes || mockTest?.duration_minutes || 45} Minutes</p>
               </div>
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-[11px]">
-              {[
-                ['Section A', 'Objective', '6 × 1'],
-                ['Section B', 'Short answer', '4 × 2'],
-                ['Section C', 'Analytical', '4 × 3'],
-                ['Section D', 'Application', '1 × 4'],
-              ].map(([section, label, marks]) => (
-                <div key={section} className="p-2 rounded-lg bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-800/50">
-                  <p className="font-extrabold text-amber-800 dark:text-amber-300">{section}</p>
-                  <p className="text-stone-600 dark:text-stone-400">{label}</p>
-                  <p className="font-bold text-stone-800 dark:text-stone-200">{marks} marks</p>
+              {paperSections.map((section, index) => (
+                <div key={section.label} className="p-2 rounded-lg bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-800/50">
+                  <p className="font-extrabold text-amber-800 dark:text-amber-300">Section {String.fromCharCode(65 + index)}</p>
+                  <p className="text-stone-600 dark:text-stone-400">{section.label}</p>
+                  <p className="font-bold text-stone-800 dark:text-stone-200">{section.count} questions · {section.marks} marks</p>
                 </div>
               ))}
             </div>
@@ -160,7 +169,7 @@ export default function MockTestScreen({ onNavigate }) {
                 className="bg-white dark:bg-stone-800 rounded-card p-4 border border-stone-200 dark:border-stone-700 shadow-card space-y-2.5"
               >
                 <div className="flex items-center justify-between text-xs">
-                  <span className="font-bold text-stone-500 dark:text-stone-400">Q{idx + 1} ({q.marks} {q.marks === 1 ? 'Mark' : 'Marks'})</span>
+                  <span className="font-bold text-stone-500 dark:text-stone-400">Q{idx + 1} · {getSectionLabel(q.question_type)} · {q.marks} {q.marks === 1 ? 'Mark' : 'Marks'}</span>
                   <span className="capitalize font-semibold text-stone-500 dark:text-stone-400">{q.question_type?.replace(/_/g, ' ')}</span>
                 </div>
                 <p className="text-sm font-semibold text-stone-900 dark:text-stone-100">{q.question}</p>
