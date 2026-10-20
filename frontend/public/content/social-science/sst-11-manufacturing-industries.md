@@ -3,12 +3,12 @@
 ## Chapter Metadata & Official Examination Scheme
 
 * **Chapter ID**: `sst-11`
-* **Subject ID**: `sst` (Social Science / सामाजिक विज्ञान)
+* **Subject ID**: `sst` (Social Science / Social Science)
 * **Subject Code**: 08
-* **Discipline**: Geography (*Contemporary India – II / समकालीन भारत – 2*)
+* **Discipline**: Geography (*Contemporary India – II / Contemporary India – 2*)
 * **Chapter Number in Working List**: 11 (Geography Chapter 6)
 * **Chapter Title**: Manufacturing Industries
-* **Hindi Title**: विनिर्माण उद्योग
+* **Hindi Title**: Manufacturing Industry
 * **Academic Session**: 2026–27 (Intended for 2027 Secondary Board Examination)
 * **Prescribed Textbook**: *Contemporary India – II* (NCERT / BSER Ajmer)
 * **Total Written Exam Marks**: 80 Marks

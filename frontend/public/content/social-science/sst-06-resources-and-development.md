@@ -1,7 +1,7 @@
 # BoardReady SST Master Chapter Content
 ## RBSE Class 10 Social Science (Session 2026–27 | Examination 2027)
 ### Discipline: Geography (Contemporary India – II)
-### Chapter 1 (Working List Ch. 6): Resources and Development (संसाधन एवं विकास)
+### Chapter 1 (Working List Ch. 6): Resources and Development
 ### Chapter ID: `sst-06` | Subject Code: 08
 
 ---
@@ -13,7 +13,7 @@
 | **Target Board & Exam** | Board of Secondary Education, Rajasthan (BSER / RBSE), Ajmer — Secondary Examination 2027 |
 | **Academic Session** | 2026–27 |
 | **Subject & Discipline** | Social Science (Subject Code: 08) — Geography (*Contemporary India – II*) |
-| **Chapter ID & Title** | `sst-06` : Resources and Development (*संसाधन एवं विकास*) |
+| **Chapter ID & Title** | `sst-06`: Resources and Development
 | **Prescription Status** | **100% Fully Prescribed** in the Official BSER Syllabus (`10_2027.pdf`, p. 38) |
 | **Board Weightage** | **03 Marks** out of 80 Theory Marks (Total Unit Marks: 20 for Geography) |
 | **Rationalization Check** | **Zero Exclusions / No Deletions**. NCERT and BSER have retained Chapter 1 in full for 2026–27. All sub-topics are active and examinable. |
@@ -34,10 +34,10 @@
 
 ## 2. Chapter Metadata & Board Exam Architecture
 
-* **Subject Name**: Social Science (सामाजिक विज्ञान)
+* **Subject Name**: Social Science
 * **Subject Code**: 08
-* **Discipline**: Geography (*Contemporary India – II* / समकालीन भारत - 2)
-* **Chapter Title**: Resources and Development (संसाधन एवं विकास)
+* **Discipline**: Geography (*Contemporary India – II* / Contemporary India – 2)
+* **Chapter Title**: Resources and Development
 * **Chapter ID**: `sst-06`
 * **Exam Duration**: 3 Hours 15 Minutes
 * **Total Marks**: 100 Marks (80 Theory External Board Exam + 20 Sessional/Internal School Assessment)

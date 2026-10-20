@@ -13,6 +13,9 @@ export function useQuiz(chapterId) {
     async function loadQuiz() {
       setLoading(true)
       setError(null)
+      const localMcqs = VERIFIED_QUESTIONS_POOL.filter(
+        (q) => q.chapter_id === chapterId && q.question_type === 'mcq'
+      )
 
       try {
         if (isSupabaseConfigured && supabase) {
@@ -30,7 +33,9 @@ export function useQuiz(chapterId) {
               .eq('quiz_id', quizData.id)
 
             if (qLinks && qLinks.length > 0) {
-              const qs = qLinks.map((item) => item.questions).filter(Boolean)
+              const merged = new Map(qLinks.map((item) => item.questions).filter(Boolean).map((question) => [question.id, question]))
+              localMcqs.forEach((question) => merged.set(question.id, question))
+              const qs = [...merged.values()]
               if (active && qs.length > 0) {
                 setQuizQuestions(qs)
                 setLoading(false)
@@ -47,21 +52,19 @@ export function useQuiz(chapterId) {
             .eq('question_type', 'mcq')
 
           if (mcqs && mcqs.length > 0) {
+            const merged = new Map(mcqs.map((question) => [question.id, question]))
+            localMcqs.forEach((question) => merged.set(question.id, question))
             if (active) {
-              setQuizQuestions(mcqs)
+              setQuizQuestions([...merged.values()])
               setLoading(false)
-              return
             }
+            if (merged.size > 0) return
           }
         }
 
         // Local pool fallback
-        const mcqs = VERIFIED_QUESTIONS_POOL.filter(
-          (q) => q.chapter_id === chapterId && q.question_type === 'mcq'
-        )
-
         if (active) {
-          setQuizQuestions(mcqs)
+          setQuizQuestions(localMcqs)
           setLoading(false)
         }
       } catch (err) {

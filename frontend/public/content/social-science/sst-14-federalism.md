@@ -6,7 +6,7 @@
 * **Discipline**: Political Science (*Democratic Politics – II*)
 * **Chapter Number (Working List)**: 14 (Political Science Chapter 2)
 * **Chapter Title**: Federalism
-* **Hindi Title**: संघवाद
+* **Hindi Title**: Federalism
 * **Academic Session**: 2026–27 (Intended for the 2027 Secondary Board Examination)
 * **Prescribed Textbook**: *Democratic Politics – II* (Class X), Published by NCERT and Accredited by BSER Ajmer
 * **Exam Duration**: 3 Hours 15 Minutes

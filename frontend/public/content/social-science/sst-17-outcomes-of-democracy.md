@@ -5,11 +5,11 @@
 | Parameter | Official Board Details |
 | :--- | :--- |
 | **Working Chapter ID** | `sst-17` |
-| **Discipline** | Political Science (Democratic Politics – II / लोकतांत्रिक राजनीति - 2) |
-| **Chapter Title** | Outcomes of Democracy (लोकतंत्र के परिणाम) |
+| **Discipline** Political Science (Democratic Politics – II / Democratic Politics – 2)
+| **Chapter Title** | Outcomes of Democracy
 | **Academic Session** | 2026–27 (Intended for 2027 Secondary Board Examination) |
 | **Examining Body** | Board of Secondary Education, Rajasthan (BSER / RBSE), Ajmer |
-| **Subject Code** | 08 (Social Science / सामाजिक विज्ञान) |
+| **Subject Code** | 08 (Social Science / Social Science)
 | **Prescribed Textbook** | *Democratic Politics – II* (NCERT / BSER Ajmer) |
 | **Chapter Mark Allocation** | **03 Marks** (Out of 80 Theory Marks) |
 | **Political Science Unit Total** | 20 Marks across 5 Prescribed Chapters |
@@ -62,115 +62,7 @@ Democracy must be evaluated primarily on whether it delivers political outcomes:
 ┌─────────────────┐          ┌─────────────────┐          ┌─────────────────┐
 │   ACCOUNTABLE   │          │   RESPONSIVE    │          │   LEGITIMATE    │
 ├─────────────────┤          ├─────────────────┤          ├─────────────────┤
-│ • Answerable to │          │ • Attentive to  │          │ • People's own  │
-│   citizens      │          │   public needs  │            government      │
-│ • Deliberation &│          │ • Sensitive to  │          │ • Free & fair   │
-│   procedures    │          │   demands       │            elections       │
-│ • Transparency  │          │ • Free from     │          │ • Constitutional│
-│   (RTI mechanism│          │   routine       │            rule of law    │
-│   & open debate)│          │   corruption    │          │ • World-wide    │
-└─────────────────┘          └─────────────────┘          └─────────────────┘
-```
-
-#### A. Accountable Government (*उत्तरदायी सरकार*)
-* **Definition**: An accountable government is answerable to its citizens for all decisions made and actions taken.
-* **Institutional Mechanisms**:
-  * Regular, free, and fair elections where voters can remove non-performing governments.
-  * Open public debates on major policies and legislations.
-  * Institutional transparency through mechanisms like the **Right to Information (RTI) Act**.
-* **Procedural Deliberation vs. Speed**:
-  * *Dictatorships* do not bother with deliberation or public opinion, allowing them to make fast decisions. However, these decisions may be unacceptable to the public or deeply flawed.
-  * *Democracies* follow established norms and procedures (deliberation, voting, committee review). Though time-consuming, this process produces decisions that are more acceptable and effective.
-
-#### B. Responsive Government (*जिम्मेदार सरकार*)
-* **Definition**: A responsive government pays attention to the needs, aspirations, and demands of all its citizens, particularly minorities and vulnerable sections.
-* **Reality vs. Expectation**:
-  * Democracies often fall short of being fully responsive. Governments can be slow to react, bureaucratic, and at times insensitive to public demands.
-  * Routine corruption remains a persistent challenge in many democratic nations.
-  * However, non-democracies (monarchies, military regimes) are far less responsive, as they face no electoral pressure or public scrutiny.
-
-#### C. Legitimate Government (*वैध सरकार*)
-* **Definition**: A legitimate government is one that rules according to established constitutional procedures and possesses the legal and moral right to govern derived from the consent of the governed.
-* **Why Democracy Excels in Legitimacy**:
-  * A democratic government is **"people's own government."**
-  * Even if a democratic government is slow, inefficient, or flawed, it remains legitimate because it is elected by the people.
-  * Global survey data shows overwhelming support for democratic governance across South Asia, North America, and Europe compared to authoritarian alternatives.
-
----
-
-### 3. Economic Outcomes: Growth, Inequality, and Poverty
-
-#### A. Economic Growth and Development (*आर्थिक संवृद्धि और विकास*)
-* **The Empirical Reality**: If we examine data from 1950 to 2000, dictatorships showed a slightly higher rate of economic growth compared to democracies.
-* **Contextual Factors**: Economic development depends on several factors besides the form of government:
-  1. Population size and demographic structure.
-  2. Global economic climate and international trade relations.
-  3. National priorities and capital investment in infrastructure/human resources.
-  4. Cooperation from other countries.
-* **Conclusion**: The growth rate difference between democracies and dictatorships is negligible. Democracy cannot guarantee high economic growth, but it ensures that growth is balanced with equity, fundamental rights, and political freedoms.
-
-#### B. Reduction of Economic Inequality and Poverty (*असमानता और गरीबी में कमी*)
-* **Expected vs. Actual Outcome**: Democracies are based on political equality (one person, one vote), so it is expected that they will reduce economic disparities. However, in practice, democracies have not been very successful in reducing economic inequalities.
-* **Key Patterns**:
-  * **Concentration of Wealth**: A small group of ultra-rich individuals enjoys a disproportionate share of wealth and income, while the bottom section struggles for basic needs (food, clothing, house, education, health).
-  * **Electoral Paradox of Poverty**: Poor voters constitute a large proportion of the electorate, and political parties depend on their votes. Yet, democratically elected governments often fail to address poverty with sufficient urgency.
-  * **Global Example (Bangladesh)**: More than half of its population lives in poverty, illustrating that democracy alone does not automatically eradicate extreme economic distress.
-
----
-
-### 4. Accommodation of Social Diversity (*सामाजिक विविधताओं में सामंजस्य*)
-
-No society can fully and permanently eliminate conflicts among different social groups. However, democracy provides the best framework for accommodating social, ethnic, linguistic, and religious diversity.
-
-```
-                    ┌──────────────────────────────────────┐
-                    │ DEMOCRATIC ACCOMMODATION OF DIVERSITY│
-                    └──────────────────┬───────────────────┘
-                                       │
-            ┌──────────────────────────┴──────────────────────────┐
-            ▼                                                     ▼
-┌───────────────────────┐                             ┌───────────────────────┐
-│     CONDITION 1       │                             │     CONDITION 2       │
-├───────────────────────┤                             ├───────────────────────┤
-│ Majority MUST work    │                             │ Rule by Majority MUST │
-│ with the Minority     │                             │ NOT become Rule by    │
-│ • Government view     │                             │ Majoritarianism       │
-│   must represent      │                             │ • Every citizen must  │
-│   overall interest    │                             │   have a chance to be │
-│ • Prevents tyranny    │                             │   in majority at some │
-│   and alienation      │                             │   time/issue          │
-└───────────────────────┘                             └───────────────────────┘
-```
-
-#### Two Mandatory Conditions for Accommodation
-To ensure that social diversity is peacefully accommodated, a democracy must fulfill two conditions:
-
-1. **The Majority Must Always Work with the Minority**:
-   * Majority rule should not mean the exclusive rule of the majority community.
-   * The majority government must represent the general views and interests of all citizens, including linguistic, religious, and caste minorities.
-2. **Rule by Majority Must Not Become Rule by Majoritarian Community**:
-   * "Rule by majority" means that in any decision or election, different groups and individuals can form a majority.
-   * It must remain possible for every citizen to be part of a majority on different issues at different times. If a person is permanently barred from being in the majority based on birth, religion, or caste (as seen in Sri Lanka), democratic accommodation breaks down.
-
----
-
-### 5. Dignity and Freedom of Citizens (*नागरिकों की गरिमा और आजादी*)
-
-Democracy stands far superior to any other form of government in promoting the dignity and freedom of every individual.
-
-#### A. Dignity of Women (*महिलाओं की गरिमा*)
-* **Historical Subjugation**: Most societies historically were male-dominated, patriarchal structures.
-* **Democratic Impact**: Long struggles by women have created sensitivity that respect for and equal treatment of women are necessary ingredients of a democratic society.
-* **Legal and Moral Basis**: Once the principle of gender equality is recognized democratically, it becomes easier for women to fight legally and culturally against wage gaps, domestic violence, and systemic bias. In a non-democratic system, the principle itself lacks legal standing.
-
-#### B. Dignity of Marginalized & Caste Groups (*जातिगत दावों की स्वीकृति*)
-* **Indian Context**: Democracy in India has strengthened the claims of disadvantaged and discriminated castes for equal status and equal opportunity.
-* **Transformative Effect**: While caste discrimination still persists in practice, it lacks moral and legal legitimacy in a democratic constitution. Citizens can invoke constitutional rights against discrimination.
-
-#### C. Continuous Evaluation: Democracy as an Ongoing Process
-* **Unique Feature of Democracy**: The most distinctive feature of democracy is that its examination never gets over.
-* **Ever-Increasing Expectations**: As people get some benefits of democracy, they ask for more and want to make democracy even better.
-* **Public Scrutiny**: The fact that people complain about governance is itself a testimony to the success of democracy. It transforms people from passive "subjects" into active, critical "citizens."
+│ • Answerable to │          │ • Attentive to  │          │ • People's own │\n│ citizens │ │ public needs │ government │\n│ • Deliberation &│ │ • Sensitive to │ │ • Free & fair │\n│ procedures │ │ demands │ elections │\n│ • Transparency │ │ • Free from │ │ • Constitutional│\n│ (RTI mechanism│ │ routine │ rule of law │\n│ & open debate)│ │ corruption │ │ • World-wide │\n└─────────────────\n```\n\n#### A. Accountable Government\n* **Definition**: An accountable government is answerable to its citizens for all decisions made and actions taken.\n* **Institutional Mechanisms**:\n  * Regular, free, and fair elections where voters can remove non-performing governments.\n  * Open public debates on major policies and legislations.\n  * Institutional transparency through mechanisms like the **Right to Information (RTI) Act**.\n* **Procedural Deliberation vs. Speed:\n  * *Dictatorships* do not bother with deliberation or public opinion, allowing them to make fast decisions. However, these decisions may be unacceptable to the public or deeply flawed.\n  * *Democracies* follow established norms and procedures (deliberation, voting, committee review). Though time-consuming, this process produces decisions that are more acceptable and effective.\n\n#### B. Responsive Government\n* **Definition**: A responsive government pays attention to the needs, aspirations, and demands of all its citizens, particularly minorities and vulnerable sections.\n* **Reality vs. Expectation**:\n  * Democracies often fall short of being fully responsive. Governments can be slow to react, bureaucratic, and at times insensitive to public demands.\n  * Routine corruption remains a persistent challenge in many democratic nations.\n  * However, non-democracies (monarchies, military regimes) are far less responsive, as they face no electoral pressure or public scrutiny.\n\n#### C. Legitimate Government (*Legitimate Government*)\n* **Definition**: A legitimate government is one that rules according to established constitutional procedures and possesses the legal and moral right to govern derived from the consent of the governed.\n* **Why Democracy Excels in Legitimacy**:\n  * A democratic government is **"people's own government."**\n  * Even if a democratic government is slow, inefficient, or flawed, it remains legitimate because it is elected by the people.\n  * Global survey data shows overwhelming support for democratic governance across South Asia, North America, and Europe compared to authoritarian alternatives.\n\n---\n\n### 3. Economic Outcomes: Growth, Inequality, and Poverty\n\n#### A. Economic Growth and Development (*Economic Growth and Development*)\n* **The Empirical Reality**: If we examine data from 1950 to 2000, dictatorships showed a slightly higher rate of economic growth compared to democracies.\n* **Contextual Factors**: Economic development depends on several factors besides the form of government:\n  1. Population size and demographic structure.\n  2. Global economic climate and international trade relations.\n  3. National priorities and capital investment in infrastructure/human resources.\n  4. Cooperation from other countries.\n* **Conclusion**: The growth rate difference between democracies and dictatorships is negligible. Democracy cannot guarantee high economic growth, but it ensures that growth is balanced with equity, fundamental rights, and political freedoms.\n\n#### B. Reduction of Economic Inequality and Poverty (*Reduction in Inequality and Poverty*)\n* **Expected vs. Actual Result**: Democracies are based on political equality (one person, one vote), so it is expected that they will reduce economic disparities. However, in practice, democracies have not been very successful in reducing economic inequalities.\n* **Key Patterns**:\n  * **Concentration of Wealth**: A small group of ultra-rich individuals enjoys a disproportionate share of wealth and income, while the bottom section struggles for basic needs (food, clothing, house, education, health).\n  * **Electoral Paradox of Poverty**: Poor voters constitute a large proportion of the electorate, and political parties depend on their votes. Yet, democratically elected governments often fail to address poverty with sufficient urgency.\n  * **Global Example (Bangladesh)**: More than half of its population lives in poverty, illustrating that democracy alone does not automatically eradicate extreme economic distress.\n\n---\n\n### 4. Accommodation of Social Diversity (*Accommodation of Social Diversity*)\n\nNo society can fully and permanently eliminate conflicts among different social groups. However, democracy provides the best framework for accommodating social, ethnic, linguistic, and religious diversity.\n\n```\n                    ┌───────────────────────────────────\n                    │ DEMOCRATIC ACCOMMODATION OF DIVERSITY│\n                    └─────────────────┬──────────────────\n                                       │\n            ┌────────────────────────\n            ▼▼\n┌───────────────────────\n│ CONDITION 1 │ │ CONDITION 2 │\n├───────────────────────\n│ Majority MUST work │ │ Rule by Majority MUST │\n│ with the Minority │ │ NOT become Rule by │\n│ • Government view │ │ Majoritarianism │\n│ must represent │ │ • Every citizen must │\n│ overall interest │ │ have a chance to be │\n│ • Prevents tyranny │ │ in majority at some │\n│ and alienation │ │ time/issue │\n└─────────────────────┘\n```\n\n#### Two Mandatory Conditions for Accommodation\nTo ensure that social diversity is peacefully accommodated, a democracy must fulfill two conditions:\n\n1. **The Majority Must Always Work with the Minority**:\n   * Majority rule should not mean the exclusive rule of the majority community.\n   * The majority government must represent the general views and interests of all citizens, including linguistic, religious, and caste minorities.\n2. **Rule by Majority Must Not Become Rule by Majoritarian Community**:\n   *"Rule by majority"means that in any decision or election, different groups and individuals can form a majority.\n   * It must remain possible for every citizen to be part of a majority on different issues at different times. If a person is permanently barred from being in the majority based on birth, religion, or caste (as seen in Sri Lanka), democratic accommodation breaks down.\n\n---\n\n### 5. Dignity and Freedom of Citizens\n\nDemocracy stands far superior to any other form of government in promoting the dignity and freedom of every individual.\n\n#### A. Dignity of Women\n* **Historical Subjugation**: Most societies historically were male-dominated, patriarchal structures.\n*Democratic **Impact**: Long struggles by women have created sensitivity that respect for and equal treatment of women are necessary ingredients of a democratic society.\n* **Legal and Moral Basis**: Once the principle of gender equality is recognized democratically, it becomes easier for women to fight legally and culturally against wage gaps, domestic violence, and systemic bias. In a non-democratic system, the principle itself lacks legal standing.\n\n#### B. Dignity of Marginalized & Caste Groups (*Acceptance of caste claims*)\n* **Indian Context**: Democracy in India has strengthened the claims of disadvantaged and discriminated castes for equal status and equal opportunity.\n* **Transformative Effect**: While caste discrimination still persists in practice, it lacks moral and legal legitimacy in a democratic constitution. Citizens can invoke constitutional rights against discrimination.\n\n#### C. Continuous Evaluation: Democracy as an Ongoing Process\n* **Unique Feature of Democracy**: The most distinctive feature of democracy is that its examination never gets over.\n* **Ever-Increasing Expectations**: As people get some benefits of democracy, they ask for more and want to make democracy even better.\n* **Public Scrutiny**: The fact that people complain about governance is itself a testimony to the success of democracy. It transforms people from passive"subjects" into active, critical "citizens."
 
 ---
 
@@ -190,63 +82,7 @@ Democracy stands far superior to any other form of government in promoting the d
 | :--- | :--- | :--- |
 | **Decision-Making Process** | Based on deliberation, debate, norms, and consensus; slower but accepted. | Fast and decisive; not bound by public opinion or procedure; often unacceptable. |
 | **Accountability & Transparency** | High; governments must answer to parliament, courts, press, and voters via RTI. | Low/Nil; no public scrutiny, open debate, or right to information. |
-| **Legitimacy** | High; elected through popular vote ("people's own government"). | Low; based on force, hereditary right, or military power. |
-| **Economic Growth Rate (1950–2000)** | Slightly lower / comparable (depends on population, trade, global climate). | Marginally higher in some cases, but with extreme internal instability. |
-| **Distribution of Wealth** | Struggles with inequality, but provides constitutional rights to protest. | High inequality; economic decisions dictated without welfare checks. |
-| **Handling Social Diversity** | Provides institutional mechanisms to negotiate differences peacefully. | Suppresses internal ethnic/social differences by force or majoritarianism. |
-| **Individual Freedom & Dignity** | Guarantees fundamental rights, equality of women, and minority rights. | Individual rights are subordinate to the ruler or state control. |
-
----
-
-## Verified Previous-Year Board Questions (PYQs)
-
-### 1. BSER Official Model Paper 2026–27 (Subject Code: 08)
-**Q1. Multiple Choice Question [1 Mark]**
-* **Question**: In which form of governance is the dignity and freedom of the individual most secure?
-  *(अ) लोकतांत्रिक शासन (ब) राजतंत्रात्मक शासन (स) तानाशाही शासन (द) सीमित राजतंत्रात्मक शासन*
-  In which governance system is individual dignity most secure?
-  (A) Democratic Governance (B) Monarchical Governance (C) Dictatorial Governance (D) Limited Monarchy
-* **Answer**: **(A) Democratic Governance / लोकतांत्रिक शासन** [1 Mark]
-
-**Q2. Very Short Answer Question [2 Marks]**
-* **Question**: Give any two examples which show that democracy is the best form of governance. (*लोकतंत्र को सबसे बेहतर शासन व्यवस्था बताने वाले कोई दो उदाहरण दीजिए।*)
-* **Model Answer**:
-  1. **Promotes Equality and Individual Dignity**: Democracy guarantees equal voting rights to all adult citizens and protects the dignity of marginalized groups and women through fundamental rights [1 Mark].
-  2. **Provides Room to Correct Mistakes**: Unlike dictatorships, democracy follows constitutional procedures, allowing public debate, judicial review, and election-based government change to rectify wrong decisions [1 Mark].
-
----
-
-### 2. BSER Secondary Main Examination 2024 (S-08)
-**Q1. Short Answer Question [2 Marks]**
-* **Question**: What conditions are necessary to be fulfilled for accommodation of social diversities in democracy? Explain any two conditions. (*लोकतंत्र में सामाजिक विविधताओं के सामंजस्य हेतु किन शर्तों को पूरा किया जाना आवश्यक है? किन्हीं दो शर्तों को स्पष्ट कीजिए।*)
-* **Model Answer**:
-  1. **Majority Must Work with Minority**: Democracy is not simply rule by the majority. The majority must always work with the minority so that governments represent the general interest of all citizens rather than a single group [1 Mark].
-  2. **Rule by Majority Must Not Become Majoritarianism**: Rule by majority means that different persons and groups can form a majority in different decisions. If any citizen is permanently barred from being in the majority based on religion, caste, or language, democratic accommodation fails [1 Mark].
-
----
-
-### 3. BSER Secondary Main Examination 2023 (S-08)
-**Q1. Short Answer Question [2 Marks]**
-* **Question**: You consider democracy to be accountable, responsive, and legitimate government. Briefly explain why? (*आप लोकतंत्र को उत्तरदायी, जिम्मेदार और वैध शासन मानते हैं। संक्षेप में बताइए क्यों?*)
-* **Model Answer**:
-  * **Accountable & Responsive**: A democratic government is elected by the people and bound by constitutional procedures. It must answer to citizens, parliament, and the press, while responding to public demands and needs [1 Mark].
-  * **Legitimate**: Democracy is "people's own government." It derives its legal authority from free and fair elections, giving it moral and legal legitimacy that dictatorships lack [1 Mark].
-
----
-
-### 4. BSER Secondary Main Examination 2022 (S-08)
-**Q1. Short Answer Question [2 Marks]**
-* **Question**: How does democracy enhance the dignity and freedom of citizens? (*लोकतंत्र नागरिकों की गरिमा और स्वतंत्रता को किस प्रकार बढ़ाता है?*)
-* **Model Answer**:
-  * Democracy recognizes individual liberty and equality as fundamental principles. It provides a legal and moral basis for women, lower castes, and minority groups to fight against historical discrimination and demand equal rights and respect [2 Marks].
-
----
-
-## Practice Bank & Original Predicted Questions
-
-### Short Answer Practice Questions (2 to 3 Marks)
-
-#### Question 1: "Transparency is a key feature of democratic decision-making." Explain the statement. (2 Marks)
+| **Legitimacy** high; elected through popular vote ("people's own government"). | low; based on force, hereditary right, or military power. |\n| **Economic Growth Rate (1950–2000)** | Slightly lower / comparable (depends on population, trade, global climate). | Marginally higher in some cases, but with extreme internal instability. |\n| **Distribution of Wealth** | Struggles with inequality, but provides constitutional rights to protest. | High inequality; economic decisions dictated without welfare checks. |\n| **Handling Social Diversity** | Provides institutional mechanisms to negotiate differences peacefully. | Suppresses internal ethnic/social differences by force or majoritarianism. |\n| **Individual Freedom & Dignity** | Guarantees fundamental rights, equality of women, and minority rights. | Individual rights are subordinate to the ruler or state control. |\n\n---\n\n## Verified Previous-Year Board Questions (PYQs)\n\n### 1. BSER Official Model Paper 2026–27 (Subject Code: 08)\n**Q1. Multiple Choice Question [1 Mark]**\n* **Question**: In which form of governance is the dignity and freedom of the individual most secure?\n *(a) Democratic rule (b) Monarchical rule (c) Dictatorship rule (d) Limited monarchical rule*\n In which governance system is individual dignity most secure?\n (A) Democratic Governance (B) Monarchical Governance (C) Dictatorial Governance (D) Limited Monarchy\n* **Answer**: **(A) Democratic Governance** [1 Mark]\n\n**Q2. Very Short Answer Question [2 Marks]**\n* **Question**: Give any two examples which show that democracy is the best form of governance. (*Give any two examples which show that democracy is the best form of governance.*)\n* **Model Answer**:\n 1. **Promotes Equality and Individual Dignity**: Democracy guarantees equal voting rights to all adult citizens and protects the dignity of marginalized groups and women through fundamental rights [1 Mark].\n 2. **Provides Room to Correct Mistakes**: Unlike dictatorships, democracy follows constitutional procedures, allowing public debate, judicial review, and election-based government change to rectify wrong decisions [1 Mark].\n\n---\n\n### 2. BSER Secondary Main Examination 2024 (S-08)\n**Q1. Short Answer Question [2 Marks]**\n* **Question**: What conditions are necessary to be fulfilled for accommodation of social diversities in democracy? Explain any two conditions. (*What conditions are necessary to be fulfilled for the harmony of social diversities in democracy? Explain any two conditions.*)\n* **Model Answer**:\n 1. **Majority Must Work with Minority**: Democracy is not simply rule by the majority. The majority must always work with the minority so that governments represent the general interest of all citizens rather than a single group [1 Mark].\n 2. **Rule by Majority Must Not Become Majoritarianism**: Rule by majority means that different persons and groups can form a majority in different decisions. If any citizen is permanently barred from being in the majority based on religion, caste, or language, democratic accommodation fails [1 Mark].\n\n---\n\n### 3. BSER Secondary Main Examination 2023 (S-08)\n**Q1. Short Answer Question [2 Marks]**\n* **Question**: You consider democracy to be accountable, responsive, and legitimate government. Briefly explain why? (*You consider democracy to be a responsible, accountable and legitimate form of governance. Briefly explain why?*)\n* **Model Answer**:\n * **Accountable & Responsive**: A democratic government is elected by the people and bound by constitutional procedures. It must answer to citizens, parliament, and the press, while responding to public demands and needs [1 Mark].\n * **Legitimate**: Democracy is "people's own government." It derives its legal authority from free and fair elections, giving it moral and legal legitimacy that dictatorships lack [1 Mark].\n\n---\n\n### 4. BSER Secondary Main Examination 2022 (S-08)\n**Q1. Short Answer Question [2 Marks]**\n* **Question**: How does democracy enhance the dignity and freedom of citizens? (*How does democracy enhance the dignity and freedom of citizens?*)\n* **Model Answer**:\n * Democracy recognizes individual liberty and equality as fundamental principles. It provides a legal and moral basis for women, lower castes, and minority groups to fight against historical discrimination and demand equal rights and respect [2 Marks]. Explain the statement. (2 Marks)
 * **Model Answer**:
   1. Transparency means that a citizen has the right and the means to examine the process through which a decision was taken by the government [1 Mark].
   2. In a democracy, decisions are made following established rules and norms. Institutional mechanisms like the Right to Information (RTI) Act allow citizens to inspect government records and hold officials accountable [1 Mark].

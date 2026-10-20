@@ -1,0 +1,26 @@
+const SST_CHAPTERS = [
+  { id: 'social-science-1', title: 'The Rise of Nationalism in Europe', section: 'History', sort_order: 1 },
+  { id: 'social-science-2', title: 'Nationalism in India', section: 'History', sort_order: 2 },
+  { id: 'social-science-3', title: 'The Making of a Global World', section: 'History', sort_order: 3 },
+  { id: 'social-science-4', title: 'The Age of Industrialisation', section: 'History', sort_order: 4 },
+  { id: 'social-science-5', title: 'Print Culture and the Modern World', section: 'History', sort_order: 5 },
+  { id: 'social-science-6', title: 'Resources and Development', section: 'Geography', sort_order: 6 },
+  { id: 'social-science-7', title: 'Forest and Wildlife Resources', section: 'Geography', sort_order: 7 },
+  { id: 'social-science-8', title: 'Water Resources', section: 'Geography', sort_order: 8 },
+  { id: 'social-science-9', title: 'Agriculture', section: 'Geography', sort_order: 9 },
+  { id: 'social-science-10', title: 'Minerals and Energy Resources', section: 'Geography', sort_order: 10 },
+  { id: 'social-science-11', title: 'Manufacturing Industries', section: 'Geography', sort_order: 11 },
+  { id: 'social-science-12', title: 'Lifelines of National Economy', section: 'Geography', sort_order: 12 },
+  { id: 'social-science-13', title: 'Power Sharing', section: 'Civics', sort_order: 13 },
+  { id: 'social-science-14', title: 'Federalism', section: 'Civics', sort_order: 14 },
+  { id: 'social-science-15', title: 'Gender, Religion and Caste', section: 'Civics', sort_order: 15 },
+  { id: 'social-science-16', title: 'Political Parties', section: 'Civics', sort_order: 16 },
+  { id: 'social-science-17', title: 'Outcomes of Democracy', section: 'Civics', sort_order: 17 },
+  { id: 'social-science-18', title: 'Development', section: 'Economics', sort_order: 18 },
+  { id: 'social-science-19', title: 'Sectors of the Indian Economy', section: 'Economics', sort_order: 19 },
+  { id: 'social-science-20', title: 'Money and Credit', section: 'Economics', sort_order: 20 },
+  { id: 'social-science-21', title: 'Globalisation and the Indian Economy', section: 'Economics', sort_order: 21 },
+  { id: 'social-science-22', title: 'Consumer Rights', section: 'Economics', sort_order: 22 },
+];
+
+module.exports = { SST_CHAPTERS };

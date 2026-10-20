@@ -21,6 +21,19 @@ export function useQuestions(filter = {}) {
   useEffect(() => {
     let active = true
 
+    const getLocalQuestions = () => {
+      let filtered = VERIFIED_QUESTIONS_POOL
+      if (subjectId) filtered = filtered.filter((q) => q.subject_id === subjectId)
+      if (chapterId) filtered = filtered.filter((q) => q.chapter_id === chapterId)
+      if (questionType && questionType !== 'all') filtered = filtered.filter((q) => q.question_type === questionType)
+      if (difficulty && difficulty !== 'all') filtered = filtered.filter((q) => (q.difficulty || '').toLowerCase() === difficulty.toLowerCase())
+      if (priority && priority !== 'all') filtered = filtered.filter((q) => (q.priority || '').toLowerCase() === priority.toLowerCase())
+      if (isPyq !== undefined) filtered = filtered.filter((q) => Boolean(q.is_pyq) === Boolean(isPyq))
+      if (isPredicted !== undefined) filtered = filtered.filter((q) => Boolean(q.is_predicted) === Boolean(isPredicted))
+      if (marks && marks !== 'all') filtered = filtered.filter((q) => String(q.marks) === String(marks))
+      return filtered
+    }
+
     async function fetchQuestions() {
       setLoading(true)
       setError(null)
@@ -38,41 +51,18 @@ export function useQuestions(filter = {}) {
           if (isPredicted !== undefined) query = query.eq('is_predicted', isPredicted)
 
           const { data, error: dbError } = await query
-          if (!dbError && data && data.length > 0) {
+          if (!dbError && (data || []).length > 0) {
             if (active) {
-              setQuestions(data)
+              const merged = new Map((data || []).map((question) => [question.id, question]))
+              getLocalQuestions().forEach((question) => merged.set(question.id, question))
+              setQuestions([...merged.values()])
               setLoading(false)
             }
             return
           }
         }
 
-        // Local verified dataset fallback
-        let filtered = [...VERIFIED_QUESTIONS_POOL]
-        if (subjectId) {
-          filtered = filtered.filter((q) => q.subject_id === subjectId)
-        }
-        if (chapterId) {
-          filtered = filtered.filter((q) => q.chapter_id === chapterId)
-        }
-        if (questionType && questionType !== 'all') {
-          filtered = filtered.filter((q) => q.question_type === questionType)
-        }
-        if (difficulty && difficulty !== 'all') {
-          filtered = filtered.filter((q) => (q.difficulty || '').toLowerCase() === difficulty.toLowerCase())
-        }
-        if (priority && priority !== 'all') {
-          filtered = filtered.filter((q) => (q.priority || '').toLowerCase() === priority.toLowerCase())
-        }
-        if (isPyq !== undefined) {
-          filtered = filtered.filter((q) => Boolean(q.is_pyq) === Boolean(isPyq))
-        }
-        if (isPredicted !== undefined) {
-          filtered = filtered.filter((q) => Boolean(q.is_predicted) === Boolean(isPredicted))
-        }
-        if (marks && marks !== 'all') {
-          filtered = filtered.filter((q) => String(q.marks) === String(marks))
-        }
+        const filtered = getLocalQuestions()
 
         if (active) {
           setQuestions(filtered)

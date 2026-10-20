@@ -1,6 +1,6 @@
 # BoardReady SST Master Chapter Content
 ## RBSE Class 10 Social Science (Geography) — Academic Session 2026–27 (2027 Examination)
-### Chapter ID: sst-10 | Discipline: Geography | Chapter Title: Minerals and Energy Resources (खनिज तथा ऊर्जा संसाधन)
+### Chapter ID: sst-10 | Discipline: Geography | Chapter Title: Minerals and Energy Resources
 
 ---
 
@@ -8,10 +8,10 @@
 
 ### A. Official Examination Metadata
 * **Board Authority**: Board of Secondary Education, Rajasthan (BSER / RBSE), Ajmer
-* **Subject**: Social Science (सामाजिक विज्ञान)
+* **Subject**: Social Science
 * **Subject Code**: 08
 * **Discipline**: Geography (*Contemporary India – II*)
-* **Chapter Title**: Minerals and Energy Resources (खनिज तथा ऊर्जा संसाधन)
+* **Chapter Title**: Minerals and Energy Resources
 * **Working List Chapter ID**: `sst-10` (Geography Unit Chapter 5)
 * **Academic Session**: 2026–2027
 * **Target Examination**: 2027 Secondary Board Examination (Class 10)

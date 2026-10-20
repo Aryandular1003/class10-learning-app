@@ -5,42 +5,51 @@
  *   node backend/scripts/seed-supabase.js
  * 
  * Requires:
- *   SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY (or VITE_SUPABASE_URL and VITE_SUPABASE_PUBLISHABLE_KEY)
+ *   SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY
  *   in frontend/.env or as environment variables.
  */
 
 const fs = require('fs');
 const path = require('path');
-const { createClient } = require('@supabase/supabase-js');
+let createClient;
+try {
+  createClient = require('@supabase/supabase-js').createClient;
+} catch (e) {
+  createClient = require('../../frontend/node_modules/@supabase/supabase-js').createClient;
+}
 
-// Load environment variables from frontend/.env or .env
+// Load environment variables from frontend/.env.local, frontend/.env or .env
 function loadEnv() {
-  const envPath = path.resolve(__dirname, '../../frontend/.env');
-  if (fs.existsSync(envPath)) {
-    const lines = fs.readFileSync(envPath, 'utf8').split('\n');
-    lines.forEach((line) => {
-      const match = line.match(/^\s*([\w.-]+)\s*=\s*(.*)?\s*$/);
-      if (match) {
-        const key = match[1];
-        let val = match[2] || '';
-        val = val.replace(/^['"](.*)['"]$/, '$1').trim();
-        if (!process.env[key]) {
-          process.env[key] = val;
+  ['../../frontend/.env.local', '../../frontend/.env', '../.env'].forEach((rel) => {
+    const envPath = path.resolve(__dirname, rel);
+    if (fs.existsSync(envPath)) {
+      const lines = fs.readFileSync(envPath, 'utf8').split('\n');
+      lines.forEach((line) => {
+        const match = line.match(/^\s*([\w.-]+)\s*=\s*(.*)?\s*$/);
+        if (match) {
+          const key = match[1];
+          let val = match[2] || '';
+          val = val.replace(/^['"](.*)['"]$/, '$1').trim();
+          if (!process.env[key]) {
+            process.env[key] = val;
+          }
         }
-      }
-    });
-  }
+      });
+    }
+  });
 }
 
 loadEnv();
 
 const supabaseUrl = process.env.SUPABASE_URL || process.env.VITE_SUPABASE_URL;
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.VITE_SUPABASE_PUBLISHABLE_KEY;
+// Seeding protected tables requires the server-side service-role key. Never
+// silently fall back to the browser publishable key; RLS would reject writes.
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
 if (!supabaseUrl || !supabaseKey || supabaseUrl.includes('your-project')) {
   console.log('\n[INFO] Supabase credentials not found in frontend/.env or environment.');
   console.log('To push content live to Supabase:');
-  console.log('  1. Add VITE_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY to frontend/.env');
+  console.log('  1. Add SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY to frontend/.env.local');
   console.log('  2. Run: node backend/scripts/seed-supabase.js\n');
   console.log('Validation: Local questions pool is already built and fully functional offline!');
   process.exit(0);
@@ -51,6 +60,8 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 const SST_POOL = require('../../frontend/src/data/socialScienceQuestions.js').SOCIAL_SCIENCE_QUESTIONS_POOL;
 const { MATH_CHAPTERS, MATH_PREDICTED_QUESTIONS } = require('../../frontend/src/data/mathContent.js');
 const { SCIENCE_CHAPTERS } = require('../../frontend/src/data/scienceContent.js');
+const { ENGLISH_CHAPTERS, ENGLISH_QUESTIONS_POOL } = require('../../frontend/src/data/englishContent.js');
+const { PDF_PREDICTED_QUESTIONS } = require('../../frontend/src/data/pdfPredictedQuestions.js');
 
 const SST_CHAPTERS = [
   { id: 'social-science-1', title: 'The Rise of Nationalism in Europe', section: 'History', sort_order: 1 },
@@ -78,6 +89,7 @@ const SST_CHAPTERS = [
 ];
 
 async function seed() {
+  let writeErrors = 0;
   console.log('Connecting to Supabase at:', supabaseUrl);
 
   // 1. Upsert Subject
@@ -88,10 +100,10 @@ async function seed() {
     { id: 'english', label: 'English', emoji: '📖' },
   ], { onConflict: 'id' });
 
-  if (subjErr) console.warn('Subject upsert warning:', subjErr.message);
+  if (subjErr) { writeErrors += 1; console.warn('Subject upsert warning:', subjErr.message); }
 
-  // 2. Upsert Chapters (SST + Math + Science)
-  console.log('Upserting all chapters (22 SST + 14 Math + 13 Science)...');
+  // 2. Upsert Chapters (SST + Math + Science + English)
+  console.log('Upserting all chapters (22 SST + 14 Math + 13 Science + 22 English = 71 Chapters)...');
   const chaptersPayload = [
     ...SST_CHAPTERS.map(c => ({
       id: c.id,
@@ -114,12 +126,19 @@ async function seed() {
       section: c.meta || 'Core',
       sort_order: c.num,
     })),
+    ...ENGLISH_CHAPTERS.map(c => ({
+      id: c.id,
+      subject_id: 'english',
+      title: c.title,
+      section: c.meta || 'Literature',
+      sort_order: c.num,
+    })),
   ];
   const { error: chErr } = await supabase.from('chapters').upsert(chaptersPayload, { onConflict: 'id' });
-  if (chErr) console.warn('Chapters upsert warning:', chErr.message);
+  if (chErr) { writeErrors += 1; console.warn('Chapters upsert warning:', chErr.message); }
 
-  // 3. Upsert Questions (SST + Math Predicted)
-  const ALL_QUESTIONS = [...SST_POOL, ...(MATH_PREDICTED_QUESTIONS || [])];
+  // 3. Upsert Questions (SST + Math + English)
+  const ALL_QUESTIONS = [...SST_POOL, ...(MATH_PREDICTED_QUESTIONS || []), ...ENGLISH_QUESTIONS_POOL, ...(PDF_PREDICTED_QUESTIONS || [])];
   console.log(`Upserting ${ALL_QUESTIONS.length} questions across subjects...`);
   const chunkSize = 50;
   for (let i = 0; i < ALL_QUESTIONS.length; i += chunkSize) {
@@ -147,12 +166,16 @@ async function seed() {
     }));
 
     const { error: qErr } = await supabase.from('questions').upsert(chunk, { onConflict: 'id' });
-    if (qErr) console.warn(`Batch ${i / chunkSize} error:`, qErr.message);
+    if (qErr) { writeErrors += 1; console.warn(`Batch ${i / chunkSize} error:`, qErr.message); }
   }
 
+  if (writeErrors > 0) {
+    throw new Error(`Seeding finished with ${writeErrors} failed write operation(s).`);
+  }
   console.log('Seeding completed successfully!');
 }
 
 seed().catch(err => {
   console.error('Seeding failed:', err);
+  process.exitCode = 1;
 });

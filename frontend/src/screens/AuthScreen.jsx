@@ -5,9 +5,11 @@ import { useAuth } from '../hooks/useAuth'
 
 export default function AuthScreen() {
   const { theme, toggleTheme } = useTheme()
-  const { signIn, signUp, authNotice, clearAuthNotice } = useAuth()
+  const { signIn, signUp, sendLoginOtp, verifyLoginOtp, authNotice, clearAuthNotice } = useAuth()
   const location = useLocation()
   const [mode, setMode] = useState('sign-in')
+  const [otpSent, setOtpSent] = useState(false)
+  const [otp, setOtp] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [message, setMessage] = useState(null)
@@ -21,10 +23,21 @@ export default function AuthScreen() {
     setBusy(true)
     setMessage(null)
     clearAuthNotice?.()
-    const action = mode === 'sign-in' ? signIn : signUp
-    const result = await action(email.trim(), password)
+    const normalizedEmail = email.trim().toLowerCase()
+    const result = mode === 'forgot'
+      ? otpSent ? await verifyLoginOtp(normalizedEmail, otp.trim()) : await sendLoginOtp(normalizedEmail)
+      : await (mode === 'sign-in' ? signIn : signUp)(normalizedEmail, password)
     setBusy(false)
     if (result?.error) {
+      const errorText = result.error.message?.toLowerCase() || ''
+      const isDuplicateEmail = result.error.code === 'user_already_registered'
+        || result.error.code === 'email_exists'
+        || errorText.includes('already registered')
+        || errorText.includes('already exists')
+      if (isDuplicateEmail) {
+        setMessage({ type: 'error', text: 'This email is already registered. Please sign in or use Forgot password to receive an OTP.' })
+        return
+      }
       const isRateLimited = result.error.code === 'over_email_send_rate_limit'
         || result.error.status === 429
         || result.error.message?.toLowerCase().includes('rate limit')
@@ -33,7 +46,10 @@ export default function AuthScreen() {
         : { type: 'error', text: result.error.message })
       return
     }
-    if (mode === 'sign-up') {
+    if (mode === 'forgot' && !otpSent) {
+      setOtpSent(true)
+      setMessage({ type: 'success', text: 'A one-time login code has been sent. Enter it below to sign in.' })
+    } else if (mode === 'sign-up') {
       setMode('sign-in')
       setMessage({ type: 'success', text: 'Account created. Verify your email, then use the Sign in button below.' })
     }
@@ -57,10 +73,14 @@ export default function AuthScreen() {
             <label htmlFor="auth-email" className="block text-sm font-semibold mb-1">Email</label>
             <input id="auth-email" type="email" required value={email} onChange={(event) => setEmail(event.target.value)} className="w-full min-h-[44px] rounded-btn border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-900 px-3 text-sm" autoComplete="email" />
           </div>
-          <div>
+          {mode !== 'forgot' && <div>
             <label htmlFor="auth-password" className="block text-sm font-semibold mb-1">Password</label>
             <input id="auth-password" type="password" required minLength={6} value={password} onChange={(event) => setPassword(event.target.value)} className="w-full min-h-[44px] rounded-btn border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-900 px-3 text-sm" autoComplete={mode === 'sign-in' ? 'current-password' : 'new-password'} />
-          </div>
+          </div>}
+          {mode === 'forgot' && otpSent && <div>
+            <label htmlFor="auth-otp" className="block text-sm font-semibold mb-1">One-time code</label>
+            <input id="auth-otp" inputMode="numeric" autoComplete="one-time-code" required minLength={6} maxLength={8} value={otp} onChange={(event) => setOtp(event.target.value.replace(/\D/g, ''))} className="w-full min-h-[44px] rounded-btn border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-900 px-3 text-sm tracking-[0.3em]" placeholder="Enter OTP" />
+          </div>}
           {activeNotice && !message && (
             <div className="rounded-btn border p-3 border-amber-200 bg-amber-50 dark:border-amber-900/60 dark:bg-amber-950/30" role="alert">
               <div className="flex items-start gap-2.5">
@@ -87,10 +107,11 @@ export default function AuthScreen() {
             </div>
           )}
           <button type="submit" disabled={busy} className="w-full min-h-[44px] rounded-btn bg-teal-700 text-white text-sm font-semibold disabled:opacity-60">
-            {busy ? 'Please wait…' : mode === 'sign-in' ? 'Sign in' : 'Create account'}
+            {busy ? 'Please wait…' : mode === 'forgot' ? otpSent ? 'Verify OTP and sign in' : 'Send login OTP' : mode === 'sign-in' ? 'Sign in' : 'Create account'}
           </button>
+          {mode === 'sign-in' && <button type="button" onClick={() => { setMode('forgot'); setOtpSent(false); setOtp(''); setMessage(null) }} className="w-full text-xs font-semibold text-amber-700 dark:text-amber-400">Forgot password? Sign in with OTP</button>}
           <button type="button" onClick={() => { setMode(mode === 'sign-in' ? 'sign-up' : 'sign-in'); setMessage(null); clearAuthNotice?.() }} className="w-full text-xs font-semibold text-teal-700 dark:text-teal-400">
-            {mode === 'sign-in' ? 'New here? Create an account' : 'Already have an account? Sign in'}
+            {mode === 'sign-in' ? 'New here? Create an account' : 'Back to sign in'}
           </button>
         </form>
       </main>

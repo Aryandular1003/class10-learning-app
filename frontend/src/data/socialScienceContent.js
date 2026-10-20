@@ -31,13 +31,15 @@ export function getSocialScienceSource(chapterId) {
   return SOCIAL_SCIENCE_CONTENT.find((item) => item.chapterId === chapterId) || null
 }
 
-export function parseSocialScienceMarkdown(markdown, chapter) {
+// Shared Markdown parser. The original name is kept for backwards
+// compatibility, but the parser is used by every subject's chapter notes.
+export function parseMarkdownContent(markdown, chapter, subject = 'Social Science', unit = null, sourceFile = null) {
   const lines = markdown.replace(/\r\n/g, '\n').split('\n')
   const sections = []
   let current = null
   const pushCurrent = () => {
     if (current && (current.content.trim() || current.heading)) {
-      current.content = current.content.trim()
+      current.content = current.content.replace(/\*\*/g, '').trim()
       sections.push(current)
     }
   }
@@ -57,11 +59,13 @@ export function parseSocialScienceMarkdown(markdown, chapter) {
   const title = lines.find((line) => /^#\s+/.test(line))?.replace(/^#\s+/, '').trim() || chapter.name
   return {
     title,
-    subject: 'Social Science',
-    unit: getSocialScienceSource(chapter.id)?.unit,
+    subject,
+    unit: unit || getSocialScienceSource(chapter.id)?.unit,
     weight: chapter.weight,
     readTime: '15 mins',
     sections: sections.length ? sections : [{ heading: 'Complete Chapter Content', content: markdown }],
-    sourceFile: getSocialScienceSource(chapter.id)?.file,
+    sourceFile: sourceFile || getSocialScienceSource(chapter.id)?.file,
   }
 }
+
+export const parseSocialScienceMarkdown = parseMarkdownContent

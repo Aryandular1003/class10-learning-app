@@ -1,11 +1,10 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { useTheme } from '../theme/useTheme'
 import { useStudy } from '../hooks/useStudy'
 import { useAuth } from '../hooks/useAuth'
 import { toDateKey } from '../data/appData'
 import {
   FireIcon,
-  ClockIcon,
   BookOpenIcon,
   ChevronRightIcon,
   SparklesIcon,
@@ -142,33 +141,9 @@ function UnlockTeaser({ onOpenPreview }) {
 export default function HomeDashboard({ onOpenChapterNotes, onOpenLockedNotes, onNavigate }) {
   const { theme, toggleTheme } = useTheme()
   const { profile } = useAuth()
-  const { chapters, studyState, completedCount, monthlyPct, currentStreak, subjectDefinition, subjects, activeSubject, setActiveSubject, setBoardExamDate } = useStudy()
+  const { chapters, studyState, completedCount, monthlyPct, currentStreak, subjectDefinition, subjects, activeSubject, setActiveSubject } = useStudy()
   const [activeModal, setActiveModal] = useState(null)
   const [showNotifications, setShowNotifications] = useState(false)
-  const [showExamDateEditor, setShowExamDateEditor] = useState(false)
-  const [examDateDraft, setExamDateDraft] = useState(studyState.boardExamDate || '')
-  const [now, setNow] = useState(() => new Date())
-
-  useEffect(() => {
-    const timer = window.setInterval(() => setNow(new Date()), 60 * 1000)
-    return () => window.clearInterval(timer)
-  }, [])
-
-  useEffect(() => {
-    setExamDateDraft(studyState.boardExamDate || '')
-  }, [studyState.boardExamDate])
-
-  const boardExamDate = studyState.boardExamDate || ''
-  const examDate = boardExamDate ? new Date(`${boardExamDate}T23:59:59`) : null
-  const daysToExam = examDate ? Math.max(0, Math.ceil((examDate.getTime() - now.getTime()) / 86400000)) : null
-  const examDateLabel = examDate
-    ? examDate.toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })
-    : null
-
-  const saveExamDate = () => {
-    setBoardExamDate(examDateDraft)
-    setShowExamDateEditor(false)
-  }
 
   const streakDays = currentStreak
   const displayName = profile?.full_name || profile?.display_name || 'Student'
@@ -233,63 +208,41 @@ export default function HomeDashboard({ onOpenChapterNotes, onOpenLockedNotes, o
 
       <main className="max-w-2xl mx-auto px-4 pb-44">
         <SubjectSwitcher subjects={subjects} activeSubject={activeSubject} onChange={setActiveSubject} />
-        {/* ── Greeting + Countdown ── */}
+        {/* ── Greeting + Animated Study Momentum ── */}
         <section className="pt-6 pb-4">
           <p className="text-sm text-stone-500 dark:text-stone-400 font-medium mb-0.5">Good evening 👋</p>
           <h1 className="text-3xl font-bold text-stone-900 dark:text-stone-100 leading-tight">
             Hey, {displayName}!
           </h1>
-          <div className="mt-4 bg-amber-gradient rounded-card p-5 shadow-amber text-white">
-            <div className="flex items-start justify-between">
-              <div>
-                <Badge variant="stone" className="bg-white/20 text-white font-semibold backdrop-blur-sm">RBSE Board Exam</Badge>
-                <div className="flex items-baseline gap-2 mt-2">
-                  <span className="text-4xl font-extrabold tracking-tight">{daysToExam ?? '—'}</span>
-                  <span className="text-lg font-semibold text-amber-100">{daysToExam === null ? 'set paper date' : 'days until paper'}</span>
+          <div className="mt-4 relative overflow-hidden bg-amber-gradient rounded-card p-5 shadow-amber text-white">
+            <div className="absolute -right-8 -top-10 h-32 w-32 rounded-full bg-white/10 animate-pulse" />
+            <div className="absolute right-20 bottom-3 h-3 w-3 rounded-full bg-amber-200/70 animate-bounce" />
+            <div className="absolute right-8 top-20 h-2 w-2 rounded-full bg-white/80 animate-ping" />
+            <div className="relative flex items-center gap-4">
+              <div className="relative h-24 w-24 shrink-0 rounded-full p-2 bg-white/15" style={{ background: `conic-gradient(#fff ${Math.min(monthlyPct, 100)}%, rgba(0,0,0,.18) 0)` }}>
+                <div className="flex h-full w-full flex-col items-center justify-center rounded-full bg-amber-600/80 backdrop-blur-sm">
+                  <span className="text-2xl font-extrabold">{completedCount}</span>
+                  <span className="text-[10px] font-semibold text-amber-100">chapters done</span>
                 </div>
-                <p className="text-amber-100 text-xs mt-1 font-medium">
-                  {examDateLabel ? `RBSE paper: ${examDateLabel}` : 'Add the RBSE board paper date to start the countdown.'}
-                </p>
               </div>
-              <div className="flex-shrink-0 bg-white/10 p-2.5 rounded-2xl backdrop-blur-sm">
-                <ClockIcon className="w-10 h-10 text-amber-100" />
+              <div className="min-w-0">
+                <Badge variant="stone" className="bg-white/20 text-white font-semibold backdrop-blur-sm">Study Momentum</Badge>
+                <h2 className="mt-2 text-xl font-extrabold tracking-tight">Keep your streak moving ✨</h2>
+                <p className="mt-1 text-xs font-medium text-amber-100">{subjectDefinition.label} progress is building one chapter at a time.</p>
               </div>
             </div>
-            <div className="mt-4 pt-3 border-t border-white/20">
-              <div className="flex justify-between text-xs text-amber-100 font-medium mb-1.5">
-                <span>Monthly Revision Goal</span>
-                <span>{studyState.monthlyDays} / {studyState.monthlyGoal} days completed</span>
+            <div className="relative mt-4 border-t border-white/20 pt-3">
+              <div className="mb-1.5 flex justify-between text-xs font-medium text-amber-100">
+                <span>Monthly revision rhythm</span>
+                <span>{studyState.monthlyDays} / {studyState.monthlyGoal} days</span>
               </div>
-              <div className="h-2 rounded-full bg-black/20 overflow-hidden">
+              <div className="h-2 overflow-hidden rounded-full bg-black/20">
                 <div className="h-full rounded-full bg-white transition-all duration-700" style={{ width: `${monthlyPct}%` }} />
               </div>
-            </div>
-            <div className="mt-3 flex items-center justify-between gap-3">
-              <button
-                type="button"
-                onClick={() => setShowExamDateEditor((value) => !value)}
-                className="text-xs font-bold text-white underline underline-offset-2 hover:text-amber-100 focus:outline-none focus:ring-2 focus:ring-white/70 rounded"
-              >
-                {boardExamDate ? 'Change paper date' : 'Set paper date'}
+              <button type="button" onClick={() => onNavigate && onNavigate('chapters')} className="mt-3 text-xs font-bold text-white underline underline-offset-2 hover:text-amber-100">
+                Open today’s chapters →
               </button>
-              {boardExamDate && <span className="text-[11px] text-amber-100">Countdown updates every minute</span>}
             </div>
-            {showExamDateEditor && (
-              <div className="mt-3 p-3 rounded-btn bg-white/15 border border-white/25 backdrop-blur-sm">
-                <label htmlFor="board-exam-date" className="block text-xs font-semibold text-white mb-1.5">RBSE board paper date</label>
-                <div className="flex flex-wrap items-center gap-2">
-                  <input
-                    id="board-exam-date"
-                    type="date"
-                    value={examDateDraft}
-                    onChange={(event) => setExamDateDraft(event.target.value)}
-                    className="min-h-[40px] rounded-btn border-0 px-3 text-sm text-stone-800 focus:outline-none focus:ring-2 focus:ring-white"
-                  />
-                  <button type="button" onClick={saveExamDate} className="min-h-[40px] px-3 rounded-btn bg-white text-amber-700 text-xs font-bold">Save</button>
-                  <button type="button" onClick={() => { setBoardExamDate(''); setExamDateDraft(''); setShowExamDateEditor(false) }} className="min-h-[40px] px-3 rounded-btn bg-black/15 text-white text-xs font-semibold">Clear</button>
-                </div>
-              </div>
-            )}
           </div>
         </section>
 

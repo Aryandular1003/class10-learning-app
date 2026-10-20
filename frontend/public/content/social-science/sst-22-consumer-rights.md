@@ -6,7 +6,7 @@
 - **Discipline**: Economics (*Understanding Economic Development*)
 - **Chapter Number**: 5 (Working List Chapter 22)
 - **Chapter Title**: Consumer Rights
-- **Hindi Title**: उपभोक्ता अधिकार
+- **Hindi Title**: Consumer Rights
 - **Academic Session**: 2026–27
 - **Target Exam**: 2027 Secondary Board Examination (BSER, Ajmer)
 - **Output Language**: English
@@ -18,10 +18,10 @@
 ### Regulatory Prescription Status
 * **Official Prescription Status**: **100% Fully Prescribed** for the 2026–27 academic session and 2027 Secondary Board Examination.
 * **Board Weightage**: **02 Marks** out of 80 Theory Marks in Social Science (Subject Code: 08).
-* **Prescribed Textbook**: *Understanding Economic Development* (*आर्थिक विकास की समझ*), published by NCERT and accredited by the Board of Secondary Education, Rajasthan (BSER / RBSE), Ajmer.
+* **Prescribed Textbook**: *Understanding Economic Development*, published by NCERT and accredited by the Board of Secondary Education, Rajasthan (BSER / RBSE), Ajmer.
 
 ### Regulatory Context (NCERT / CBSE vs. RBSE Board Policy)
-* **Crucial Curriculum Clarification**: While central guidelines (CBSE) in certain sessions designated Chapter 5 (*Consumer Rights*) primarily as a Project Work topic for internal assessment, the **Board of Secondary Education, Rajasthan (BSER, Ajmer)** explicitly lists **Chapter 5: Consumer Rights (उपभोक्ता अधिकार)** in its official 2026–27 secondary syllabus notification (`10_2027.pdf`, p. 38) and prescribes it for **02 Marks in the written secondary board examination**.
+* **Crucial Curriculum Clarification**: While central guidelines (CBSE) in certain sessions designated Chapter 5 (*Consumer Rights*) primarily as a Project Work topic for internal assessment, the **Board of Secondary Education, Rajasthan (BSER, Ajmer)** explicitly lists **Chapter 5: Consumer Rights** in its official 2026–27 secondary syllabus notification (`10_2027.pdf`, p. 38) and Prescribes it for **02 Marks in the written secondary board examination**.
 * **Authentic Assessment Proof**: Official BSER examination question papers—including the **2024 Main Paper** (Q15 on Consumer Awareness measures), **2024 Supplementary D&D Paper** (Q1-xv MCQ on National Consumer Day 24th Dec, Q2-v fill-in-the-blank on COPRA 1986), **2023 Main Paper** (Q16 on factors making the consumer movement effective), **2022 Main Paper** (Q1-ix MCQ on market rules and regulations), and the **2026–27 Official Model Question Paper** (Q24 on Consumer Protection Act / Consumer Rights)—confirm that this chapter is **100% active, compulsory, and evaluative in written board papers**.
 * **Exclusion / Rationalisation Check**: **Zero sub-topics have been excluded**. All prescribed thematic areas—The Consumer in the Marketplace, The Consumer Movement, Consumer Rights (Safety, Information, Choice, Redressal, Representation, Education), Quality Certification Marks (ISI, AGMARK, HALLMARK, FSSAI), Three-Tier Quasi-Judicial Redressal Machinery (District, State, National Commissions), COPRA 1986/2019, and Critical Evaluation of Consumer Protection—are active and examinable in full.
 
@@ -37,13 +37,13 @@
 | :--- | :--- |
 | **Examining Authority** | Board of Secondary Education, Rajasthan (BSER / RBSE), Ajmer |
 | **Class / Level** | Secondary (Class 10) |
-| **Subject Name** | Social Science (सामाजिक विज्ञान) |
+| **Subject Name** | Social Science (Social Science)
 | **Subject Code** | 08 |
 | **Book Name** | *Understanding Economic Development* (NCERT / BSER) |
-| **Discipline** | Economics (अर्थशास्त्र) |
+| **Discipline** Economics
 | **Working List Chapter No.** | Chapter 22 |
 | **Textbook Chapter No.** | Chapter 5 |
-| **Chapter Title** | Consumer Rights (उपभोक्ता अधिकार) |
+| **Chapter Title** | Consumer Rights
 | **Written Theory Weightage** | **02 Marks** (out of 80 Theory Marks) |
 | **Internal / Sessional Weightage** | Integrated into 20 Sessional Marks |
 | **Total Subject Marks** | 100 Marks (80 Theory + 20 Sessional) |
@@ -85,7 +85,7 @@ Consumers face exploitation in various forms across goods and services:
 
 #### 2. Legislative Milestone: Consumer Protection Act, 1986 (COPRA)
 * Recognizing the urgent need for a structured legal framework, the Indian Parliament passed the landmark **Consumer Protection Act (COPRA)** in December 1986.
-* **Enactment Date**: The Act came into force on **24th December 1986**. Consequently, **24th December** is celebrated every year across the country as **National Consumer Day (राष्ट्रीय उपभोक्ता दिवस)**.
+* **Enactment Date**: The Act came into force on **24th December 1986**. Consequently, **24th December** is celebrated every year across the country as **National Consumer Day**.
 * **Core Objective**: COPRA was enacted to protect and promote the rights of consumers and establish simple, speedy, and inexpensive quasi-judicial machinery for the redressal of consumer grievances.
 
 ---
@@ -108,28 +108,28 @@ COPRA legally enshrines six fundamental consumer rights:
 └─────────────┘    └─────────────┘      └─────────────┘      └─────────────┘    └─────────────┘
 ```
 
-#### 1. Right to Safety (सुरक्षा का अधिकार)
+#### 1. Right to Safety
 * Consumers have the right to be protected against goods and services that are hazardous to health, life, or property.
 * **Real-World Application**: Manufacturers of goods such as pressure cookers, gas cylinders, electrical irons, and pharmaceuticals must ensure strict adherence to safety standards. A defective safety valve in a pressure cooker can cause fatal explosions; hence, safety testing is legally mandatory.
 
-#### 2. Right to Information (सूचना का अधिकार)
+#### 2. Right to Information
 * Consumers have the right to be informed about the quality, quantity, potency, purity, standard, date of manufacture, expiry date, batch number, ingredients, directions for use, customer care details, and Maximum Retail Price (MRP) of goods or services.
 * **Significance**: Enables consumers to make rational purchasing choices and claim compensation or replacement if the product fails to match labelled specifications.
 * **Linkage to RTI Act (2005)**: In October 2005, the Government of India enacted the **Right to Information (RTI) Act**, extending the right to information to government departments to ensure transparency and accountability in public services.
 
-#### 3. Right to Choose (चुनने का अधिकार)
+#### 3. Right to Choose
 * Any consumer who receives a service or buys a product, regardless of age, gender, or nature of service, has the right to choose whether to continue receiving that service or purchase that product from available options.
 * **Anti-Tied Sales Provision**: Sellers cannot force a consumer to purchase a complementary item as a mandatory condition for buying a primary product.
 * **Example**: If a consumer wants to purchase a gas connection, the dealer **cannot compel** the consumer to buy a stove of a specific brand from that dealer alone. The consumer retains the absolute right to choose the stove from any market source.
 
-#### 4. Right to Seek Redressal (क्षतिपूर्ति निवारण का अधिकार)
+#### 4. Right to Seek Redressal
 * Consumers have the right to seek fair settlement against unfair trade practices or exploitation, including monetary compensation, repair of defective parts, or complete product replacement.
 * Depending on the degree of damage or financial loss suffered, consumers can file formal complaints before quasi-judicial consumer courts.
 
-#### 5. Right to Represent (प्रतिनिधित्व का अधिकार)
+#### 5. Right to Represent
 * Enables consumers and recognized consumer associations to represent consumer interests and participate in policy decision-making before government bodies and consumer dispute forums.
 
-#### 6. Right to Consumer Education (उपभोक्ता शिक्षा का अधिकार)
+#### 6. Right to Consumer Education
 * Guarantees that consumers have access to knowledge, awareness material, and educational campaigns (*e.g., "Jago Grahak Jago"*) to remain vigilant and well-informed buyers throughout life.
 
 ---
@@ -158,9 +158,9 @@ COPRA established a three-tier quasi-judicial machinery at the District, State, 
 
 | Court Tier | Geographical Jurisdiction | Financial Monetary Limit (COPRA 2019 Revision) | Appellate Authority |
 | :--- | :--- | :--- | :--- |
-| **District Commission** *(जिला आयोग)* | District Headquarters | Claims up to **₹1 Crore** *(formerly up to ₹20 Lakhs under 1986 Act)* | State Commission |
-| **State Commission** *(राज्य आयोग)* | State Capital | Claims between **₹1 Crore and ₹10 Crore** *(formerly ₹20 Lakhs to ₹1 Crore)* | National Commission |
-| **National Commission** *(राष्ट्रीय आयोग)* | New Delhi (National Capital) | Claims exceeding **₹10 Crore** *(formerly exceeding ₹1 Crore)* | Supreme Court of India |
+| **District Commission** *(District Commission)* | District Headquarters Claims up to **₹1 Crore** *(formerly up to ₹20 Lakhs under 1986 Act)* | State Commission
+| **State Commission** *(State Commission)* | State Capital Claims between **₹1 Crore and ₹10 Crore** *(formerly ₹20 Lakhs to ₹1 Crore)* | National Commission
+| **National Commission** *(National Commission)* | New Delhi (National Capital) Claims exceeding **₹10 Crore** *(formerly exceeding ₹1 Crore)* | Supreme Court of India
 
 #### 2. Key Procedural Features
 * **Simplified Access**: A consumer does not strictly require a advocate/lawyer to file a complaint; the consumer can draft a simple application on plain paper stating the facts, attaching the cash memo, and presenting the case personally.
@@ -251,7 +251,7 @@ To prevent exploitation, a vigilant consumer must observe the following practice
 
 ### Comparative Table: Standardisation Quality Marks in India
 
-| Metric / Aspect | ISI Mark (बीआईएस) | AGMARK (एगमार्क) | HALLMARK (हॉलमार्क) | FSSAI Logo |
+| Metric/Aspect | ISI Mark (BIS) AGMARK (Agmark) HALLMARK (Hallmark) FSSAI Logo |
 | :--- | :--- | :--- | :--- | :--- |
 | **Issuing Authority** | Bureau of Indian Standards (BIS) | Directorate of Marketing & Inspection | Bureau of Indian Standards (BIS) | Food Safety & Standards Authority |
 | **Category of Goods** | Industrial & electrical appliances | Agricultural commodities | Precious metals (Gold/Silver) | Processed & packaged food |

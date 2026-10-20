@@ -1,5 +1,5 @@
 # BoardReady SST Master Chapter Content: RBSE Class 10 Social Science (Geography)
-## Chapter ID: sst-08 | Chapter 3 (Geography): Water Resources (जल संसाधन)
+## Chapter ID: sst-08 | Chapter 3 (Geography): Water Resources
 **Academic Session**: 2026–27 | **Target Examination**: 2027 Secondary Board Examination  
 **Subject Code**: 08 (Social Science) | **Discipline**: Geography (*Contemporary India – II*)  
 **Prescribed Textbook**: *Contemporary India – II* (NCERT / BSER Publication)
@@ -22,7 +22,7 @@
 
 ### 1.2 Official Chapter Metadata
 * **Chapter Title (English)**: Water Resources
-* **Chapter Title (Hindi)**: जल संसाधन
+* **Chapter Title (Hindi)**: Water Resources
 * **Subject ID**: `sst`
 * **Chapter ID**: `sst-08`
 * **Working List Unit Number**: Chapter 8 (Geography Chapter 3)

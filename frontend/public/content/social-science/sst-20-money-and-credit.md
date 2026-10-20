@@ -4,10 +4,10 @@
 
 * **Discipline**: Economics (*Understanding Economic Development*)
 * **Chapter Working List Number**: 20
-* **Chapter Textbook Number**: Chapter 3 (*Money and Credit* / *मुद्रा और साख*)
+* **Chapter Textbook Number**: Chapter 3 (*Money and Credit* / *Mudra and Credit*)
 * **Chapter ID**: `sst-20`
 * **Subject ID**: `sst`
-* **Subject Code**: 08 (Social Science / सामाजिक विज्ञान)
+* **Subject Code**: 08 (Social Science / Social Science)
 * **Target Examination**: 2027 Secondary Board Examination (Academic Session 2026–27)
 * **Examining Body**: Board of Secondary Education, Rajasthan (BSER / RBSE), Ajmer
 * **Output Language**: English

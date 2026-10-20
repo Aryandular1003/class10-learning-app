@@ -6,15 +6,15 @@
 - **Discipline**: Geography (*Contemporary India – II*)
 - **Working List Chapter Number**: 7 (Geography Chapter 2)
 - **Chapter Title (English)**: Forest and Wildlife Resources
-- **Chapter Title (Hindi)**: वन एवं वन्यजीव संसाधन
+- **Chapter Title (Hindi)**: Forest and Wildlife Resources
 - **Academic Session**: 2026–27
 - **Target Examination**: 2027 Secondary Board Examination (Class 10)
 - **Board Name**: Board of Secondary Education, Rajasthan, Ajmer (BSER / RBSE)
-- **Subject Code**: 08 (Social Science / सामाजिक विज्ञान)
+- **Subject Code**: 08 (Social Science / Social Science)
 - **Examination Time**: 3 Hours 15 Minutes
 - **Total Theory Marks**: 80 Marks (Geography Unit Total: 20 Marks)
 - **Chapter Weightage**: **02 Marks** (out of 80 Theory Marks)
-- **Prescribed Textbook**: *Contemporary India – II* (समकालीन भारत – 2), Class X, NCERT / BSER Publication.
+- **Prescribed Textbook**: *Contemporary India – II*, Class X, NCERT / BSER Publication.
 
 ---
 
@@ -83,104 +83,7 @@ Based on existence and risk of extinction, plants and species are classified int
 
 #### 2. Habitat Destruction Case Study: The Himalayan Yew (*Taxus wallachiana*)
 - **Nature**: A medicinal plant found in parts of Himachal Pradesh and Arunachal Pradesh.
-- **Chemical Compound**: A chemical compound called **'taxol'** is extracted from its bark, needles, twigs, and roots.
-- **Medical Use**: Taxol is the biggest-selling **anti-cancer drug** in the world.
-- **Impact**: Over-exploitation has led to thousands of yew trees drying up across Himachal Pradesh and Arunachal Pradesh.
-
----
-
-### Theme 3: Conservation of Forest and Wildlife in India
-
-#### 1. Need for Conservation
-- Preserves ecological diversity and life-support systems (water, air, and soil).
-- Preserves the genetic diversity of plants and animals for better growth of species and breeding (e.g., traditional crop varieties in agriculture and fish breeding in fisheries).
-
-#### 2. Legislative Measures: The Indian Wildlife (Protection) Act, 1972
-- **Enactment**: Implemented in **1972** by the Government of India.
-- **Key Features**:
-  1. An all-India list of protected species was published.
-  2. Banning hunting of specified endangered animals.
-  3. Giving legal protection to habitats and restricting trade in wildlife.
-  4. Establishment of **National Parks** and **Wildlife Sanctuaries** across central and state governments.
-  5. Special protection granted to specific threatened animals (e.g., one-horned rhinoceros, Kashmir stag / *hangul*, three types of crocodiles—freshwater, saltwater, and gharial, Asiatic lion).
-
-#### 3. Targeted Species Conservation Projects
-- **Project Tiger (1973)**:
-  - Launched in **1973** after the global tiger population dropped from 55,000 (early 20th century) to 1,827 in 1973.
-  - Threats: Poaching for bone trade/skin, habitat shrinkage, prey depletion.
-  - Major Tiger Reserves in India:
-    - **Corbett National Park** (Uttarakhand)
-    - **Sunderbans National Park** (West Bengal)
-    - **Bandhavgarh National Park** (Madhya Pradesh)
-    - **Sariska Wildlife Sanctuary** (Rajasthan - Alwar)
-    - **Manas Tiger Reserve** (Assam)
-    - **Periyar Tiger Reserve** (Kerala)
-    - **Ranthambore National Park** (Rajasthan - Sawai Madhopur)
-
----
-
-### Theme 4: Types and Distribution of Forests
-
-In India, forest and wildlife resources are managed by the government through the **Forest Department**. Forests are classified into three administrative categories:
-
-| Forest Category | Share / Definition | Key Features / Dominant States |
-| :--- | :--- | :--- |
-| **Reserved Forests** (आरक्षित वन) | **More than 50%** of total forest land. | Regarded as the **most valuable** for conservation of forest and wildlife resources. Local communities are strictly restricted from free access. <br>*States*: Jammu & Kashmir, Andhra Pradesh, Uttarakhand, Kerala, Tamil Nadu, West Bengal, Maharashtra. |
-| **Protected Forests** (रक्षित वन) | **Almost one-third (1/3rd)** of total forest land. | Protected from any further depletion; limited grazing/wood collection permitted under regulation. <br>*States*: Bihar, Haryana, Punjab, Himachal Pradesh, Odisha, Rajasthan. |
-| **Unclassed Forests** (अवर्गीकृत वन) | Other forests and wastelands belonging to government and private individuals/communities. | Managed jointly or individually by local communities and tribal bodies. <br>*States*: All North-Eastern states (e.g., Meghalaya, Nagaland) and parts of Gujarat. |
-
-*Note*: **Permanent Forest Estate** refers to Reserved and Protected forests maintained for timber and protective reasons. Madhya Pradesh has the largest area under permanent forests (75% of its total forest area).
-
----
-
-### Theme 5: Community and Conservation
-
-Traditional local communities in India have played a vital role in forest and ecosystem conservation.
-
-#### 1. Key Community-Led Movements and Examples
-1. **Sariska Tiger Reserve (Rajasthan)**:
-   - Villagers in Sariska (Alwar, Rajasthan) fought against dolomite mining by citing the **Wildlife Protection Act**.
-2. **Bhairodev Dakav 'Sonchuri' (Alwar, Rajasthan)**:
-   - Inhabitants of five villages in Alwar district declared **1,200 hectares** of forest as *Bhairodev Dakav Sonchuri*.
-   - They formulated their own rules and regulations banning hunting and protecting wildlife from outside encroachments.
-3. **Chipko Movement (Uttarakhand)**:
-   - Famous environmental movement in the Himalayas where villagers (led by Sundarlal Bahuguna and local women) hugged trees to prevent logging.
-   - Successfully resisted deforestation and demonstrated that indigenous community afforestation with native species is highly effective.
-4. **Beej Bachao Andolan & Navdanya (Tehri, Uttarakhand)**:
-   - Farmers and citizen groups demonstrated that adequate levels of diversified crop production without synthetic chemicals are possible and economically viable.
-5. **Sacred Groves (देवस्थान / पवित्र उपवन)**:
-   - Nature worship is an age-old tribal belief that all creations of nature must be protected.
-   - **Munda and Santhal tribes** of Chota Nagpur region worship **Mahua** (*Madhuca indica*) and **Kadamba** (*Anthocephalus cadamba*) trees.
-   - **Tribals of Odisha and Bihar** worship **Tamarind** (*Tamarindus indica*) and **Mango** (*Mangifera indica*) trees during weddings.
-   - **Bishnoi Community of Rajasthan**: Blackbucks (*chinkara*), nilgai, and peacocks are protected as sacred members of the community; no one harms them.
-
-#### 2. Joint Forest Management (JFM) Program
-- **Origin**: Formal resolution passed in **1988** by the state of **Odisha**.
-- **Objective**: Involves local communities in the management and restoration of degraded forests.
-- **Working Mechanism**:
-  - Local village institutions are formed to undertake protection activities on degraded forest land managed by the forest department.
-- **Benefits**:
-  - In return, community members get non-timber forest produce (NTFP) and a share in the timber harvested from successful protection.
-
----
-
-## Chronology of Historical Milestones & Policy Enactments
-
-| Year | Historical Policy / Movement Milestone | Significance / Focus |
-| :--- | :--- | :--- |
-| **1952** | Asiatic Cheetah Declared Extinct in India | Official recognition of extinct species status in India. |
-| **1952** | National Forest Policy Formulation | Target fixed at 33% geographical forest cover. |
-| **1972** | Enactment of Indian Wildlife (Protection) Act | Comprehensive legal framework for national parks & sanctuaries. |
-| **1973** | Launch of Project Tiger | Conservation initiative targeting endangered tiger population. |
-| **1973–74** | Chipko Movement in Tehri-Garhwal | Famous community tree-hugging anti-logging campaign. |
-| **1988** | First Formal Resolution of Joint Forest Management (JFM) | Passed by Odisha Government to involve local village bodies. |
-
----
-
-## Verified Previous-Year Questions (PYQs)
-
-### Question 1 (BSER Secondary Board Exam 2024 - Main Paper)
-**Question**: What is meant by 'Reserved Forests'? Mention one state having a high proportion of reserved forests.
+- **Chemical Compound**: A chemical compound called **'taxol'** is extracted from its bark, needles, twigs, and roots.\n- **Medical Use**: Taxol is the biggest-selling **anti-cancer drug** in the world.\n- **Impact**: Over-exploitation has led to thousands of yew trees drying up across Himachal Pradesh and Arunachal Pradesh.\n\n---\n\n### Theme 3: Conservation of Forest and Wildlife in India\n\n#### 1. Need for Conservation\n- Preserves ecological diversity and life-support systems (water, air, and soil).\n- Preserves the genetic diversity of plants and animals for better growth of species and breeding (e.g., traditional crop varieties in agriculture and fish breeding in fisheries).\n\n#### 2. Legislative Measures: The Indian Wildlife (Protection) Act, 1972\n- **Enactment**: Implemented in **1972** by the Government of India.\n- **Key Features**:\n  1. An all-India list of protected species was published.\n  2. Banning hunting of specified endangered animals.\n  3. Giving legal protection to habitats and restricting trade in wildlife.\n  4. Establishment of **National Parks** and **Wildlife Sanctuaries** across central and state governments.\n  5. Special protection granted to specific threatened animals (e.g., one-horned rhinoceros, Kashmir stag / *hangul*, three types of crocodiles—freshwater, saltwater, and gharial, Asiatic lion).\n\n#### 3. Targeted Species Conservation Projects\n- **Project Tiger (1973)**:\n  - Launched in **1973** after the global tiger population dropped from 55,000 (early 20th century) to 1,827 in 1973.\n  - Threats: Poaching for bone trade/skin, habitat shrinkage, prey depletion.\n  Major Tiger Reserves in India:\n    - **Corbett National Park** (Uttarakhand)\n    - **Sunderbans National Park** (West Bengal)\n    - **Bandhavgarh National Park** (Madhya Pradesh)\n    - **Sariska Wildlife Sanctuary** (Rajasthan - Alwar)\n    - **Manas Tiger Reserve** (Assam)\n    - **Periyar Tiger Reserve** (Kerala)\n    - **Ranthambore National Park** (Rajasthan - Sawai Madhopur)\n\n---\n\n### Theme 4: Types and Distribution of Forests\n\nIn India, forest and wildlife resources are managed by the government through the **Forest Department**. Forests are classified into three administrative categories:\n\n| Forest Category | Share / Definition | Key Features / Dominant States |\n| :--- | :--- | :--- |\n| **Reserved Forests** **More than 50%** of total forest land. | Regarded as the **most valuable** for conservation of forest and wildlife resources. Local communities are strictly restricted from free access. <br>*States*: Jammu & Kashmir, Andhra Pradesh, Uttarakhand, Kerala, Tamil Nadu, West Bengal, Maharashtra. |\n| **Protected Forests** **Almost one-third (1/3rd)** of total forest land. | Protected from any further depletion; limited grazing/wood collection permitted under regulation. <br>*States*: Bihar, Haryana, Punjab, Himachal Pradesh, Odisha, Rajasthan. |\n| **Unclassed Forests** Other forests and wastelands belonging to government and private individuals/communities. | Managed jointly or individually by local communities and tribal bodies. <br>*States*: All North-Eastern states (e.g., Meghalaya, Nagaland) and parts of Gujarat. |\n\n*Note*: **Permanent Forest Estate** refers to Reserved and Protected forests maintained for timber and protective reasons. Madhya Pradesh has the largest area under permanent forests (75% of its total forest area).\n\n---\n\n### Theme 5: Community and Conservation\n\nTraditional local communities in India have played a vital role in forest and ecosystem conservation.\n\n#### 1. Key Community-Led Movements and Examples\n1. **Sariska Tiger Reserve (Rajasthan)**:\n   - Villagers in Sariska (Alwar, Rajasthan) fought against dolomite mining by citing the **Wildlife Protection Act**.\n2. **Bhairodev Dakav'Sonchuri'(Alwar, Rajasthan)**:\n   - Inhabitants of five villages in Alwar district declared **1,200 hectares** of forest as *Bhairodev Dakav Sonchuri*.\n   - They formulated their own rules and regulations banning hunting and protecting wildlife from outside encroachments.\n3. **Chipko Movement (Uttarakhand)**:\n   - Famous environmental movement in the Himalayas where villagers (led by Sundarlal Bahuguna and local women) hugged trees to prevent logging.\n   - Successfully resisted deforestation and demonstrated that indigenous community afforestation with native species is highly effective.\n4. **Beej Bachao Andolan & Navdanya (Tehri, Uttarakhand)**:\n   - Farmers and citizen groups demonstrated that adequate levels of diversified crop production without synthetic chemicals are possible and economically viable.\n5. **Sacred Groves**:\n   - Nature worship is an age-old tribal belief that all creations of nature must be protected.\n   - **Munda and Santhal tribes** of Chota Nagpur region worship **Mahua** (*Madhuca indica*) and **Kadamba** (*Anthocephalus cadamba*) trees.\n   - **Tribals of Odisha and Bihar** worship **Tamarind** (*Tamarindus indica*) and **Mango** (*Mangifera indica*) trees during weddings.\n   - **Bishnoi Community of Rajasthan**: Blackbucks (*chinkara*), nilgai, and peacocks are protected as sacred members of the community; no one harms them.\n\n#### 2. Joint Forest Management (JFM) Program\n- **Origin**: Formal resolution passed in **1988** by the state of **Odisha**.\n- **Objective**: Involves local communities in the management and restoration of degraded forests.\n- **Working Mechanism**:\n  - Local village institutions are formed to undertake protection activities on degraded forest land managed by the forest department.\n**Benefits**:\n  - In return, community members get non-timber forest produce (NTFP) and a share in the timber harvested from successful protection.\n\n---\n\n## Chronology of Historical Milestones & Policy Enactments\n\n| Year | Historical Policy / Movement Milestone | Significance / Focus |\n| :--- | :--- | :--- |\n| **1952** | Asiatic Cheetah Declared Extinct in India | Official recognition of extinct species status in India. |\n| **1952** | National Forest Policy Formulation | Target fixed at 33% geographical forest cover. |\n| **1972** | Enactment of Indian Wildlife (Protection) Act | Comprehensive legal framework for national parks & sanctuaries. |\n| **1973** | Launch of Project Tiger | Conservation initiative targeting endangered tiger population. |\n| **1973–74** | Chipko Movement in Tehri-Garhwal | Famous community tree-hugging anti-logging campaign. |\n| **1988** | First Formal Resolution of Joint Forest Management (JFM) Passed by Odisha Government to involve local village bodies. |\n\n---\n\n## Verified Previous-Year Questions (PYQs)\n\n### Question 1 (BSER Secondary Board Exam 2024 - Main Paper)\n**Question**: What is meant by'Reserved Forests'? Mention one state having a high proportion of reserved forests.
 - **Mark Allocation**: 2 Marks (Short Answer)
 - **Model Answer**:
   - **Definition**: Reserved forests are forest lands that are permanently earmarked for the production of timber and other forest produce, where hunting and grazing are strictly banned to ensure maximum conservation. They constitute more than 50% of India's total forest area.
@@ -457,7 +360,7 @@ Traditional local communities in India have played a vital role in forest and ec
 ## Source Inventory & Editorial Verification
 
 1. **NCERT Textbook**: *Contemporary India – II*, Class X Geography, Chapter 2: "Forest and Wildlife Resources".
-2. **BSER Official Syllabus**: *पाठ्यक्रम सत्र 2026–2027, विषय: सामाजिक विज्ञान (कोर्ड 08)*, Board of Secondary Education, Rajasthan, Ajmer.
+2. **BSER Official Syllabus**: *Course Session 2026–2027, Subject: Social Science (Code 08)*, Board of Secondary Education, Rajasthan, Ajmer.
 3. **BSER Main Examination Question Papers**:
    - Class 10 Social Science Secondary Examination Papers: 2024, 2023, 2022.
    - Class 10 Social Science Supplementary (D&D) Paper: 2024.

@@ -6,6 +6,7 @@ import Badge from '../components/ui/Badge'
 import Card from '../components/ui/Card'
 import ScreenHeader from '../components/ui/ScreenHeader'
 import BottomNav from '../components/ui/BottomNav'
+import { VERIFIED_QUESTIONS_POOL } from '../data/questionPool'
 
 // ─── Quiz Data ─────────────────────────────────────────────────────────────────
 const ALL_QUESTIONS = [
@@ -106,15 +107,35 @@ const ALL_QUESTIONS = [
   },
 ]
 
+const POOL_PRACTICE_QUESTIONS = VERIFIED_QUESTIONS_POOL
+  .filter((q) => Array.isArray(q.options) && q.options.length >= 2 && q.correct_option)
+  .map((q) => {
+    const correct = q.options.findIndex((option) => String(option).trim().toUpperCase().startsWith(`${String(q.correct_option).toUpperCase()})`))
+    if (correct < 0) return null
+    const topic = { science: 'Science', math: 'Mathematics', english: 'English', 'social-science': 'Social Science' }[q.subject_id] || 'All Subjects'
+    const difficulty = q.difficulty === 'hard' ? 'Challenge' : q.difficulty === 'easy' ? 'Easy' : 'Board level'
+    return {
+      id: q.id,
+      topic,
+      difficulty,
+      question: q.question,
+      options: q.options,
+      correct,
+      explanation: q.detailed_explanation || q.solution || q.answer || 'Review the chapter notes and compare each option with the board answer.',
+    }
+  })
+  .filter(Boolean)
+
+const PRACTICE_QUESTIONS = [...ALL_QUESTIONS, ...POOL_PRACTICE_QUESTIONS]
 const TOPICS = ['All Subjects', 'Science', 'Mathematics', 'English', 'Social Science']
 const DIFFICULTIES = ['Easy', 'Board level', 'Challenge']
 
 function getQuestions(topic, difficulty) {
-  let qs = ALL_QUESTIONS
+  let qs = PRACTICE_QUESTIONS
   if (topic !== 'All Subjects') qs = qs.filter((q) => q.topic === topic)
   if (difficulty !== 'All') qs = qs.filter((q) => q.difficulty === difficulty)
   if (qs.length === 0) qs = ALL_QUESTIONS.slice(0, 5)
-  if (qs.length > 10) qs = qs.slice(0, 10)
+  if (qs.length > 15) qs = qs.slice(0, 15)
   return qs
 }
 
@@ -137,7 +158,7 @@ function SetupScreen({ onStart }) {
           </div>
         </div>
         <div className="mt-3 pt-3 border-t border-white/20 text-amber-100 text-xs flex items-center justify-between">
-          <span>📋 Up to 10 questions</span>
+          <span>📋 Up to 15 questions</span>
           <span>💡 Instant explanations</span>
           <span>⏰ No time limit</span>
         </div>

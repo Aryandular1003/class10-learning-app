@@ -7,6 +7,7 @@ import Card from '../components/ui/Card'
 import ScreenHeader from '../components/ui/ScreenHeader'
 import BottomNav from '../components/ui/BottomNav'
 import { PAPER_LIBRARY, PAPER_SUBJECTS, PAPER_TYPES } from '../data/paperLibrary'
+import { VERIFIED_QUESTIONS_POOL } from '../data/questionPool'
 
 // ─── PYQ Data ─────────────────────────────────────────────────────────────────
 const PYQS = [
@@ -138,6 +139,28 @@ const PREDICTED_QUESTIONS = [
     answer: 'German Unification Process: (1) Nationalist feelings were widespread among middle-class Germans who tried to unite Germany in 1848 Frankfurt Parliament. (2) Prussia took leadership under Chief Minister Otto von Bismarck. (3) Bismarck carried out unification through "Blood and Iron" policy with Prussian army and bureaucracy. (4) Three wars over 7 years against Denmark, Austria, and France ended in Prussian victory. (5) In January 1871, Kaiser William I was proclaimed German Emperor at Hall of Mirrors in Versailles.',
   },
 ]
+
+// Keep the tab honest: records marked as PYQs stay in the PYQ tab, while
+// predictions from the imported subject banks stay in the predicted tab.
+const POOL_QUESTIONS = (kind) => VERIFIED_QUESTIONS_POOL
+  .filter((q) => kind === 'pyq' ? q.is_pyq : q.is_predicted)
+  .map((q) => ({
+    ...q,
+    year: q.year || null,
+    subject: { science: 'Science', math: 'Mathematics', english: 'English', 'social-science': 'Social Science' }[q.subject_id] || q.subject_id,
+    chapter: q.chapter_name || q.topic || 'RBSE Class 10',
+    locked: false,
+    probability: kind === 'predicted' ? '🔥 High Probability' : undefined,
+    predictionReason: q.prediction_reason || q.source,
+  }))
+
+const dedupeQuestions = (items) => [...new Map(items.map((question) => [
+  String(question.question || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim(),
+  question,
+])).values()]
+
+const ALL_PYQS = dedupeQuestions([...PYQS, ...POOL_QUESTIONS('pyq')])
+const ALL_PREDICTED_QUESTIONS = dedupeQuestions([...PREDICTED_QUESTIONS, ...POOL_QUESTIONS('predicted')])
 
 const CHAPTERS = [
   'All chapters',
@@ -286,7 +309,7 @@ export default function PYQsScreen({ onNavigate, initialChapterFilter, initialTa
   const [paperTypeFilter, setPaperTypeFilter] = useState('All papers')
   const [lockedModal, setLockedModal] = useState(null)
 
-  const activeDataset = activeTab === 'pyq' ? PYQS : PREDICTED_QUESTIONS
+  const activeDataset = activeTab === 'pyq' ? ALL_PYQS : ALL_PREDICTED_QUESTIONS
 
   const filtered = activeDataset.filter((q) => {
     const chapterMatch = chapterFilter === 'All chapters' || q.chapter === chapterFilter

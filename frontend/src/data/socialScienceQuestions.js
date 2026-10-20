@@ -1241,7 +1241,7 @@ export const SOCIAL_SCIENCE_QUESTIONS_POOL = [
     "chapter_id": "social-science-2",
     "chapter_name": "Nationalism in India",
     "topic": "History",
-    "question": "The slogan \"Do or Die\" (करो या मरो) was given by Mahatma Gandhi during which movement?",
+    "question": "The slogan \\\"Do or Die\\\" was given by Mahatma Gandhi during which movement?",
     "options": [
       "A) Non-Cooperation Movement",
       "B) Civil Disobedience Movement",
@@ -1641,7 +1641,7 @@ export const SOCIAL_SCIENCE_QUESTIONS_POOL = [
     "chapter_id": "social-science-4",
     "chapter_name": "The Age of Industrialisation",
     "topic": "History",
-    "question": "What is Industrialization? *(औद्योगीकरण किसे कहते हैं?)* [02 Marks]",
+    "question": "What is Industrialization? *(What is industrialization?)* [02 Marks]",
     "answer": "Industrialization is the economic and social process characterized by the transition from an agrarian economy based on manual hand labour to an industrial economy dominated by machine-based manufacturing, factory production, division of labour, and technological innovation.",
     "solution": "Industrialization is the economic and social process characterized by the transition from an agrarian economy based on manual hand labour to an industrial economy dominated by machine-based manufacturing, factory production, division of labour, and technological innovation.",
     "options": [],

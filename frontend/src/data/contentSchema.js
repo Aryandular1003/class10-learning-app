@@ -1,4 +1,4 @@
-import { SUBJECTS, CONTENT_TYPES, REVIEW_STATUSES } from './subjects'
+import { SUPPORTED_SUBJECT_IDS, CONTENT_TYPES, REVIEW_STATUSES } from './subjects'
 
 export const CONTENT_PACK_VERSION = '1.0'
 
@@ -29,7 +29,7 @@ export function validateContentPack(input) {
   const errors = []
   if (!input || typeof input !== 'object') errors.push('Content pack must be a JSON object.')
   const subjectId = input?.subjectId
-  if (!SUBJECTS.some((subject) => subject.id === subjectId)) errors.push('subjectId must be one of the supported subjects.')
+  if (!SUPPORTED_SUBJECT_IDS.includes(subjectId)) errors.push('subjectId must be one of the supported subjects.')
   if (!Array.isArray(input?.chapters)) errors.push('chapters must be an array.')
   if (Array.isArray(input?.chapters)) {
     input.chapters.forEach((chapter, index) => {

@@ -1,8 +1,8 @@
 # BoardReady SST Master Chapter Content
-## Chapter ID: sst-09 | Geography Chapter 4: Agriculture (कृषि)
+## Chapter ID: sst-09 | Geography Chapter 4: Agriculture
 **Target Examination**: RBSE Class 10 Secondary Board Examination 2027  
 **Academic Session**: 2026–27  
-**Subject Code**: 08 (Social Science / सामाजिक विज्ञान)  
+**Subject Code**: 08 (Social Science / Social Science)
 **Discipline**: Geography (*Contemporary India – II*)  
 **Language**: English  
 
@@ -15,7 +15,7 @@
 * **Prescribed Textbook**: *Contemporary India – II* (Class X Geography), Published by BSER Ajmer under official NCERT copyright adoption.
 * **Working List Chapter Number**: 9 (Geography Chapter 4)
 * **Chapter Title (English)**: Agriculture
-* **Chapter Title (Hindi)**: कृषि (*Krishi*)
+* **Chapter Title (Hindi)**: Agriculture (*Krishi*)
 * **Total Chapter Weightage**: **03 Marks** (Out of 80 Theory Marks)
 * **Unit Total (Geography)**: **20 Marks**
 * **Examination Scheme & Time Allocation**:
@@ -160,7 +160,7 @@ India has three distinct cropping seasons: **Rabi**, **Kharif**, and **Zaid**.
 
 ## 3. Major Crops in India – Food Grains
 
-### A. Rice (धान / चावल)
+### A. Rice
 * **Importance**: The staple food crop of a majority of the people in India. India is the **second-largest producer** of rice in the world after China.
 * **Geographical Requirements**:
   * **Crop Type**: Kharif crop.
@@ -171,7 +171,7 @@ India has three distinct cropping seasons: **Rabi**, **Kharif**, and **Zaid**.
 
 ---
 
-### B. Wheat (गेहूँ)
+### B. Wheat
 * **Importance**: The second most important cereal crop in India. It is the main food crop in the north and north-western parts of the country.
 * **Geographical Requirements**:
   * **Crop Type**: Rabi crop.
@@ -185,24 +185,24 @@ India has three distinct cropping seasons: **Rabi**, **Kharif**, and **Zaid**.
 
 ---
 
-### C. Millets / Coarse Grains (मोटे अनाज)
+### C. Millets / Coarse Grains
 Millets have very high nutritional value. The three major millets grown in India are **Jowar**, **Bajra**, and **Ragi**.
 
-1. **Jowar (ज्वार)**:
+1. **Jowar**:
    * **Importance**: Third most important food crop with respect to area and production.
    * **Requirements**: Rain-fed crop mostly grown in moist areas which hardly needs irrigation.
    * **Leading States**: **Maharashtra** (largest producer), Karnataka, Andhra Pradesh, Madhya Pradesh.
-2. **Bajra (बाजरा)**:
+2. **Bajra (Millet)**:
    * **Requirements**: Grows well on sandy soils and shallow black soil.
    * **Leading States**: **Rajasthan** (largest producer), Uttar Pradesh, Gujarat, Madhya Pradesh, Haryana.
-3. **Ragi (रागी)**:
+3. **Ragi (Ragi)**:
    * **Importance**: Extremely rich in **iron, calcium**, other micro-nutrients, and roughage.
    * **Requirements**: Crop of dry regions; grows well on red, black, sandy, loamy, and shallow black soils.
    * **Leading States**: **Karnataka** (largest producer), Tamil Nadu, Himachal Pradesh, Uttarakhand, Sikkim.
 
 ---
 
-### D. Maize (मक्का)
+### D. Maize
 * **Importance**: Used both as **food and fodder**.
 * **Geographical Requirements**:
   * **Crop Type**: Primarily a Kharif crop (in Bihar, it is also grown in Rabi season).
@@ -213,7 +213,7 @@ Millets have very high nutritional value. The three major millets grown in India
 
 ---
 
-### E. Pulses (दाले)
+### E. Pulses
 * **Importance**: India is the **largest producer as well as the largest consumer** of pulses in the world. Pulses are the major source of protein in a vegetarian diet.
 * **Major Pulses**: Tur (Arhar), Urad, Moong, Masur, Peas, Gram.
 * **Key Features**:
@@ -225,7 +225,7 @@ Millets have very high nutritional value. The three major millets grown in India
 
 ## 4. Food Crops Other than Grains
 
-### A. Sugarcane (गन्ना)
+### A. Sugarcane
 * **Nature**: Tropical as well as a subtropical crop. India is the **second-largest producer** after Brazil.
 * **Geographical Requirements**:
   * **Temperature**: Hot and humid climate with temperature between **21°C and 27°C**.
@@ -236,51 +236,14 @@ Millets have very high nutritional value. The three major millets grown in India
 
 ---
 
-### B. Oilseeds (तिलहन)
-* **Importance**: India produces about 12% of the world's oilseeds. Used as cooking medium, raw material in soap, cosmetics, and ointments.
-* **Major Oilseeds Grown**: Groundnut, Mustard, Coconut, Sesame, Soyabean, Castor seed, Cottonseed, Linseed, Sunflower.
-* **Key Crop Profiles**:
-  * **Groundnut (मूंगफली)**: Kharif crop; accounts for half of major oilseeds produced in India. **Gujarat** is the leading producer, followed by Rajasthan and Tamil Nadu.
-  * **Mustard (सरसों)**: Rabi crop.
-  * **Sesamum (तिल)**: Kharif crop in north India, Rabi crop in south India.
-  * **Castor Seed (अरंडी)**: Grown both as Rabi and Kharif crop.
-
----
-
-### C. Beverage Crops: Tea & Coffee
-
-#### 1. Tea (चाय)
-* **Nature**: Plantation agriculture; important beverage crop introduced initially by the British in India.
-* **Geographical Requirements**:
-  * **Climate**: Tropical and subtropical climate with **warm and moist frost-free climate** all through the year.
-  * **Rainfall**: Frequent showers (**150 to 200 cm**) evenly distributed over the year ensure continuous growth of tender leaves.
-  * **Soil**: Deep, fertile, well-drained soil rich in **humus and organic matter**. Stagnant water damages roots; grown on hill slopes.
-  * **Labour**: **Labour-intensive industry**; requires abundant, cheap, and skilled labour.
-* **Leading Producing Zones**: Assam, West Bengal (Darjeeling and Jalpaiguri districts), Tamil Nadu, Kerala.
-
-#### 2. Coffee (कॉफ़ी)
-* **Varietal Specialty**: Indian coffee is known for its good quality. The **Arabica variety** brought from **Yemen** is produced in India and is in great demand worldwide.
-* **Cultivation Region**: Initially introduced on the **Baba Budan Hills**; today its cultivation is confined to the **Nilgiri Hills** in Karnataka, Kerala, and Tamil Nadu.
-
----
-
-### D. Horticulture Crops (बागवानी फ़सलें)
-* **Definition**: Cultivation of fruits and vegetables. India produces both tropical and temperate fruits.
-* **Famous Fruit Hubs of India**:
-  * **Mangoes**: Maharashtra, Andhra Pradesh, Telangana, Uttar Pradesh, West Bengal.
-  * **Oranges**: Nagpur and Cherrapunjee (Meghalaya).
-  * **Bananas**: Kerala, Mizoram, Maharashtra, Tamil Nadu.
-  * **Lichi and Guava**: Uttar Pradesh, Bihar.
-  * **Pineapples**: Meghalaya.
-  * **Grapes**: Andhra Pradesh, Telangana, Maharashtra.
-  * **Apples, Pears, Walnuts, Peaches**: Jammu & Kashmir and Himachal Pradesh.
-* **Vegetables**: India produces about 13% of the world's vegetables (Pea, Cauliflower, Onion, Cabbage, Tomato, Brinjal, Potato).
+### B. Oilseeds
+* **Importance**: India produces about 12% of the world's oilseeds. Used as cooking medium, raw material in soap, cosmetics, and ointments.\n* **Major Oilseeds Grown**: Groundnut, Mustard, Coconut, Sesame, Soyabean, Castor seed, Cottonseed, Linseed, Sunflower.\n* **Key Crop Profiles**:\n  * **Groundnut**: Kharif crop; accounts for half of major oilseeds produced in India. **Gujarat** is the leading producer, followed by Rajasthan and Tamil Nadu.\n  * **Mustard**: Rabi crop.\n  * **Sesamum (Sesame)**: Kharif crop in north India, Rabi crop in south India.\n  * **Castor Seed (Arandi)**: Grown both as Rabi and Kharif crop.\n\n---\n\n### C. Beverage Crops: Tea & Coffee\n\n#### 1.Tea\n* **Nature**: Plantation agriculture; important beverage crop introduced initially by the British in India.\n* **Geographical Requirements**:\n  * **Climate**: Tropical and subtropical climate with **warm and moist frost-free climate** all through the year.\n  * **Rainfall**: Frequent showers (**150 to 200 cm**) evenly distributed over the year ensure continuous growth of tender leaves.\n  * **Soil**: Deep, fertile, well-drained soil rich in **humus and organic matter**. Stagnant water damages roots; grown on hill slopes.\n  * **Labour**: **Labour-intensive industry**; requires abundant, cheap, and skilled labor.\n* **Leading Producing Zones**: Assam, West Bengal (Darjeeling and Jalpaiguri districts), Tamil Nadu, Kerala.\n\n#### 2. Coffee\n* **Varietal Specialty**: Indian coffee is known for its good quality. The **Arabica variety** brought from **Yemen** is produced in India and is in great demand worldwide.\n* **Cultivation Region**: Initially introduced on the **Baba Budan Hills**; today its cultivation is confined to the **Nilgiri Hills** in Karnataka, Kerala, and Tamil Nadu.\n\n---\n\n### D. Horticulture Crops\n* **Definition**: Cultivation of fruits and vegetables. India produces both tropical and temperate fruits.\n* **Famous Fruit Hubs of India**:\n  * **Mangoes**: Maharashtra, Andhra Pradesh, Telangana, Uttar Pradesh, West Bengal.\n  * **Oranges**: Nagpur and Cherrapunjee (Meghalaya).\n  * **Bananas**: Kerala, Mizoram, Maharashtra, Tamil Nadu.\n  * **Lichi and Guava**: Uttar Pradesh, Bihar.\n  * **Pineapples**: Meghalaya.\n  * **Grapes**: Andhra Pradesh, Telangana, Maharashtra.\n  * **Apples, Pears, Walnuts, Peaches**: Jammu & Kashmir and Himachal Pradesh.\n* **Vegetables**: India produces about 13% of the world's vegetables (Pea, Cauliflower, Onion, Cabbage, Tomato, Brinjal, Potato).
 
 ---
 
 ## 5. Non-Food Crops & Fibre Crops
 
-### A. Rubber (रबड़)
+### A. Rubber
 * **Equatorial Crop**: Grown in tropical and subtropical areas.
 * **Geographical Requirements**:
   * **Climate**: Moist and humid climate.
@@ -291,7 +254,7 @@ Millets have very high nutritional value. The three major millets grown in India
 
 ### B. Fibre Crops: Cotton & Jute
 
-#### 1. Cotton (कपास)
+#### 1. Cotton
 * **Importance**: India is believed to be the original home of the cotton plant. Main raw material for the cotton textile industry.
 * **Geographical Requirements**:
   * **Crop Type**: Kharif crop; requires **6 to 8 months** to mature.
@@ -299,7 +262,7 @@ Millets have very high nutritional value. The three major millets grown in India
   * **Temperature & Sunshine**: High temperature, light rainfall or irrigation, **210 frost-free days**, and **bright sunshine** for growth.
 * **Leading States**: Maharashtra, Gujarat, Madhya Pradesh, Karnataka, Andhra Pradesh, Telangana, Tamil Nadu, Punjab, Haryana, UP.
 
-#### 2. Jute – The "Golden Fibre" (जूट / सुनहरा रेशा)
+#### 2. Jute – The "Golden Fiber"
 * **Soil Requirements**: Grows well on well-drained fertile soils in the **flood plains** where soils are renewed every year.
 * **Temperature**: High temperature during the time of growth.
 * **Uses**: Gunny bags, mats, ropes, yarn, carpets, and artifacts.

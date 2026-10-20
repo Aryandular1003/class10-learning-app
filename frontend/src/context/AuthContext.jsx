@@ -132,9 +132,30 @@ export function AuthProvider({ children }) {
       }
       return result
     },
-    signUp: (email, password) => {
+    signUp: async (email, password) => {
       setAuthNotice(null)
-      return supabase?.auth.signUp({ email, password })
+      if (!supabase) return { error: new Error('Authentication is not available.') }
+      const result = await supabase.auth.signUp({ email, password })
+      // Supabase can intentionally return no error for an existing email to
+      // avoid account enumeration. An empty identities list is its explicit
+      // duplicate-account signal, so give the student a useful message.
+      if (!result.error && result.data?.user && Array.isArray(result.data.user.identities) && result.data.user.identities.length === 0) {
+        const error = new Error('This email is already registered. Please sign in or use Forgot password.')
+        error.code = 'user_already_registered'
+        return { ...result, error }
+      }
+      return result
+    },
+    sendLoginOtp: async (email) => {
+      if (!supabase) return { error: new Error('Authentication is not available.') }
+      return supabase.auth.signInWithOtp({
+        email,
+        options: { shouldCreateUser: false },
+      })
+    },
+    verifyLoginOtp: async (email, token) => {
+      if (!supabase) return { error: new Error('Authentication is not available.') }
+      return supabase.auth.verifyOtp({ email, token, type: 'email' })
     },
     signOut: async () => {
       isExplicitSignOutRef.current = true

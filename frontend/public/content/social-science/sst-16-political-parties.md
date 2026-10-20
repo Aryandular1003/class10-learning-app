@@ -4,10 +4,10 @@
 
 * **Working List Chapter ID**: `sst-16`
 * **Subject ID**: `sst`
-* **Subject Code**: 08 (Social Science / सामाजिक विज्ञान)
-* **Discipline**: Political Science (*Democratic Politics – II* / *लोकतांत्रिक राजनीति – 2*)
+* **Subject Code**: 08 (Social Science / Social Science)
+* **Discipline**: Political Science (*Democratic Politics – II* / *Democratic Politics – 2*)
 * **Chapter Title**: Political Parties
-* **Hindi Title**: राजनीतिक दल
+* **Hindi Title**: Political Party
 * **Academic Session**: 2026–27 (Intended for the 2027 Secondary Board Examination)
 * **Prescribed Textbook**: *Democratic Politics – II* (Class X), published by NCERT and accredited by the Board of Secondary Education, Rajasthan (BSER / RBSE), Ajmer.
 * **Official Board Weightage**: **05 Marks** out of 80 Theory Marks (Political Science Total: 20 Marks across 5 prescribed units).
@@ -498,5 +498,5 @@ The statement is completely valid. Political parties are indispensable to modern
 3. **BSER Main Exam Question Paper 2024 (Subject Code: 08 - Social Science)**.
 4. **BSER Main Exam Question Paper 2023 (Subject Code: 08 - Social Science)**.
 5. **BSER Supplementary (D&D) Exam Question Paper 2024 (Subject Code: 124 - Social Science)**.
-6. **NCERT Class X Textbook**: *Democratic Politics – II* (*लोकतांत्रिक राजनीति – 2*), Chapter 4: Political Parties.
+6. **NCERT Class
 7. **NCERT Rationalised Content Guide for Class X Social Science**.

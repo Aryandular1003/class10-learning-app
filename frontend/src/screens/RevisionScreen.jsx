@@ -23,43 +23,43 @@ export default function RevisionScreen({ onNavigate }) {
     || catalogChapters.find((c) => c.id === activeChapterId)
     || { id: activeChapterId, name: 'Chapter Revision' }
 
-  const { content, loading } = useContent(activeChapterId)
+  const { content, loading } = useContent(activeChapterId, subjectId)
 
   // Extract quick revision & 1-hour revision items
   const quickRevision = content?.quick_revision || [
-    'अंकगणित की आधारभूत प्रमेय: प्रत्येक भाज्य संख्या को अभाज्य गुणनखंडों के अद्वितीय गुणनफल में व्यक्त किया जा सकता है।',
-    'HCF = उभयनिष्ठ अभाज्य गुणनखंडों की न्यूनतम घातों का गुणनफल।',
-    'LCM = सभी अभाज्य गुणनखंडों की उच्चतम घातों का गुणनफल।',
-    'दो धनात्मक पूर्णांकों a और b के लिए: HCF(a, b) × LCM(a, b) = a × b.',
-    '√2, √3, √5 अपरिमेय संख्याएँ हैं (विरोधाभास विधि द्वारा सिद्ध)।',
+    'Fundamental theorem of arithmetic: every composite number can be expressed as a unique product of prime factors.',
+    'HCF is the product of the lowest powers of all common prime factors.',
+    'LCM is the product of the highest powers of all prime factors appearing in the numbers.',
+    'For two positive integers a and b: HCF(a, b) × LCM(a, b) = a × b.',
+    '√2, √3 and √5 are irrational numbers, proved by the method of contradiction.',
   ]
 
   const oneHourRevision = content?.one_hour_revision || [
-    '1. 140, 156, 3825 का अभाज्य गुणनखंडन लिखकर दोहराएँ।',
-    '2. HCF(a,b) × LCM(a,b) = a × b सूत्र पर 1 प्रश्न हल करें।',
-    '3. √5 की अपरिमेयता सिद्ध करने का पूरा उत्तर लिखकर देखें।',
-    '4. (3 + 2√5) रूप की अपरिमेयता सिद्ध करने का चरणबद्ध तरीका याद करें।',
+    '1. Revise the prime factorisation of 140, 156 and 3825.',
+    '2. Solve one question using HCF(a,b) × LCM(a,b) = a × b.',
+    '3. Write the complete proof that √5 is irrational.',
+    '4. Memorise the step-by-step method for proving that (3 + 2√5) is irrational.',
   ]
 
   const commonMistakes = content?.common_mistakes || [
     {
-      error_title: 'तीन संख्याओं के लिए HCF × LCM = a × b × c लिखना',
-      correction: 'HCF × LCM = a × b केवल दो धनात्मक पूर्णांकों के लिए सत्य है। तीन संख्याओं के लिए यह सूत्र लागू नहीं होता।',
+      error_title: 'Writing HCF × LCM = a × b × c for three numbers',
+      correction: 'HCF × LCM = a × b is valid for two positive integers only; it cannot be applied directly to three numbers.',
     },
     {
-      error_title: "अपरिमेयता की उपपत्ति में 'सह-अभाज्य' न लिखना",
-      correction: "विरोधाभास विधि में a और b को 'सह-अभाज्य (Co-prime)' लिखना अनिवार्य है, अन्यथा अंक कटते हैं।",
+      error_title: "Not stating that a and b are co-prime in an irrationality proof",
+      correction: 'In the contradiction method, explicitly state that a and b are co-prime; this is essential for the proof.',
     },
     {
-      error_title: 'HCF और LCM में घातों का भ्रम',
-      correction: 'HCF में उभयनिष्ठ गुणनखंडों की न्यूनतम (smallest) घात ली जाती है, जबकि LCM में सभी अभाज्य गुणनखंडों की उच्चतम (greatest) घात ली जाती है।',
+      error_title: 'Confusing powers in HCF and LCM',
+      correction: 'Use the smallest powers of common factors for HCF, and the greatest powers of all factors for LCM.',
     },
   ]
 
   const examTips = content?.exam_tips || [
-    'गुणनखंडन करते समय अभाज्य संख्याओं (2, 3, 5, 7, 11, 13...) के क्रम का ध्यान रखें और घातांकीय रूप (exponential form) में साफ लिखें।',
-    'अपरिमेयता सिद्ध करने वाले प्रश्न में सभी चरण - मान लेना (Assumption), वर्ग करना, विभाजन दर्शाना और विरोधाभास लिखना स्पष्ट रूप से दर्शाएँ।',
-    'उत्तर में इकाइयाँ (जैसे मिनट, मीटर) अवश्य लिखें जब केस-स्टडी या व्यावहारिक समस्या हल कर रहे हों।',
+    'Write prime factors in order (2, 3, 5, 7, 11, 13...) and show the powers clearly.',
+    'For an irrationality proof, show every step: assumption, squaring, divisibility and contradiction.',
+    'Always write units such as minutes or metres when solving case-study or application questions.',
   ]
 
   const formulas = content?.formulas || []

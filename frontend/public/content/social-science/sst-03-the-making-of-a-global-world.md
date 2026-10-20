@@ -3,9 +3,9 @@
 ## Chapter Metadata & Exam Architecture
 
 * **Chapter ID**: `sst-03`
-* **Subject Code**: 08 (`सामाजिक विज्ञान` / Social Science)
-* **Discipline**: History (*India and the Contemporary World – Part 2* / *भारत और समकालीन विश्व - 2*)
-* **Chapter Title**: The Making of a Global World (*भूमंडलीकृत विश्व का बनना*)
+* **Subject Code**: 08 (`Social Science` / Social Science)
+* **Discipline**: History (*India and the Contemporary World – Part 2* / *India and the Contemporary World – 2*)
+* **Chapter Title**: The Making of a Global World
 * **Academic Session**: 2026–27 (Intended for the 2027 Secondary Board Examination)
 * **Exam Board**: Board of Secondary Education, Rajasthan, Ajmer (BSER / RBSE)
 * **Total Subject Weightage**: 100 Marks (80 Written Theory + 20 Internal Sessional)
@@ -22,7 +22,7 @@
 
 ### 1. Verification of Prescribed Status
 * **Official Syllabus Document**: BSER Curriculum Circular `10_2027.pdf` (Subject Code 08, page 38).
-* **Chapter Title**: *3-भूमंडलीकृत विश्व का बनना (The Making of a Global World)*.
+* **Chapter Title**: *3-The Making of a Global World*.
 * **Prescribed Weightage**: **04 Marks**.
 * **Prescription Status**: **100% Prescribed for RBSE Board Examination 2027**.
 
@@ -39,7 +39,7 @@
 
 ## Complete Syllabus-Aligned Revision Notes
 
-### Theme 1: The Pre-modern World (आधुनिक युग से पहले)
+### Theme 1: The Pre-modern World
 
 #### 1. Globalisation in History
 * Globalisation is not merely a modern economic phenomenon; it has a long history of trade, migration, capital movement, and cultural exchange spanning thousands of years.
@@ -47,7 +47,7 @@
 * They carried goods, money, ideas, values, skills, inventions, crops, and even disease-carrying germs.
 * As early as 3000 BCE, an active coastal trade linked the Indus Valley Civilisation with present-day West Asia.
 
-#### 2. Silk Routes Link the World (रेशम मार्ग से जुड़ती दुनिया)
+#### 2. Silk Routes Link the World
 * **Definition**: The 'Silk Routes' refer to a vast network of overland and maritime trade routes connecting vibrant regions of Asia with Europe and Northern Africa.
 * **Origins of the Name**: The name highlights the historical prominence of west-bound Chinese silk cargoes carried along these routes.
 * **Goods Traded**:
@@ -55,7 +55,7 @@
   * *East-bound*: Precious metals (gold and silver) flowed from Europe to Asia.
 * **Cultural & Religious Exchange**: Silk routes served as channels for deep cultural fusion. Christian missionaries, Muslim preachers, and Buddhist monks traversed these routes. Buddhism emerged from eastern India and spread in multiple directions through intersecting points of the silk routes.
 
-#### 3. Food Travels: Spaghetti and Potato (भोजन की यात्रा: स्पैघेटी और आलू)
+#### 3. Food Travels: Spaghetti and Potato
 * **Food as Cultural Links**: Traders and travellers introduced new crops to the lands they visited. Even humble foodstuffs share common global origins.
 * **Spaghetti & Noodles**: Long noodles travelled west from China to become spaghetti. Alternatively, Arab traders introduced pasta to 5th-century Sicily (Italy).
 * **The American Contribution**: Many of our common foods—potatoes, soya, groundnuts, maize, tomatoes, chillies, and sweet potatoes—were completely unknown to our ancestors until Christopher Columbus accidentally discovered the Americas.
@@ -67,15 +67,8 @@
    Americas (Potato, Tomato, Maize) ────────► Global Consumption & Agricultural Shift
 ```
 
-#### 4. Conquest, Disease, and Trade (विजय, बीमारी और व्यापार)
-* **Discovery of Americas**: In the 16th century, European sailors found a sea route to Asia and crossed the Atlantic to the Americas. Americas' vast lands and abundant crops/minerals transformed global trade.
-* **Precious Metals**: Silver mined in Peru and Mexico enhanced European wealth and financed its trade with Asia. Legends about South American wealth led to expeditions searching for **El Dorado**, the fabled city of gold.
-* **Biological Conquest (Smallpox)**:
-  * The European conquest of America was not caused primarily by superior military firepower.
-  * The most powerful weapon of the Spanish conquerors was the disease germ **Smallpox** (*चेचक*).
-  * Native Americans had been isolated from the rest of the world for millennia and possessed no immune immunity against smallpox.
-  * Once introduced, smallpox spread deep into the continent ahead of European troops, decimating whole communities and paving the way for conquest.
-* **Shift in Global Gravity**: Until the 18th century, China and India were the world's wealthiest countries and prominent in Asian trade. However, China restricted overseas contacts, shifting the center of world trade westward to Europe.
+#### 4. Conquest, Disease, and Trade
+* **Discovery of Americas**: In the 16th century, European sailors found a sea route to Asia and crossed the Atlantic to the Americas. Americas'vast lands and abundant crops/minerals transformed global trade.\n* **Precious Metals**: Silver mined in Peru and Mexico enhanced European wealth and financed its trade with Asia. Legends about South American wealth led to expeditions searching for **El Dorado**, the fabled city of gold.\n* **Biological Conquest (Smallpox)**:\n  * The European conquest of America was not caused primarily by superior military firepower.\n  * The most powerful weapon of the Spanish conquerors was the disease germ **Smallpox**.\n  * Native Americans had been isolated from the rest of the world for millennia and possessed no immune immunity against smallpox.\n  * Once introduced, smallpox spread deep into the continent ahead of European troops, decimating whole communities and paving the way for conquest.\n* **Shift in Global Gravity**: Until the 18th century, China and India were the world's wealthiest countries and prominent in Asian trade. However, China restricted overseas contacts, shifting the center of world trade westward to Europe.
 
 ---
 
@@ -106,9 +99,9 @@ Economists identify three distinct types of economic 'flows' within internationa
   * British agriculture was unable to compete with imports. Vast areas of land were left uncultivated, leaving thousands of farm labourers unemployed, who flocked to cities or migrated overseas.
   * Lower food prices increased British consumption. Industrial growth led to higher incomes and increased food imports from Eastern Europe, Russia, America, and Australia.
 
-#### 3. Role of Technology (तकनीक की भूमिका)
+#### 3. Role of Technology
 * **Key Innovations**: Railways, steamships, and the telegraph were crucial transformations.
-* **Refrigerated Ships (शीतलन पोत)**:
+* **Refrigerated Ships**:
   * Before the 1870s, live animals were shipped from America to Europe and slaughtered upon arrival. Live animals took up immense ship space, many died in transit, or fell ill and became unfit to eat. Meat was an expensive luxury in Europe.
   * The development of **refrigerated ships** enabled the transport of perishable foods over long distances.
   * Animals were slaughtered at the starting point (America, Australia, New Zealand) and transported to Europe as frozen meat.
@@ -116,68 +109,11 @@ Economists identify three distinct types of economic 'flows' within internationa
 
 #### 4. Late Nineteenth-Century Colonialism & Rinderpest
 * **Partition of Africa**: In 1885, big European powers met in Berlin (**Berlin Conference of 1885**) to carve up Africa among themselves using literal straight ruler lines.
-* **Rinderpest or Cattle Plague (*रिंडरपेस्ट या मवेशी प्लेग*)**:
+* **Rinderpest or Cattle Plague (*Rinderpest or Cattle Plague*)**:
   * Rinderpest was a devastating cattle disease that arrived in Africa in the late 1880s.
   * It was carried by infected cattle imported from British Asia to feed Italian soldiers invading Eritrea in East Africa.
-  * Entering East Africa, Rinderpest moved west and south like wildfire, killing **90 percent of Africa's cattle population**.
-  * **Impact**: Cattle loss destroyed African pastoral livelihoods. Colonial governments used the catastrophe to force surviving Africans into the labor market, securing control over African land and labor.
-
-```
-Infected Asian Cattle Imported ──► Rinderpest Disease Outbreak ──► Kills 90% African Cattle ──► Destroys Pastoral Economy ──► Forces Africans into Colonial Wage Labour
-```
-
-#### 5. Indentured Labour Migration from India (भारत से अनुबंधित श्रमिकों का जाना)
-* **Definition**: An indentured labourer is a bonded labourer under contract to work for a specific employer for a set period to pay off passage to a new country or plantation.
-* **Described as a "New System of Slavery"**: Recruitment was conducted by agents who used false promises about destinations, modes of travel, nature of work, and living conditions.
-* **Regions of Origin**: Eastern Uttar Pradesh, Bihar, Central India, and dry districts of Tamil Nadu, where cottage industries had collapsed and land rents had risen.
-* **Destinations**: Caribbean islands (Trinidad, Guyana, Suriname), Mauritius, Fiji, and tea plantations in Assam.
-* **Cultural Fusion & Hybrid Cultures**:
-  * In Trinidad, the annual Muharram procession was transformed into a riotous carnival called **Hosay** (*होसे*) in which workers of all races joined.
-  * The religion of **Rastafarianism** reflected Indian links to the Caribbean.
-  * **Chutney Music** in Trinidad and Guyana became a popular creative expression of cultural fusion.
-* **Abolition**: Indian nationalist leaders campaigned against the brutal indentured recruitment system, and it was officially abolished in **1921**.
-
-#### 6. Indian Entrepreneurs & Trade Under Colonial Rule
-* **Entrepreneurs Abroad**: Bankers and traders like the *Shikaripuri Shroffs* and *Nattukottai Chettiars* financed export agriculture in Central and Southeast Asia. Hyderabadi Sindhi traders established emporiums at global ports.
-* **Decline of Indian Textiles**: Fine Indian cotton textiles were hit by high tariffs imposed in Britain to protect local mills. Raw cotton exports from India increased while manufactured cloth exports declined drastically.
-* **Opium Trade with China**: Britain grew opium in India and exported it to China, using the money to purchase Chinese tea and silk for Britain.
-* **Trade Surplus & Multilateral Settlement**: Britain had a 'trade surplus' with India (exporting manufactured goods of higher value to India than importing goods from India). Britain used this trade surplus to balance its trade deficits with other countries—a system of **multilateral settlement**.
-
----
-
-### Theme 3: The Inter-war Economy (महायुद्धों के बीच अर्थव्यवस्था)
-
-#### 1. Economic Impact of the First World War (1914–1918)
-* **First Modern Industrial War**: Fought with machine guns, tanks, aircraft, chemical weapons, and mass-produced industrial armaments.
-* **Human Loss**: 9 million dead and 20 million injured, mostly men of working age, drastically reducing household incomes across Europe.
-* **Shift in Global Financial Power**: The war transformed the US from an international debtor into an international creditor. US overseas assets came to exceed the assets of foreign countries inside the US.
-
-#### 2. Post-war Recovery & Agricultural Crisis
-* **British Struggle**: While Britain was preoccupied with war, industries developed in India and Japan. Post-war Britain struggled to modernize mills and faced stiff competition from Japan.
-* **Agricultural Overproduction**: During the war, wheat production expanded in Canada, America, and Australia while European wheat fields were disrupted. After the war, European wheat production recovered, causing global wheat surpluses, falling prices, and rural distress.
-
-#### 3. Rise of Mass Production & The US Economy
-* **Henry Ford & Assembly Line**: Car manufacturer Henry Ford pioneered the **Assembly Line** method at his Detroit car plant.
-  * Workers repeated a single, continuous task (assembling a specific car part) at a conveyer belt's set pace.
-  * Speeded up output dramatically; the **Model T Ford** became the world's first mass-produced car.
-  * Ford doubled daily wages to $5 to prevent high worker turnover, while increasing work intensity.
-* **Mass Consumption**: Mass production drove down prices, creating a mass consumption boom in the US for cars, refrigerators, washing machines, and radios, financed through hire-purchase (credit paid in weekly installments).
-
-```
-Henry Ford Assembly Line ──► Mass Production ──► Lowered Unit Costs ──► High Daily Wages ($5) ──► Mass Consumption Boom (Cars & Appliances)
-```
-
-#### 4. The Great Depression of 1929 (1929 की महामंदी)
-* **Duration**: Began around 1929 and lasted until the mid-1930s.
-* **Characteristics**: Massive declines in global production, employment, incomes, and international trade.
-* **Primary Causes**:
-  1. **Agricultural Overproduction**: Agricultural prices fell, and farmers tried to expand production to maintain total income, worsening the glut and pushing prices further down.
-  2. **Withdrawal of US Loans**: In the 1920s, global investments relied on US loans. As US lenders panicked, US overseas loans fell from $1 billion to $200 million within a year.
-  3. **Collapse of Wall Street Stock Exchange (1929)**: The US stock market crash triggered bank failures, business bankruptcies, and massive unemployment.
-  4. **Tariff Walls**: US attempts to protect its economy by doubling import duties severely damaged global trade.
-
-#### 5. Impact of the Great Depression on India
-* **Immediate Trade Collapse**: Between 1928 and 1934, India's exports and imports were halved.
+  * Entering East Africa, Rinderpest moved west and south like wildfire, killing **90 percent of Africa's cattle population**.\n  * **Impact**: Cattle loss destroyed African pastoral livelihoods. Colonial governments used the catastrophe to force surviving Africans into the labor market, securing control over African land and labor.\n\n```\nInfected Asian Cattle Imported ── ► Rinderpest Disease Outbreak ── ► Kills 90% African Cattle ── ► Destroys Pastoral Economy ── ► Forces Africans into Colonial Wage Labor\n```\n\n#### 5. Indentured Labor Migration from India\n* **Definition**: An indentured laborer is a bonded laborer under contract to work for a specific employer for a set period to pay off passage to a new country or plantation.\n* **Described as a "New System of Slavery"**: Recruitment was conducted by agents who used false promises about destinations, modes of travel, nature of work, and living conditions.\n* **Regions of Origin**: Eastern Uttar Pradesh, Bihar, Central India, and dry districts of Tamil Nadu, where cottage industries had collapsed and land rents had risen.\n* **Destinations**: Caribbean islands (Trinidad, Guyana, Suriname), Mauritius, Fiji, and tea plantations in Assam.\n* **Cultural Fusion & Hybrid Cultures**:\n  * In Trinidad, the annual Muharram procession was transformed into a riotous carnival called **Hosay** in which workers of all races joined.\n  * The religion of **Rastafarianism** reflected Indian links to the Caribbean.\n  * **Chutney Music** in Trinidad and Guyana became a popular creative expression of cultural fusion.\n* **Abolition**: Indian nationalist leaders campaigned against the brutal indentured recruitment system, and it was officially abolished in **1921**.\n\n#### 6. Indian Entrepreneurs & Trade Under Colonial Rule\n* **Entrepreneurs Abroad**: Bankers and traders like the *Shikaripuri Shroffs* and *Nattukottai Chettiars* financed export agriculture in Central and Southeast Asia. Hyderabadi Sindhi traders established emporiums at global ports.\n* **Decline of Indian Textiles**: Fine Indian cotton textiles were hit by high tariffs imposed in Britain to protect local mills. Raw cotton exports from India increased while manufactured cloth exports declined drastically.\n* **Opium Trade with China**: Britain grew opium in India and exported it to China, using the money to purchase Chinese tea and silk for Britain.\n* **Trade Surplus & Multilateral Settlement**: Britain had a'trade surplus'with India (exporting manufactured goods of higher value to India than importing goods from India). Britain used this trade surplus to balance its trade deficits with other countries—a system of **multilateral settlement**.\n\n---\n\n### Theme 3: The Inter-war Economy\n\n#### 1. Economic Impact of the First World War (1914–1918)\n* **First Modern Industrial War**: Fought with machine guns, tanks, aircraft, chemical weapons, and mass-produced industrial armaments.\n* **Human Loss**: 9 million dead and 20 million injured, mostly men of working age, drastically reducing household incomes across Europe.\n* **Shift in Global Financial Power**: The war transformed the US from an international debtor into an international creditor. US overseas assets came to exceed the assets of foreign countries inside the US.\n\n#### 2. Post-war Recovery & Agricultural Crisis\n* **British Struggle**: While Britain was preoccupied with war, industries developed in India and Japan. Post-war Britain struggled to modernize mills and faced stiff competition from Japan.\n* **Agricultural Overproduction**: During the war, wheat production expanded in Canada, America, and Australia while European wheat fields were disrupted. After the war, European wheat production recovered, causing global wheat surpluses, falling prices, and rural distress.\n\n#### 3. Rise of Mass Production & The US Economy\n* **Henry Ford & Assembly Line**: Car manufacturer Henry Ford pioneered the **Assembly Line** method at his Detroit car plant.\n  * Workers repeated a single, continuous task (assembling a specific car part) at a conveyor belt's set pace.
+  * Speeded up output dramatically; the **Model T Ford** became the world's first mass-produced car.\n  * Ford doubled daily wages to $5 to prevent high worker turnover, while increasing work intensity.\n* **Mass Consumption**: Mass production drove down prices, creating a mass consumption boom in the US for cars, refrigerators, washing machines, and radios, financed through hire-purchase (credit paid in weekly installments).\n\n```\nHenry Ford Assembly Line ── ► Mass Production ── ► Lowered Unit Costs ── ► High Daily Wages ($5) ── ► Mass Consumption Boom (Cars & Appliances)\n```\n\n#### 4. The Great Depression of 1929\n* **Duration**: Began around 1929 and lasted until the mid-1930s.\n* **Characteristics**: Massive declines in global production, employment, incomes, and international trade.\n* **Primary Causes**:\n  1. **Agricultural Overproduction**: Agricultural prices fell, and farmers tried to expand production to maintain total income, worsening the glut and pushing prices further down.\n  2. **Withdrawal of US Loans**: In the 1920s, global investments relied on US loans. As US lenders panicked, US overseas loans fell from $1 billion to $200 million within a year.\n  3. **Collapse of Wall Street Stock Exchange (1929)**: The US stock market crash triggered bank failures, business bankruptcies, and massive unemployment.\n  4. **Tariff Walls**: US attempts to protect its economy by doubling import duties severely damaged global trade.\n\n#### 5. Impact of the Great Depression on India\n* **Immediate Trade Collapse**: Between 1928 and 1934, India's exports and imports were halved.
 * **Fall in Agricultural Prices**: Wheat prices in India fell by 50%.
 * **Peasant Agony**: While raw material prices tumbled, the British colonial government refused to lower land revenue demands. Jute growers in Bengal suffered as raw jute prices collapsed by over 60%.
 * **Peasant Indebtedness & Gold Exports**: Indian peasants used up savings, mortgaged lands, and sold jewelry. India became an exporter of precious metals (**"distress gold"**), which helped finance British sterling payments during the crisis.
@@ -186,7 +122,7 @@ Henry Ford Assembly Line ──► Mass Production ──► Lowered Unit Costs 
 
 ### Theme 4: Rebuilding a World Economy: The Post-War Era
 
-#### 1. Post-war Settlement & Bretton Woods Institutions (ब्रिटेन-वुड्स संस्थान)
+#### 1. Post-war Settlement & Bretton Woods Institutions (Bretton Woods Institutions)
 * **Lessons from Inter-war Era**:
   1. An industrial society based on mass production requires mass consumption, which requires stable incomes and full employment.
   2. Economic stability requires government intervention and control over flows of capital, goods, and labour.
@@ -211,7 +147,7 @@ Henry Ford Assembly Line ──► Mass Production ──► Lowered Unit Costs 
 #### 2. Decolonisation & Emergence of the Group of 77 (G-77)
 * **Post-war Decolonisation**: Over two decades after WWII, colonies in Asia and Africa gained political independence, facing poverty and resource scarcity.
 * **Dominance of IMF & World Bank**: Designed to serve developed Western industrial nations; developing nations failed to benefit significantly.
-* **Establishment of G-77**: Developing nations organized as the **Group of 77 (G-77)** to demand a **New International Economic Order (NIEO)** (*नई अंतरराष्ट्रीय आर्थिक प्रणाली*).
+* **Establishment of G-77**: Developing nations organized as the **Group of 77 (G-77)** to demand a **New International Economic Order (NIEO)** (*New International Economic Order*).
 * **Demands of NIEO**:
   * Real control over their natural resources.
   * More development assistance.
@@ -264,7 +200,7 @@ Henry Ford Assembly Line ──► Mass Production ──► Lowered Unit Costs 
 
 #### Question 1 [BSER Secondary Main Exam 2023, Code S-08]
 **Which disease killed 90 percent of cattle in Africa in the 1890s?**
-* **Answer**: **Rinderpest** (*रिंडरपेस्ट / मवेशी प्लेग*).
+* **Answer**: **Rinderpest** (*Rinderpest / cattle plague*).
 * **Source Context**: NCERT History Chapter 3, Page 59.
 
 #### Question 2 [BSER Secondary Main Exam 2023, Code S-08]

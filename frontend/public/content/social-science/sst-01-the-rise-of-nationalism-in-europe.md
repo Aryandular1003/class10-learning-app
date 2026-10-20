@@ -4,10 +4,10 @@
 
 * **Board Authority**: Board of Secondary Education, Rajasthan (BSER / RBSE), Ajmer
 * **Academic Session**: 2026–27 Academic Session (intended for the 2027 Board Examination)
-* **Subject**: Social Science (सामाजिक विज्ञान), Subject Code: 08
+* **Subject**: Social Science, Subject Code: 08
 * **Discipline**: History — Section I: Events and Processes (*India and the Contemporary World – Part 2*)
 * **Working List Chapter Number**: Chapter 1 (`sst-01`)
-* **Official Chapter Title**: The Rise of Nationalism in Europe / यूरोप में राष्ट्रवाद का उदय
+* **Official Chapter Title**: The Rise of Nationalism in Europe
 * **Official Chapter Weightage**: 04 Marks (out of 80 Theory Marks)
 * **Prescribed Textbook**: NCERT *India and the Contemporary World – Part 2* (Adopted under copyright by BSER, Ajmer)
 
@@ -26,7 +26,7 @@
 | **Discipline** | History (India and the Contemporary World – Part 2) |
 | **Chapter Number** | 1 (Section I: Events and Processes) |
 | **Chapter Title (English)** | The Rise of Nationalism in Europe |
-| **Chapter Title (Hindi)** | यूरोप में राष्ट्रवाद का उदय |
+| **Chapter Title (Hindi)** | Rise of nationalism in Europe
 | **Prescribed Textbook** | NCERT *India and the Contemporary World – Part 2* (Published by BSER) |
 | **Target Examination** | RBSE Class 10 Secondary Board Examination 2027 |
 | **Examination Scheme** | 80 Marks Theory Paper + 20 Marks Sessional Assessment = 100 Total Marks |
@@ -566,7 +566,7 @@ The following items are **100% authentic questions extracted directly from offic
 
 ## SECTION 9: List of Sources Used
 
-1. **Board of Secondary Education, Rajasthan (BSER), Ajmer**: Official Secondary Syllabus 2026–27 (`10_2027.pdf`), Subject Code 08 (Social Science / सामाजिक विज्ञान).
+1. **Board of Secondary Education, Rajasthan (BSER), Ajmer**: Official Secondary Syllabus 2026–27 (`10_2027.pdf`), Subject Code 08 (Social Science).
 2. **NCERT Textbook**: *India and the Contemporary World – Part 2* (Class X History), adopted under copyright by BSER, Ajmer.
 3. **BSER Official Past Board Examination Papers**:
    * BSER Secondary Main Examination Paper 2024 (`S-08-Social Science`).

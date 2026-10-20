@@ -10,8 +10,6 @@ import {
   BellIcon,
   SparklesIcon,
   XMarkIcon,
-  LockClosedIcon,
-  BookOpenIcon,
 } from '../components/ui/icons'
 import Badge from '../components/ui/Badge'
 import Card from '../components/ui/Card'
@@ -42,19 +40,17 @@ export default function NotesReader({
   const { theme, toggleTheme } = useTheme()
   const {
     bookmarkedChapters,
-    toggleChapterComplete,
     toggleBookmark,
     setLastOpenedChapter,
     subjectDefinition,
     recordPracticeAttempt,
-    isPremium,
   } = useStudy()
 
   // Data hooks for all 4 pillars
-  const { content: remoteContent, loading: contentLoading } = useContent(chapter.id, chapter.subjectId || 'math')
-  const { quizQuestions, loading: quizLoading } = useQuiz(chapter.id)
-  const { questions: pyqQuestions, loading: pyqLoading } = useQuestions({ chapter_id: chapter.id, is_pyq: true })
-  const { questions: predictedQuestions, loading: predLoading } = useQuestions({ chapter_id: chapter.id, is_predicted: true })
+  const { content: remoteContent } = useContent(chapter.id, chapter.subjectId || 'math')
+  const { quizQuestions } = useQuiz(chapter.id)
+  const { questions: pyqQuestions } = useQuestions({ chapter_id: chapter.id, is_pyq: true })
+  const { questions: predictedQuestions } = useQuestions({ chapter_id: chapter.id, is_predicted: true })
 
   // Active top-level tab: 'notes' | 'quiz' | 'pyqs' | 'predicted'
   const [activeTab, setActiveTab] = useState('notes')
@@ -413,12 +409,18 @@ export default function NotesReader({
               {viewMode === 'unlocked' ? (
                 <div className="space-y-6">
                   {(noteData.sections || []).map((sec, idx) => (
-                    <Card key={idx} className="p-5 border border-stone-200/80 dark:border-stone-800 space-y-3">
-                      {sec.heading && (
-                        <h3 className="text-base sm:text-lg font-bold text-stone-900 dark:text-stone-100 border-b border-stone-100 dark:border-stone-800 pb-2">
-                          {sec.heading}
-                        </h3>
-                      )}
+                    <Card key={idx} className="group relative overflow-hidden p-5 border border-stone-200/80 dark:border-stone-800 space-y-3 hover:-translate-y-0.5 hover:shadow-card-md transition-all duration-300">
+                      <div className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-amber-400 via-teal-400 to-violet-500 opacity-70 group-hover:opacity-100" />
+                      <div className="flex items-start gap-3">
+                        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-amber-100 text-xs font-extrabold text-amber-700 dark:bg-amber-950/70 dark:text-amber-300">
+                          {String(idx + 1).padStart(2, '0')}
+                        </span>
+                        {sec.heading && (
+                          <h3 className="pt-1 text-base sm:text-lg font-bold text-stone-900 dark:text-stone-100">
+                            {sec.heading}
+                          </h3>
+                        )}
+                      </div>
                       <div className={`${fontSizeClass} text-stone-700 dark:text-stone-300 whitespace-pre-line leading-relaxed`}>
                         {sec.content}
                       </div>

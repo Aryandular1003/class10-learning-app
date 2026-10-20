@@ -21,6 +21,23 @@ Run migrations `001` through `008` in order in the Supabase SQL editor:
 2. **Authentication → Email → Confirm email**: Enable in production so students verify their email addresses.
 3. **Authentication → Rate Limits**: Ensure adequate limits for production signup/sign-in volume.
 
+### Resend SMTP and email OTP
+
+The frontend already requests email OTPs with `signInWithOtp` and verifies them with `verifyOtp`. Supabase must be configured to deliver those emails through a custom SMTP provider; the Resend connection is not configured by frontend code.
+
+In **Supabase Dashboard → Project Settings → Authentication → SMTP**, enter:
+
+- **Sender email**: an address on a verified Resend domain, for example `no-reply@boardready.app`
+- **Sender name**: `BoardReady`
+- **Host**: `smtp.resend.com`
+- **Port**: `465`
+- **Username**: `resend`
+- **Password**: a Resend API key with sending permission (enter it in the dashboard only; never commit it)
+
+In **Authentication → Email Templates → Magic Link**, keep the template’s existing styling but make sure the body contains `{{ .Token }}`. The token placeholder sends a one-time code; using only `{{ .ConfirmationURL }}` sends a link instead. Use a clear subject such as `Your BoardReady verification code`.
+
+Before production use, send a test OTP to a real student email and confirm both signup verification and “Sign in with OTP” work. Resend must show the sender domain as **Verified** and its SPF/DKIM DNS records must be present at the domain registrar.
+
 ## Payment & Premium Security (Razorpay)
 
 - Never grant `is_premium` from frontend code. Column-level permissions in migration 006 revoke updates to `is_premium` and `premium_since` from authenticated users.

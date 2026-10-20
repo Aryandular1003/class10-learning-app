@@ -3,11 +3,11 @@
 ## Chapter Metadata & Official Board Examination Scheme
 
 * **Chapter ID**: `sst-19`
-* **Subject ID**: `sst` (Social Science / सामाजिक विज्ञान)
-* **Discipline**: Economics (*Understanding Economic Development* / *आर्थिक विकास की समझ*)
+* **Subject ID**: `sst` (Social Science / Social Science)
+* **Discipline**: Economics (*Understanding Economic Development* / *Understanding Economic Development*)
 * **Working List Chapter Number**: 19 (Economics Chapter 2)
 * **Chapter Title**: Sectors of the Indian Economy
-* **Hindi Title**: भारतीय अर्थव्यवस्था के क्षेत्रक
+* **Hindi Title**: Sectors of Indian Economy
 * **Academic Session**: 2026–27 (Intended for 2027 Secondary Board Examination)
 * **Subject Code**: 08
 * **Prescribed Textbook**: *Understanding Economic Development – Class X* (NCERT / BSER Ajmer)
@@ -90,99 +90,7 @@ Economic activities are classified into three major categories based on the natu
 
 2. **Where Are Most People Employed? (The Indian Structural Anomaly)**:
    * **GDP Share vs. Employment Share Disparity**:
-     * In 2013–14, the Tertiary sector contributed **over 60% of India's GDP**, but employed less than 30% of the workforce.
-     * The Primary sector (agriculture) contributed **less than 15–20% of GDP**, but continued to employ **nearly 45–50% of the total national workforce**.
-   * **Conclusion**: A historical shift in output occurred in India (Primary $\rightarrow$ Tertiary), but a corresponding shift in employment **did NOT occur**. Secondary and Tertiary sectors failed to generate sufficient jobs for agricultural workers.
-
-3. **Underemployment and Disguised Unemployment**:
-   * **Definition**: A situation where people are apparently working, but all of them are made to work less than their full potential.
-   * **Characteristics**:
-     * Visible in rural agricultural families where 5–8 members work on a small plot of land when only 3 are required.
-     * Even if 2–3 members are moved away to work elsewhere, agricultural output does **NOT decline**.
-     * The marginal productivity of extra workers is **ZERO**.
-   * **Urban Disguised Unemployment**: Service workers on streets (casual painters, plumbers, repair persons, street vendors) who work all day but earn very little.
-
----
-
-### Theme 4: How to Create More Employment?
-
-To resolve underemployment in agriculture and absorb rural/urban youth, two types of intervention are necessary:
-
-1. **Long-Term Capital & Infrastructure Strategies**:
-   * **Irrigation Infrastructure**: Constructing canals and check-dams (e.g., digging wells/tube wells) enables multi-cropping (Rabi & Kharif), creating direct farm employment year-round.
-   * **Rural Transportation & Storage**: Building rural roads (PMGSY) and cold storage facilities allows farmers to transport crops to markets, generating jobs in transport, trade, and logistics.
-   * **Agricultural Credit**: Providing cheap, easy credit through regional rural banks and co-operatives eliminates high-interest moneylender traps, allowing farmers to purchase seeds, pumps, and fertilizers.
-   * **Promoting Agro-Processing & Rural Industries**: Establishing pulse mills, cold storages, honey-collection centers, and vegetable processing units in semi-rural areas.
-   * **Expansion of Education & Healthcare**:
-     * According to NITI Aayog (formerly Planning Commission), improving education requires thousands of new schools, creating over **20 lakh jobs in the education sector alone**.
-     * Expanding rural healthcare generates massive employment for doctors, nurses, and health workers.
-   * **Tourism & Regional Crafts**: Developing regional tourism and handicraft hubs can generate **over 35 lakh additional jobs annually**.
-
-2. **Short-Term Guaranteed Employment (MGNREGA 2005)**:
-   * **Full Title**: **Mahatma Gandhi National Rural Employment Guarantee Act 2005**.
-   * **Legal Provision**: Enacted by the Central Government to implement the **Right to Work** in rural areas.
-   * **Key Features**:
-     1. Guarantees **100 days of assured wage employment** in a financial year to every rural household whose adult members volunteer to do unskilled manual work.
-     2. If the government fails to provide employment within 15 days of application, it must pay an **Unemployment Allowance** to the applicant.
-     3. Priority is given to works that help **increase future agricultural production** (water conservation, soil erosion control, afforestation, land levelling).
-     4. Operational in all rural districts across India; 1/3rd of proposed jobs are reserved for women.
-
----
-
-### Theme 5: Division of Sectors as Organised and Unorganised
-
-Economic activities are also classified based on working conditions, rules, and security of employment:
-
-| Parameter | Organised Sector (संगठित क्षेत्रक) | Unorganised Sector (असंगठित क्षेत्रक) |
-| :--- | :--- | :--- |
-| **Registration & Authority** | Registered with the government; complies with formal laws. | Outside government control; small, scattered units largely unregistered. |
-| **Rules & Laws Followed** | Follows Factories Act, Minimum Wages Act, Payment of Gratuity Act, etc. | Rules exist on paper but are rarely implemented or enforced. |
-| **Employment Terms** | Fixed hours, regular and secure job terms; formal appointment letters. | Insecure terms; job loss without notice; seasonal work vulnerability. |
-| **Salary & Overtime** | Fixed regular salary; mandatory **Overtime Payment** for extra hours. | Low wages; no extra pay for overtime work. |
-| **Social Security & Benefits** | Paid leave, provident fund (PF), gratuity, medical benefits, safe environment. | No paid leave, no sick leave, no medical benefits, no provident fund. |
-| **Examples** | Bank officers, government schoolteachers, TISCO factory workers, PSU employees. | Landless farm labourers, construction workers, street vendors, weavers, handloom workers. |
-
-#### Protecting Workers in the Unorganised Sector
-Unorganised sector workers face economic exploitation and social discrimination. Strategies to protect them:
-* **In Rural Areas**: Provide landless labourers and small/marginal farmers with timely delivery of seeds, agricultural inputs, cheap credit, storage, and market linkages.
-* **In Urban Areas**: Support small-scale industries with raw material procurement and marketing assistance; enforce minimum wage laws for casual construction, transport, and street workers.
-* **Social Protection for Marginalised Groups**: A majority of workers from Scheduled Castes (SC), Scheduled Tribes (ST), and Backward Classes (OBC) are trapped in unorganised, insecure jobs. They require both economic support (fair wages) and social dignity against discrimination.
-
----
-
-### Theme 6: Sectors in Terms of Ownership (Public and Private)
-
-Economic activities are categorized by asset ownership and service delivery responsibility:
-
-1. **Public Sector (सार्वजनिक क्षेत्रक)**:
-   * **Ownership**: The **Government** owns most of the assets and provides all major services.
-   * **Primary Objective**: **Public Welfare** and social development, not profit maximization.
-   * **Financing**: Government meets expenses through revenue raised via taxes and public borrowing.
-   * **Examples**: Indian Railways, Bharat Petroleum, Post Offices, BHEL, SAIL, AIIMS, State Electricity Boards.
-
-2. **Private Sector (निजी क्षेत्रक)**:
-   * **Ownership**: Ownership of assets and delivery of services is in the hands of **private individuals or private companies**.
-   * **Primary Objective**: **Profit Maximization**.
-   * **Financing**: Financed through private capital investments and charges levied on consumers for services rendered.
-   * **Examples**: Tata Iron and Steel Company (TISCO), Reliance Industries Limited (RIL), Infosys, ICICI Bank, private hospitals.
-
-3. **Why is the Public Sector Necessary?**:
-   * **Huge Capital Requirements**: Large infrastructure projects (railways, bridges, dams, nuclear plants, heavy machinery) require massive investments beyond the capacity of private enterprises.
-   * **Non-Excludable Public Goods**: Services like road construction, national defense, lighting, and flood control cannot easily charge individual usage fees to earn profit.
-   * **Subsidy Support for Basic Economic Support**:
-     * *Electricity Supply*: Supplying power at subsidized rates to small industries and farmers (private generation would make power unaffordable).
-     * *Food Security*: Government buys wheat and rice from farmers at **Minimum Support Price (MSP)** and sells it to the poor through ration shops (PDS) at subsidized rates (e.g., ₹2-3/kg).
-   * **Primary Responsibility for Health & Education**: Providing quality basic education, literacy, clean drinking water, and healthcare to all citizens is the primary responsibility of the government.
-
----
-
-## Section 3: Technical Glossary & Analytical Comparative Matrices
-
-### Technical Glossary
-1. **Primary Sector**: Economic activities directly harvesting or extracting natural resources (e.g., agriculture, mining).
-2. **Secondary Sector**: Economic activities transforming natural raw materials into manufactured industrial goods.
-3. **Tertiary Sector**: Service-oriented economic activities that support production, distribution, and consumption without producing physical goods.
-4. **Gross Domestic Product (GDP)**: Total monetary value of all final goods and services produced within a country's boundary in a given financial year.
+     * In 2013–14, the Tertiary sector contributed **over 60% of India's GDP**, but employed less than 30% of the workforce.\n     * The Primary sector (agriculture) contributed **less than 15–20% of GDP**, but continued to employ **nearly 45–50% of the total national workforce**.\n   * **Conclusion**: A historical shift in output occurred in India (Primary $\\rightarrow$ Tertiary), but a corresponding shift in employment **did NOT occur**. Secondary and Tertiary sectors failed to generate sufficient jobs for agricultural workers.\n\n3. **Underemployment and Disguised Unemployment**:\n   * **Definition**: A situation where people are apparently working, but all of them are made to work less than their full potential.\n   * **Characteristics**:\n     * Visible in rural agricultural families where 5–8 members work on a small plot of land when only 3 are required.\n     * Even if 2–3 members are moved away to work elsewhere, agricultural output does **NOT decline**.\n     * The marginal productivity of extra workers is **ZERO**.\n   * **Urban Disguised Unemployment**: Service workers on streets (casual painters, plumbers, repair persons, street vendors) who work all day but earn very little.\n\n---\n\n### Theme 4: How to Create More Employment?\n\nTo resolve underemployment in agriculture and absorb rural/urban youth, two types of intervention are necessary:\n\n1. **Long-Term Capital & Infrastructure Strategies**:\n   * **Irrigation Infrastructure**: Constructing canals and check-dams (e.g., digging wells/tube wells) enables multi-cropping (Rabi & Kharif), creating direct farm employment year-round.\n   * **Rural Transportation & Storage**: Building rural roads (PMGSY) and cold storage facilities allows farmers to transport crops to markets, generating jobs in transport, trade, and logistics.\n   * **Agricultural Credit**: Providing cheap, easy credit through regional rural banks and co-operatives eliminates high-interest moneylender traps, allowing farmers to purchase seeds, pumps, and fertilizers.\n   * **Promoting Agro-Processing & Rural Industries**: Establishing pulse mills, cold storages, honey-collection centers, and vegetable processing units in semi-rural areas.\n   * **Expansion of Education & Healthcare**:\n     * According to NITI Aayog (formerly Planning Commission), improving education requires thousands of new schools, creating over **20 lakh jobs in the education sector alone**.\n     * Expanding rural healthcare generates massive employment for doctors, nurses, and health workers.\n   * **Tourism & Regional Crafts**: Developing regional tourism and handicraft hubs can generate **over 35 lakh additional jobs annually**.\n\n2. **Short-Term Guaranteed Employment (MGNREGA 2005)**:\n   * **Full Title**: **Mahatma Gandhi National Rural Employment Guarantee Act 2005**.\n   * **Legal Provision**: Enacted by the Central Government to implement the **Right to Work** in rural areas.\n   * **Key Features**:\n     1. Guarantees **100 days of assured wage employment** in a financial year to every rural household whose adult members volunteer to do unskilled manual work.\n     2. If the government fails to provide employment within 15 days of application, it must pay an **Unemployment Allowance** to the applicant.\n     3. Priority is given to works that help **increase future agricultural production** (water conservation, soil erosion control, afforestation, land levelling).\n     4. Operational in all rural districts across India; 1/3rd of proposed jobs are reserved for women.\n\n---\n\n### Theme 5: Division of Sectors as Organized and Unorganized\n\nEconomic activities are also classified based on working conditions, rules, and security of employment:\n\n| Parameter | Organized Sector Unorganized Sector\n| :--- | :--- | :--- |\n| **Registration & Authority** | Registered with the government; Complies with formal laws. | Outside government control; small, scattered units largely unregistered. |\n| **Rules & Laws Followed** | Follows Factories Act, Minimum Wages Act, Payment of Gratuity Act, etc. | Rules exist on paper but are rarely implemented or enforced. |\n| **Employment Terms** | Fixed hours, regular and secure job terms; formal appointment letters. | Insecure terms; job loss without notice; seasonal work vulnerability. |\n| **Salary & Overtime** | Fixed regular salary; mandatory **Overtime Payment** for extra hours. | Low wages; no extra pay for overtime work. |\n| **Social Security & Benefits** | Paid leave, provident fund (PF), gratuity, medical benefits, safe environment. | No paid leave, no sick leave, no medical benefits, no provident fund. |\n| **Examples** Bank officers, government schoolteachers, TISCO factory workers, PSU employees. | Landless farm labourers, construction workers, street vendors, weavers, handloom workers. |\n\n#### Protecting Workers in the Unorganized Sector\nUnorganized sector workers face economic exploitation and social discrimination. Strategies to protect them:\n* **In Rural Areas**: Provide landless laborers and small/marginal farmers with timely delivery of seeds, agricultural inputs, cheap credit, storage, and market linkages.\n* **In Urban Areas**: Support small-scale industries with raw material procurement and marketing assistance; enforce minimum wage laws for casual construction, transportation, and street workers.\n* **Social Protection for Marginalised Groups**: A majority of workers from Scheduled Castes (SC), Scheduled Tribes (ST), and Backward Classes (OBC) are trapped in unorganized, insecure jobs. They require both economic support (fair wages) and social dignity against discrimination.\n\n---\n\n### Theme 6: Sectors in Terms of Ownership (Public and Private)\n\nEconomic activities are categorized by asset ownership and service delivery responsibility:\n\n1. **Public Sector**:\n   * **Ownership**: The **Government** owns most of the assets and provides all major services.\n   * **Primary Objective**: **Public Welfare** and social development, not profit maximization.\n   * **Financing**: Government meets expenses through revenue raised via taxes and public borrowing.\n   * **Examples**: Indian Railways, Bharat Petroleum, Post Offices, BHEL, SAIL, AIIMS, State Electricity Boards.\n\n2. **Private Sector**:\n   * **Ownership**: Ownership of assets and delivery of services is in the hands of **private individuals or private companies**.\n   * **Primary Objective**: **Profit Maximization**.\n   * **Financing**: Financed through private capital investments and charges levied on consumers for services rendered.\n   * **Examples**: Tata Iron and Steel Company (TISCO), Reliance Industries Limited (RIL), Infosys, ICICI Bank, private hospitals.\n\n3. **Why is the Public Sector Necessary?**:\n   * **Huge Capital Requirements**: Large infrastructure projects (railways, bridges, dams, nuclear plants, heavy machinery) require massive investments beyond the capacity of private enterprises.\n   * **Non-Excludable Public Goods**: Services like road construction, national defense, lighting, and flood control cannot easily charge individual usage fees to earn profit.\n   * **Subsidy Support for Basic Economic Support**:\n     * *Electricity Supply*: Supplying power at subsidized rates to small industries and farmers (private generation would make power unaffordable).\n     * *Food Security*: Government buys wheat and rice from farmers at **Minimum Support Price (MSP)** and sells it to the poor through ration shops (PDS) at subsidized rates (e.g., ₹2-3/kg).\n   * **Primary Responsibility for Health & Education**: Providing quality basic education, literacy, clean drinking water, and healthcare to all citizens is the primary responsibility of the government.\n\n---\n\n## Section 3: Technical Glossary & Analytical Comparative Matrices\n\n### Technical Glossary\n1. **Primary Sector**: Economic activities directly harvesting or extracting natural resources (e.g., agriculture, mining).\n2. **Secondary Sector**: Economic activities transforming natural raw materials into manufactured industrial goods.\n3. **Tertiary Sector**: Service-oriented economic activities that support production, distribution, and consumption without producing physical goods.\n4. **Gross Domestic Product (GDP)**: Total monetary value of all final goods and services produced within a country.'s boundary in a given financial year.
 5. **Final Goods**: Finished goods purchased directly by consumers for consumption or investment, requiring no further processing.
 6. **Intermediate Goods**: Raw materials or semi-finished items used up during the production of final goods.
 7. **Disguised Unemployment**: A condition of underemployment where more workers are engaged in a job than required; removing extra workers does not reduce total output.

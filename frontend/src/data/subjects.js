@@ -8,12 +8,13 @@ export const SUBJECTS = [
   { id: 'english', label: 'English', emoji: '📖', shortLabel: 'English' },
   { id: 'social-science', label: 'Social Science', emoji: '🌍', shortLabel: 'Social Science' },
 ]
+export const SUPPORTED_SUBJECT_IDS = ['science', 'math', 'english', 'social-science']
 
 export const SUBJECT_PARTS = {
   science: [
-    { id: 'chemistry', label: 'Chemistry', description: 'Chemical substances', chapterIds: ['science-3', 'science-8', 'science-9', 'science-6'] },
-    { id: 'biology', label: 'Biology', description: 'World of living', chapterIds: ['science-4', 'science-10', 'science-11', 'science-7'] },
-    { id: 'physics-environment', label: 'Physics & Environment', description: 'Physics phenomena and natural resources', chapterIds: ['science-1', 'science-12', 'science-2', 'science-5', 'science-13'] },
+    { id: 'chemistry', label: 'Chemistry', description: 'Chemical substances', chapterIds: ['science-1', 'science-2', 'science-3', 'science-4'] },
+    { id: 'biology', label: 'Biology', description: 'World of living', chapterIds: ['science-5', 'science-6', 'science-7', 'science-8'] },
+    { id: 'physics-environment', label: 'Physics & Environment', description: 'Physics phenomena and natural resources', chapterIds: ['science-9', 'science-10', 'science-11', 'science-12', 'science-13'] },
   ],
   math: [
     { id: 'number-algebra', label: 'Number System & Algebra', description: 'Core algebra and sequences', chapterIds: ['math-1', 'math-2', 'math-3', 'math-4', 'math-5'] },
@@ -23,7 +24,7 @@ export const SUBJECT_PARTS = {
   english: [
     { id: 'first-flight', label: 'First Flight Prose', description: 'Stories and prose lessons', chapterIds: ['english-1', 'english-2', 'english-3', 'english-4', 'english-5', 'english-6', 'english-7', 'english-8', 'english-9'] },
     { id: 'poetry', label: 'Poetry', description: 'Poems and poetic devices', chapterIds: ['english-10', 'english-11'] },
-    { id: 'footprints-language', label: 'Footprints & Language', description: 'Supplementary reader, grammar and writing', chapterIds: ['english-12', 'english-13', 'english-14', 'english-15', 'english-16'] },
+    { id: 'footprints-language', label: 'Footprints & Language', description: 'Supplementary reader, grammar and writing', chapterIds: ['english-12', 'english-13', 'english-14', 'english-15', 'english-16', 'english-17', 'english-18', 'english-19', 'english-20', 'english-21', 'english-22'] },
   ],
   'social-science': [
     { id: 'history', label: 'History', description: 'India and the modern world', chapterIds: ['social-science-1', 'social-science-2', 'social-science-3', 'social-science-4', 'social-science-5'] },
@@ -35,18 +36,18 @@ export const SUBJECT_PARTS = {
 
 export const SUBJECT_CHAPTERS = {
   science: [
-    'Light — Reflection & Refraction',
-    'Electricity',
     'Chemical Reactions & Equations',
-    'Life Processes',
-    'Magnetic Effects of Electric Current',
-    'Carbon & Its Compounds',
-    'Heredity & Evolution',
     'Acids, Bases & Salts',
     'Metals & Non-Metals',
+    'Carbon & Its Compounds',
+    'Life Processes',
     'Control & Coordination',
     'How do Organisms Reproduce?',
+    'Heredity',
+    'Light — Reflection & Refraction',
     'The Human Eye & Colorful World',
+    'Electricity',
+    'Magnetic Effects of Electric Current',
     'Our Environment',
   ],
   math: [
@@ -82,6 +83,12 @@ export const SUBJECT_CHAPTERS = {
     'Footprints Without Feet',
     'Bholi',
     'Grammar & Writing Skills',
+    'A Question of Trust',
+    'Footprints Without Feet (Supplementary Reader)',
+    'The Making of a Scientist',
+    'The Necklace',
+    'Bholi (Complete Supplementary Reader)',
+    'The Book That Saved the Earth',
   ],
   'social-science': [
     'The Rise of Nationalism in Europe',
@@ -110,9 +117,9 @@ export const SUBJECT_CHAPTERS = {
 }
 
 const WEIGHTS = {
-  science: [10, 9, 8, 9, 7, 8, 6, 8, 9, 7, 7, 6, 6],
+  science: [3, 6, 5, 7, 8, 6, 7, 4, 8, 4, 7, 6, 5],
   math: [8, 7, 8, 8, 9, 10, 7, 8, 7, 7, 6, 8, 9, 4],
-  english: [7, 7, 6, 6, 7, 5, 6, 6, 6, 5, 5, 5, 5, 5, 5, 12],
+  english: [7, 7, 6, 6, 7, 5, 6, 6, 6, 5, 5, 5, 5, 5, 5, 12, 5, 5, 5, 5, 5, 5],
   'social-science': [4, 4, 4, 4, 4, 3, 2, 3, 5, 2, 3, 4, 4, 4, 4, 5, 3, 5, 5, 5, 5, 4],
 }
 

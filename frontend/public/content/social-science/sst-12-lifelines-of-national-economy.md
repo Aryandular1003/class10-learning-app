@@ -5,7 +5,7 @@
 * **Subject ID**: `sst`
 * **Working List Chapter Number**: 12 (Geography Chapter 7)
 * **Chapter Title**: Lifelines of National Economy
-* **Hindi Title**: राष्ट्रीय अर्थव्यवस्था की जीवन रेखाएँ
+* **Hindi Title**: Lifelines of the national economy
 * **Subject Code**: 08
 * **Academic Session**: 2026–27
 * **Target Examination**: 2027 Secondary Board Examination
@@ -246,112 +246,7 @@ Communication involves the transmission of information, ideas, and messages betw
 ```
 
 * **India's Export Basket**: Gems and jewellery, chemicals and allied products, agriculture and allied products, engineering goods.
-* **India's Import Basket**: Petroleum crude and products, gems and precious stones, chemicals, base metals, machinery.
-
-#### Tourism as a Trade
-* **Economic Scale**: Over **15 million people** are directly engaged in the tourism industry in India.
-* **Benefits**:
-  1. Earns valuable foreign exchange.
-  2. Promotes national integration and cultural understanding.
-  3. Provides support to local handicrafts and cultural pursuits.
-* **Types of Tourism in India**: Heritage Tourism, Eco-Tourism, Adventure Tourism, Cultural Tourism, Medical Tourism, and Business Tourism.
-* **Rajasthan Context**: Rajasthan is a premier international heritage tourism destination (forts, palaces, desert circuits, wildlife sanctuaries like Ranthambore/Sariska).
-
----
-
-## Chronology & Analytical Comparative Tables
-
-### Chronological Timeline of Infrastructure Milestones
-| Year / Era | Historical Infrastructure Event / Landmark | Economic / Geographical Impact |
-| :--- | :--- | :--- |
-| **16 April 1853** | First railway line opened in India between **Bombay and Thane** (34 km). | Beginning of steam rail transportation in South Asia. |
-| **1953** | **Nationalisation of Air Transport** in India. | Formation of Indian Airlines and Air India under state control. |
-| **1960** | Establishment of the **Border Roads Organisation (BRO)**. | Development of strategic roads along northern/north-eastern borders. |
-| **1995** | Operationalisation of National Highways Authority of India (**NHAI**). | Execution of Golden Quadrilateral and Corridor Super Highways. |
-| **2000** | Launch of **Pradhan Mantri Gram Sadak Yojana (PMGSY)**. | Nationwide rural all-weather road connectivity. |
-| **October 2020**| Inauguration of **Atal Tunnel** (Rohtang, 9.02 km) by BRO. | All-weather connectivity between Manali and Lahaul-Spiti valley. |
-
-### Comparative Analytical Table: Road Transport vs. Rail Transport
-| Feature / Dimension | Road Transport (Roadways) | Rail Transport (Railways) |
-| :--- | :--- | :--- |
-| **Capital Investment** | Considerably lower construction & maintenance cost. | Very high initial capital investment for tracks & signals. |
-| **Terrain Adaptability** | Negotiates steep gradients, hilly & undulating relief. | Requires flat plains; difficult in steep mountain slopes. |
-| **Door-to-Door Connectivity** | Provides direct door-to-door service and lower loading costs. | Terminal to terminal; requires feeder road transport. |
-| **Best Suited Distance** | Economical for short distances and small loads. | Highly economical for long distances & bulk freight. |
-| **Environmental Impact** | Higher vehicular emissions per unit of freight. | Lower emissions per tonne-km; electrified lines. |
-
----
-
-## Verified Previous-Year Board Questions (PYQs)
-
-### 1. BSER Class 10 Social Science Main Exam 2024 (Paper Code: S-08)
-* **Q1 (viii) [Objective / MCQ - 1 Mark]**:
-  * **Question**: The air transport was nationalised in:
-    (A) 1983  (B) 1973  (C) 1963  (D) 1953
-  * **Official Model Answer**: **(D) 1953** [1 Mark]
-
-* **Q8 [Short Answer - 2 Marks]**:
-  * **Question**: What are the relevant mediums of mass communication? (जनसंचार के प्रासंगिक माध्यम कौन-कौन से हैं?)
-  * **Official Model Answer**: Mass communication mediums provide entertainment and create awareness among people about national programs and policies. Relevant mediums include:
-    1. **Print Media**: Newspapers, magazines, periodicals, and books.
-    2. **Electronic Media**: Television (*Doordarshan*), Radio (*All India Radio / Akashvani*), Films (certified by CBFC), and the Internet / Social Media. [2 Marks]
-
----
-
-### 2. BSER Class 10 Social Science Main Exam 2023 (Paper Code: S-08)
-* **Q9 [Short Answer - 2 Marks]**:
-  * **Question**: Write two reasons for the growing importance of road transport vis-a-vis rail transport. (रेल परिवहन की अपेक्षा सड़क परिवहन की बढ़ती महत्ता के दो कारण लिखिए।)
-  * **Official Model Answer**:
-    1. **Lower Construction Cost**: Construction cost of roads is much lower than that of railway lines.
-    2. **Door-to-Door Service**: Roadways provide door-to-door service, which reduces the cost of loading and unloading goods. [1 + 1 = 2 Marks]
-
-* **Q3 (iv) [Very Short Answer - 1 Mark]**:
-  * **Question**: In which state is the Deendayal port located? (दीनदयाल पत्तन कौन-से राज्य में स्थित है?)
-  * **Official Model Answer**: **Gujarat** (Kandla Port). [1 Mark]
-
----
-
-### 3. BSER Class 10 Social Science Supplementary (D&D) Exam 2024 (Paper Code: S-124)
-* **Q22 [Short Answer - 3 Marks]**:
-  * **Question**: Explain the importance of border roads. (सीमांत सड़कों का महत्व बताइए।)
-  * **Official Model Answer**: Border roads are constructed and maintained by the Border Roads Organisation (BRO), established in 1960. Their importance includes:
-    1. **Strategic Defense**: They improve accessibility in northern and north-eastern border areas of strategic military importance.
-    2. **Economic Development**: They help in the economic development of remote and inaccessible border villages.
-    3. **Difficult Terrain Connectivity**: BRO constructs roads in high-altitude freezing terrains, such as the Atal Tunnel (9.02 km) connecting Manali to Lahaul-Spiti. [3 Marks]
-
-* **Q5 [Very Short Answer - 1 Mark]**:
-  * **Question**: When and where did the first train run in India? (भारत में पहली रेलगाड़ी कब और कहाँ चलाई गई?)
-  * **Official Model Answer**: The first train ran in India on **16 April 1853** between **Bombay and Thane** covering a distance of **34 km**. [1 Mark]
-
----
-
-### 4. BSER Class 10 Official Model Question Paper 2026–27
-* **Q3 (x) [Objective / MCQ - 1 Mark]**:
-  * **Question**: Which one of the following ports is the deepest landlocked and well-protected port on the east coast of India?
-    (A) Kandla  (B) Visakhapatnam  (C) Tuticorin  (D) Paradip
-  * **Official Model Answer**: **(B) Visakhapatnam** [1 Mark]
-
----
-
-## Practice Questions & Model Answers
-
-### Short Answer Practice Questions
-
-#### Q1. Explain three major advantages of pipeline transport for carrying petroleum and natural gas. [3 Marks]
-* **Model Answer**:
-  1. **Minimal Trans-shipment Losses**: Liquids and gases flow continuously without transit delays, leakage, or spills associated with road/rail tankers.
-  2. **Topographical Accessibility**: Pipelines can be laid through difficult terrains, under rivers, and across remote desert plains (e.g., Hazira–Vijaipur–Jagdishpur gas pipeline).
-  3. **Low Operational Cost**: Though initial setup cost is high, running and maintenance costs are extremely low once laid, making it highly economical in the long run. [1 × 3 = 3 Marks]
-
-#### Q2. Why is international trade considered the "economic barometer" of a country? Explain. [3 Marks]
-* **Model Answer**:
-  1. **Foreign Exchange Earnings**: No country is self-sufficient in all resources. International trade allows a country to earn foreign exchange by exporting surplus goods.
-  2. **Reflects Economic Prosperity**: A higher volume of trade indicates advanced industrial, agricultural, and technological capability.
-  3. **Employment & Living Standards**: Trade creates employment across production, transport, and banking, leading to higher per capita income and living standards. [1 × 3 = 3 Marks]
-
-#### Q3. Distinguish between Favourable Balance of Trade and Unfavourable Balance of Trade. [2 Marks]
-* **Model Answer**:
-  * **Favourable Balance of Trade**: Occurs when the value of a country's exports is greater than the value of its imports ($Export > Import$). It brings a trade surplus and strengthens foreign exchange reserves.
+* **India's Import Basket**: Petroleum crude and products, gems and precious stones, chemicals, base metals, machinery.\n\n#### Tourism as a Trade\n* **Economic Scale**: Over **15 million people** are directly engaged in the tourism industry in India.\n* **Benefits**:\n  1. Earns valuable foreign exchange.\n  2. Promotes national integration and cultural understanding.\n  3. Provides support to local handicrafts and cultural pursuits.\n* **Types of Tourism in India**: Heritage Tourism, Eco-Tourism, Adventure Tourism, Cultural Tourism, Medical Tourism, and Business Tourism.\n* **Rajasthan Context**: Rajasthan is a premier international heritage tourism destination (forts, palaces, desert circuits, wildlife sanctuaries like Ranthambore/Sariska).\n\n---\n\n## Chronology & Analytical Comparative Tables\n\n### Chronological Timeline of Infrastructure Milestones\n| Year / Era | Historical Infrastructure Event / Landmark | Economic / Geographical Impact |\n| :--- | :--- | :--- |\n| **16 April 1853** First railway line opened in India between **Bombay and Thane** (34 km). | Beginning of steam rail transportation in South Asia. |\n| **1953** | **Nationalisation of Air Transport** in India. | Formation of Indian Airlines and Air India under state control. |\n| **1960** | Establishment of the **Border Roads Organization (BRO)**. | Development of strategic roads along northern/north-eastern borders. |\n| **1995** | Operationalization of National Highways Authority of India (**NHAI**). | Execution of Golden Quadrilateral and Corridor Super Highways. |\n| **2000** | Launch of **Pradhan Mantri Gram Sadak Yojana (PMGSY)**. | Nationwide rural all-weather road connectivity. |\n| **October 2020** Inauguration of **Atal Tunnel** (Rohtang, 9.02 km) by BRO. | All-weather connectivity between Manali and Lahaul-Spiti valley. |\n\n### Comparative Analytical Table: Road Transport vs. Railway Transport\n| Feature / Dimension | Road Transport (Roadways) Rail Transport (Railways)\n| :--- | :--- | :--- |\n| **Capital Investment** | Considerably lower construction & maintenance cost. | Very high initial capital investment for tracks & signals. |\n| **Terrain Adaptability** | Negotiates steep gradients, hilly & undulating relief. | Requires flat plains; difficult in steep mountain slopes. |\n| **Door-to-Door Connectivity** | Provides direct door-to-door service and lower loading costs. | Terminal to terminal; requires feeder road transport. |\n| **Best Suited Distance** | Economical for short distances and small loads. | Highly economical for long distances & bulk freight. |\n| **Environmental Impact** | Higher vehicular emissions per unit of freight. | Lower emissions per tonne-km; electrified lines. |\n\n---\n\n## Verified Previous-Year Board Questions (PYQs)\n\n### 1. BSER Class 10 Social Science Main Exam 2024 (Paper Code: S-08)\n* **Q1 (viii) [Objective / MCQ - 1 Mark]**:\n  * **Question**: The air transport was nationalized in:\n    (A) 1983 (B) 1973 (C) 1963 (D) 1953\n  * **Official Model Answer**: **(D) 1953** [1 Mark]\n\n* **Q8 [Short Answer - 2 Marks]**:\n  * **Question**: What are the relevant mediums of mass communication? (What are the relevant mediums of mass communication?)\n  * **Official Model Answer**: Mass communication mediums provide entertainment and create awareness among people about national programs and policies. Relevant mediums include:\n    1. **Print Media**: Newspapers, magazines, periodicals, and books.\n    2. **Electronic Media**: Television (*Doordarshan*), Radio (*All India Radio / Akashvani*), Films (certified by CBFC), and the Internet / Social Media. [2 Marks]\n\n---\n\n### 2. BSER Class 10 Social Science Main Exam 2023 (Paper Code: S-08)\n* **Q9 [Short Answer - 2 Marks]**:\n  * **Question**: Write two reasons for the growing importance of road transport vis-a-vis rail transport. (Write two reasons for the increasing importance of road transport as compared to rail transport.)\n  * **Official Model Answer**:\n    1. **Lower Construction Cost**: Construction cost of roads is much lower than that of railway lines.\n    2. **Door-to-Door Service**: Roadways provide door-to-door service, which reduces the cost of loading and unloading goods. [1 + 1 = 2 Marks]\n\n* **Q3 (iv) [Very Short Answer - 1 Mark]**:\n  * **Question**: In which state is the Deendayal port located? (In which state is Deendayal Port located?)\n  * **Official Model Answer**: **Gujarat** (Kandla Port). [1 mark]\n\n---\n\n### 3. BSER Class 10 Social Science Supplementary (D&D) Exam 2024 (Paper Code: S-124)\n* **Q22 [Short Answer - 3 Marks]**:\n  * **Question**: Explain the importance of border roads. (Explain the importance of frontier roads.)\n  * **Official Model Answer**: Border roads are constructed and maintained by the Border Roads Organization (BRO), established in 1960. Their importance includes:\n    1. **Strategic Defense**: They improve accessibility in northern and north-eastern border areas of strategic military importance.\n    2. **Economic Development**: They help in the economic development of remote and inaccessible border villages.\n    3. **Difficult Terrain Connectivity**: BRO constructs roads in high-altitude freezing terrains, such as the Atal Tunnel (9.02 km) connecting Manali to Lahaul-Spiti. [3 Marks]\n\n* **Q5 [Very Short Answer - 1 Mark]**:\n  * **Question**: When and where did the first train run in India? (When and where was the first train run in India?)\n  * **Official Model Answer**: The first train ran in India on **16 April 1853** between **Bombay and Thane** covering a distance of **34 km**. [1 mark]\n\n---\n\n### 4. BSER Class 10 Official Model Question Paper 2026–27\n* **Q3 (x) [Objective / MCQ - 1 Mark]**:\n  * **Question**: Which one of the following ports is the deepest landlocked and well-protected port on the east coast of India?\n    (A) Kandla (B) Visakhapatnam (C) Tuticorin (D) Paradip\n  * **Official Model Answer**: **(B) Visakhapatnam** [1 Mark]\n\n---\n\n## Practice Questions & Model Answers\n\n### Short Answer Practice Questions\n\n#### Q1. Explain three major advantages of pipeline transport for carrying petroleum and natural gas. [3 Marks]\n* **Model Answer**:\n  1. **Minimal Trans-shipment Losses**: Liquids and gases flow continuously without transit delays, leakage, or spills associated with road/rail tankers.\n  2. **Topographical Accessibility**: Pipelines can be laid through difficult terrains, under rivers, and across remote desert plains (e.g., Hazira–Vijaipur–Jagdishpur gas pipeline).\n  3. **Low Operational Cost**: Though initial setup cost is high, running and maintenance costs are extremely low once laid, making it highly economical in the long run. [1 × 3 = 3 Marks]\n\n#### Q2. Why is international trade considered the "economic barometer" of a country? Explain. [3 Marks]\n* **Model Answer**:\n  1. **Foreign Exchange Earnings**: No country is self-sufficient in all resources. International trade allows a country to earn foreign exchange by exporting surplus goods.\n  2. **Reflects Economic Prosperity**: A higher volume of trade indicates advanced industrial, agricultural, and technological capability.\n  3. **Employment & Living Standards**: Trade creates employment across production, transport, and banking, leading to higher per capita income and living standards. [1 × 3 = 3 Marks]\n\n#### Q3. Distinguish between Favorable Balance of Trade and Unfavourable Balance of Trade. [2 Marks]\n* **Model Answer**:\n  * **Favourable Balance of Trade**: Occurs when the value of a country's exports is greater than the value of its imports ($Export > Import$). It brings a trade surplus and strengthens foreign exchange reserves.
   * **Unfavourable Balance of Trade**: Occurs when the value of a country's imports exceeds the value of its exports ($Import > Export$). It causes a trade deficit and drains national currency reserves. [1 + 1 = 2 Marks]
 
 ---

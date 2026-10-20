@@ -1,77 +1,27 @@
 # BoardReady SST Master Chapter Content
 ## RBSE Class 10 Social Science — Academic Session 2026–27 (2027 Examination)
 ### Discipline: Political Science (Democratic Politics – II)
-### Chapter ID: sst-15 | Chapter Title: Gender, Religion and Caste (जाति, धर्म और लैंगिक मसले)
+### Chapter ID: sst-15 | Chapter Title: Gender, Religion and Caste
 
 ---
 
 ## SECTION 1: EXECUTIVE SYLLABUS & PRESCRIPTION VERIFICATION REPORT
 
-* **Official Subject Code**: Social Science — Code 08 (सामाजिक विज्ञान)
-* **Prescribed Textbook**: *Democratic Politics – II* (लोकतांत्रिक राजनीति – II), Class X, published by BSER Ajmer / NCERT.
+* **Official Subject Code**: Social Science — Code 08 (Social Science)
+* **Prescribed Textbook**: *Democratic Politics – II*, Class X, published by BSER Ajmer / NCERT.
 * **Prescription Status**: **100% Fully Prescribed** for the 2026–27 Academic Session and the 2027 Secondary Board Examination.
 * **Board Marks Allocation**: **04 Marks** out of 80 Theory Marks in Social Science (Political Science Total Unit Weightage: 20 Marks across 5 prescribed chapters).
 * **Rationalisation & Exclusion Verification**:
   * Verified against official BSER Curriculum Notification (`10_2027.pdf`, p. 38) and the NCERT Rationalised Content Guide.
-  * **Textual Rationalisation**: Selected decorative images on pages 46, 48, and 49 of the NCERT textbook were omitted in NCERT's rationalisation drive, but **100% of the textual concepts and sub-topics are fully active and examinable**.
-  * **Strict Non-Contamination Policy**: Non-prescribed/rationalised Civics chapters (*Democracy and Diversity*, *Popular Struggles and Movements*, and *Challenges to Democracy*) are strictly excluded from assessment.
-* **BSER Board Examination Blueprint Pattern**:
-  * **04 Marks Total Weightage**, typically formatted as:
-    * Option A: 1 Short Answer Question (03 Marks) + 1 Objective/MCQ Question (01 Mark)
-    * Option B: 1 Long/Essay Answer Question (04 Marks) with internal choice
-    * Option C: 2 Short Answer Questions (02 Marks + 02 Marks)
+  * **Textual Rationalisation**: Selected decorative images on pages 46, 48, and 49 of the NCERT textbook were omitted in NCERT's rationalization drive, but **100% of the textual concepts and sub-topics are fully active and examinable**.\n  * **Strict Non-Contamination Policy**: Non-prescribed/rationalised Civics chapters (*Democracy and Diversity*, *Popular Struggles and Movements*, and *Challenges to Democracy*) are strictly excluded from assessment.\n* **BSER Board Examination Blueprint Pattern**:\n  * **04 Marks Total Weightage**, typically formatted as:\n    * Option A: 1 Short Answer Question (03 Marks) + 1 Objective/MCQ Question (01 Mark)\n    * Option B: 1 Long/Essay Answer Question (04 Marks) with internal choice\n    * Option C: 2 Short Answer Questions (02 Marks + 02 Marks)\n\n---\n\n## SECTION 2: CHAPTER METADATA & BOARD BLUEPRINT ARCHITECTURE\n\n```\n===============================================================================================\n                                 BOARDREADY CHAPTER METADATA MATRIX\n===============================================================================================\nSubject Name : Social Science\nSubject Code : 08\nDiscipline : Political Science / Civics (Democratic Politics – II)\nWorking Chapter ID : sst-15\nNCERT Textbook Ch. No.   : Chapter 3 (formerly Chapter 4 prior to rationalization)\nChapter Title (English) : Gender, Religion and Caste\nChapter Title (Hindi) : Caste, Religion and Gender Issues\nExam Target Session : 2026–27 Academic Session (March 2027 Examination)\nTheory Paper Marks : 04 Marks (out of 80 Total Theory Marks)\nSessional Internal Marks : 20 Marks (Internal School Assessment)\nWritten Exam Time : 3 Hours 15 Minutes\nQuestion Types Tested : Objective/MCQ (1 Mark), Short Answer (2 or 3 Marks), Essay Choice (4 Marks)\nPrimary Source Text : NCERT Democratic Politics – II (BSER Prescribed Edition)\nOfficial Paper References: BSER Main Papers 2024, 2023, 2022; BSER D&D 2024; BSER 2026–27 Model Paper\n===============================================================================================\n```\n\n---\n\n## SECTION 3: SYLLABUS-ALIGNED COMPLETE REVISION NOTES\n\n### THEME 1: GENDER AND POLITICS\n\n#### 1. Public / Private Division of Labor (Gender Division of Labour)\n* **Sexual Division of Labour**: A system in which all work inside the home is either done by the women of the family or organized by them through domestic helpers, while men work outside to earn a livelihood.\n* **Nature of the Division**: This division is **not based on biology**, but on **social expectations and stereotypes**.\n* **Impact on Women**:\n  * Domestic work (cooking, cleaning, washing, tailoring, child-rearing) is considered non-productive and receives **no monetary value or recognition**.\n  * Women's role in public life remains minimal in most societies, leading to their exclusion from political decision-making.
 
----
-
-## SECTION 2: CHAPTER METADATA & BOARD BLUEPRINT ARCHITECTURE
-
-```
-========================================================================================================
-                                 BOARDREADY CHAPTER METADATA MATRIX
-========================================================================================================
-Subject Name             : Social Science (सामाजिक विज्ञान)
-Subject Code             : 08
-Discipline               : Political Science / Civics (लोकतांत्रिक राजनीति – II)
-Working Chapter ID       : sst-15
-NCERT Textbook Ch. No.   : Chapter 3 (formerly Chapter 4 prior to rationalisation)
-Chapter Title (English)  : Gender, Religion and Caste
-Chapter Title (Hindi)    : जाति, धर्म और लैंगिक मसले
-Exam Target Session      : 2026–27 Academic Session (March 2027 Examination)
-Theory Paper Marks       : 04 Marks (out of 80 Total Theory Marks)
-Sessional Internal Marks : 20 Marks (Internal School Assessment)
-Written Exam Time        : 3 Hours 15 Minutes
-Question Types Tested    : Objective/MCQ (1 Mark), Short Answer (2 or 3 Marks), Essay Choice (4 Marks)
-Primary Source Text      : NCERT Democratic Politics – II (BSER Prescribed Edition)
-Official Paper References: BSER Main Papers 2024, 2023, 2022; BSER D&D 2024; BSER 2026–27 Model Paper
-========================================================================================================
-```
-
----
-
-## SECTION 3: SYLLABUS-ALIGNED COMPLETE REVISION NOTES
-
-### THEME 1: GENDER AND POLITICS (लैंगिक मसले और राजनीति)
-
-#### 1. Public / Private Division of Labour (श्रम का लैंगिक विभाजन)
-* **Sexual Division of Labour**: A system in which all work inside the home is either done by the women of the family or organized by them through domestic helpers, while men work outside to earn a livelihood.
-* **Nature of the Division**: This division is **not based on biology**, but on **social expectations and stereotypes**.
-* **Impact on Women**:
-  * Domestic work (cooking, cleaning, washing, tailoring, child-rearing) is considered non-productive and receives **no monetary value or recognition**.
-  * Women's role in public life remains minimal in most societies, leading to their exclusion from political decision-making.
-
-#### 2. Feminist Movements (नारीवादी आंदोलन)
+#### 2. Feminist Movements
 * **Definition of Feminist**: A woman or a man who believes in equal rights and opportunities for women and men.
 * **Objectives of Feminist Movements**:
   * Agitations demanding equal voting rights (suffrage) and political status for women.
   * Demands for enhancing educational and career opportunities.
   * Movements aiming at equality in private and personal domestic lives (family laws, equal wages, protection against domestic violence).
-* **Outcome**: These movements improved women's role in public life. In Scandinavian countries like **Sweden, Norway, and Finland**, the participation of women in public life is exceptionally high.
-
-#### 3. Status of Women in Indian Society (भारतीय समाज में महिलाओं की स्थिति)
-India remains a **patriarchal society** (a system that values men more and gives them power over women). Women face discrimination, disadvantage, and oppression in various forms:
-1. **Literacy Rate Gap**:
-   * The literacy rate among women is **only 54%** compared to **76% among men** (as per textbook baseline census figures).
-   * Parents prefer spending resources on their sons' higher education rather than daughters', leading to higher female dropout rates.
+* **Outcome**: These movements improved women's role in public life. In Scandinavian countries like **Sweden, Norway, and Finland**, the participation of women in public life is exceptionally high.\n\n#### 3. Status of Women in Indian Society\nIndia remains a **patriarchal society** (a system that values men more and gives them power over women). Women face discrimination, disadvantage, and oppression in various forms:\n1. **Literacy Rate Gap**:\n   * The literacy rate among women is **only 54%** compared to **76% among men** (as per textbook baseline census figures).\n   * Parents prefer spending resources on their sons' higher education rather than daughters', leading to higher female dropout rates.
 2. **Unpaid & Undervalued Work**:
    * On average, an Indian woman works **one hour more per day** than an average man, yet much of her domestic and agricultural work is unpaid and unrecognized.
 3. **Unequal Wages (Equal Remuneration Act, 1976)**:
@@ -82,7 +32,7 @@ India remains a **patriarchal society** (a system that values men more and gives
 5. **Urban Crime & Domestic Violence**:
    * Urban areas have become increasingly unsafe for women, who face harassment, exploitation, domestic violence, and sexual assault inside and outside the home.
 
-#### 4. Women's Political Representation (महिलाओं का राजनीतिक प्रतिनिधित्व)
+#### 4. Women's Political Representation (Women's Political Representation)
 * **Under-Representation in India**:
   * The percentage of elected women MPs in the Lok Sabha crossed **14%** for the first time in 2019, which is far below the global average.
   * Women's representation in state legislative assemblies (including Rajasthan Vidhan Sabha) is **less than 10%**.
@@ -95,100 +45,14 @@ India remains a **patriarchal society** (a system that values men more and gives
 
 ---
 
-### THEME 2: RELIGION, COMMUNALISM AND POLITICS (धर्म, सांप्रदायिकता और राजनीति)
+### THEME 2: RELIGION, COMMUNALISM AND POLITICS (Religion, Communalism and Politics)
 
 #### 1. Relationship Between Religion and Politics
 Religion and politics can interact in both constructive and destructive ways:
 * **Gandhiji's View**: Mahatma Gandhi stated that *"Religion can never be separated from politics."* By religion, he did not mean any particular religion like Hinduism or Islam, but **moral values and ethics** drawn from all religions that must guide politics.
 * **Human Rights View**: Human rights groups demand that the government take special steps to protect religious minorities against communal violence.
-* **Women's Movement View**: The women's movement argues that **Family Laws** (laws dealing with marriage, divorce, adoption, and inheritance) of all religions discriminate against women, demanding that the state reform these laws to ensure gender justice.
-
-#### 2. Communalism (सांप्रदायिकता)
-* **Definition of Communalism**: An ideology that views **religion as the principal basis of social community**, holding that followers of a particular religion belong to one community with identical interests, while people of different religions cannot belong to the same social community.
-* **Communal Mindset**:
-  * Assumes that differences among followers of the same religion are trivial, while differences across religions are fundamental.
-  * In its extreme form, communalism asserts that people of different religions cannot live as equal citizens within one nation — either one group must dominate or they must form separate nations.
-
-#### 3. Forms of Communalism in Politics
-1. **Everyday Prejudices**: Routine religious prejudices, stereotypes of religious communities, and belief in the superiority of one's religion over others.
-2. **Quest for Political Dominance**: A desire for political dominance of one's religious community. Majoritarian community members seek majoritarian dominance; minority community members seek separate political units.
-3. **Political Mobilisation on Religious Lines**: Use of sacred symbols, religious leaders, emotional appeals, and plain fear to bring voters of one religion together in the political arena.
-4. **Communal Violence & Riots**: The most ugly form of communalism involving communal violence, massacres, and riots (e.g., severe communal riots during the 1947 Partition and post-independence incidents).
-
-#### 4. Secular State Provisions in the Indian Constitution (धर्मनिरपेक्ष राज्य)
-The framers of the Indian Constitution recognized communalism as a major threat to democracy and explicitly chose the **model of a secular state**. The constitutional provisions ensuring secularism are:
-1. **No Official Religion**: Unlike Sri Lanka (Buddhism), Pakistan (Islam), or Great Britain (Christianity), India has **no state or official religion**.
-2. **Freedom of Religion**: Article 25 guarantees all individuals and communities the freedom to profess, practice, and propagate any religion, or not to follow any.
-3. **Prohibition of Discrimination**: Article 15 prohibits discrimination against any citizen on grounds only of religion, race, caste, sex, or place of birth.
-4. **State Power to Intervene**: The Constitution empowers the state to intervene in religious matters to ensure equality within religious communities (e.g., banning **untouchability** under Article 17 and reforming discriminatory personal laws).
-
----
-
-### THEME 3: CASTE AND POLITICS (जाति और राजनीति)
-
-#### 1. Caste Inequalities & Hierarchy (जातिगत असमानता)
-* **Caste System**: An extreme form of division of labour based on hereditary occupational division, sanctified by social ritual and endogamy (marrying within the caste group).
-* **Untouchability**: An inhuman practice where members of 'outcaste' or 'lower caste' groups were excluded and subjected to severe social discrimination.
-* **Breakdown of the Caste Hierarchy**: Social reformers like **Jyotiba Phule, Mahatma Gandhi, Dr. B.R. Ambedkar, and Periyar E.V. Ramaswamy** advocated a society free of caste prejudices.
-* **Modern Factors Disrupting Caste Distinctions**:
-  * Economic growth and industrialisation.
-  * Large-scale **urbanisation** (impersonal city living where caste identities are less visible).
-  * Expansion of **literacy and education**.
-  * **Occupational mobility** (shift away from hereditary occupations).
-  * Weakening of the position of landlords in villages.
-  * Constitutional prohibition of caste discrimination.
-
-#### 2. Caste IN Politics (राजनीति में जाति)
-Caste manifests in politics in several distinct ways:
-1. **Nomination of Candidates**: Political parties keep the caste composition of the electorate in mind when selecting candidates for elections to secure winning majorities.
-2. **Cabinet Formation**: When forming governments, political parties ensure that representatives of different castes and tribes find a place in the council of ministers.
-3. **Appeals to Caste Sentiment**: Political parties and candidates make explicit appeals to caste sentiments during election campaigns ("caste vote bank").
-4. **Political Awakening of Disadvantaged Castes**: Universal adult franchise and 'one person, one vote' compelled political leaders to mobilize lower and backward castes, creating a new political consciousness among Dalits and OBCs.
-
-##### Critical Myth-Busting regarding Caste in Elections:
-* **Elections are NOT purely about caste**:
-  * No parliamentary or assembly constituency in India has a clear single-caste majority. Every candidate needs votes from multiple castes.
-  * No party wins all the votes of a particular caste ("vote bank" does not mean 100% monolithic voting).
-  * Sitting MPs or MLAs frequently lose elections, which would be impossible if caste voting were fixed.
-
-#### 3. Politics IN Caste (जाति में राजनीति)
-Politics also influences and alters the caste system:
-1. **Coalition of Sub-Castes**: Each caste group tries to become bigger by incorporating within it neighboring sub-castes that were previously excluded.
-2. **Forming Caste Coalitions**: Various caste groups enter into coalitions or negotiations with other castes, engaging in dialogue and power-sharing.
-3. **New Caste Groupings**: New political caste categories have emerged in the political vocabulary, such as **'Backward' and 'Forward' caste groups**, or Dalit and Bahujan alliances.
-
-#### 4. Positive and Negative Effects of Caste in Politics
-* **Positive Impact**:
-  * Gives voice to historically marginalized castes (Dalits, Adivasis, OBCs) to demand their fair share of power, resources, land, and educational access.
-* **Negative Impact**:
-  * Exclusive focus on caste diverts attention from urgent public issues like poverty, corruption, infrastructure, and development.
-  * Can lead to caste violence, social conflict, and fragmentation of society.
-
----
-
-## SECTION 4: KEY TECHNICAL GLOSSARY & CONCEPTUAL DEFINITIONS
-
-1. **Sexual Division of Labour (श्रम का लैंगिक विभाजन)**: A system in which all work inside the home is done by women or organized by them, while men work outside.
-2. **Feminist (नारीवादी)**: A woman or man who believes in equal rights and opportunities for women and men.
-3. **Patriarchy (पितृसत्ता)**: A social system ruled by men, where women are subordinated and men hold primary power.
-4. **Family Laws (पारिवारिक कानून)**: Laws dealing with family-related matters such as marriage, divorce, adoption, guardianship, and inheritance. In India, different personal laws apply to followers of different religions.
-5. **Urbanisation (शहरीकरण)**: The shift of population from rural areas to urban settlements.
-6. **Occupational Mobility (पेशेगत गतिशीलता)**: Shift from one occupation to another, especially away from ancestral or hereditary occupations.
-7. **Caste Hierarchy (जाति पदानुक्रम)**: A ladder-like social structure where all caste groups are placed from highest to lowest.
-8. **Communalism (सांप्रदायिकता)**: An ideology that considers religion as the principal or sole basis of a social community, fostering hostility toward other religious groups.
-9. **Secular State (धर्मनिरपेक्ष राज्य)**: A state that has no official religion, treats all religions equally, and guarantees freedom of faith to all citizens.
-
----
-
-## SECTION 5: HISTORICAL, CONSTITUTIONAL & POLICY MILESTONES
-
-```
-========================================================================================================
-                                KEY HISTORICAL AND CONSTITUTIONAL MILESTONES
-========================================================================================================
-Year / Period          Event / Policy Milestone                                Key Significance
-========================================================================================================
-1947                   Partition of British India                             Communal violence and mass displacement shape India's secular constitutional choice.
+* **Women's Movement View**: The women's movement argues that **Family Laws** (laws dealing with marriage, divorce, adoption, and inheritance) of all religions discriminate against women, demanding that the state reform these laws to ensure gender justice.\n\n#### 2. Communalism\n* **Definition of Communalism**: An ideology that views **religion as the principal basis of social community**, holding that followers of a particular religion belong to one community with identical interests, while people of different religions cannot belong to the same social community.\n* **Communal Mindset**:\n  * Assumes that differences among followers of the same religion are trivial, while differences across religions are fundamental.\n  * In its extreme form, communalism asserts that people of different religions cannot live as equal citizens within one nation — either one group must dominate or they must form separate nations.\n\n#### 3. Forms of Communalism in Politics\n1. **Everyday Prejudices**: Routine religious prejudices, stereotypes of religious communities, and belief in the superiority of one's religion over others.
+2. **Quest for Political Dominance**: A desire for political dominance of one's religious community. Majoritarian community members seek majoritarian dominance; minority community members seek separate political units.\n3. **Political Mobilization on Religious Lines**: Use of sacred symbols, religious leaders, emotional appeals, and plain fear to bring voters of one religion together in the political arena.\n4. **Communal Violence & Riots**: The most ugly form of communalism involving communal violence, massacres, and riots (e.g., severe communal riots during the 1947 Partition and post-independence incidents).\n\n#### 4. Secular State Provisions in the Indian Constitution\nThe framers of the Indian Constitution recognized communalism as a major threat to democracy and explicitly chose the **model of a secular state**. The constitutional provisions ensuring secularism are:\n1. **No Official Religion**: Unlike Sri Lanka (Buddhism), Pakistan (Islam), or Great Britain (Christianity), India has **no state or official religion**.\n2. **Freedom of Religion**: Article 25 guarantees all individuals and communities the freedom to profess, practice, and propagate any religion, or not to follow any.\n3. **Prohibition of Discrimination**: Article 15 prohibits discrimination against any citizen on grounds only of religion, race, caste, sex, or place of birth.\n4. **State Power to Intervene**: The Constitution empowers the state to intervene in religious matters to ensure equality within religious communities (e.g., banning **untouchability** under Article 17 and reforming discriminatory personal laws).\n\n---\n\n### THEME 3: CASTE AND POLITICS\n\n#### 1. Caste Inequalities & Hierarchy\n* **Caste System**: An extreme form of division of labor based on hereditary occupational division, sanctified by social ritual and endogamy (marrying within the caste group).\n* **Untouchability**: An inhuman practice where members of'outcaste' or 'lower caste' groups were excluded and subjected to severe social discrimination.\n* **Breakdown of the Caste Hierarchy**: Social reformers like **Jyotiba Phule, Mahatma Gandhi, Dr. B.R. Ambedkar, and Periyar E.V. Ramaswamy** advocated a society free of caste prejudices.\n* **Modern Factors Disrupting Caste Distinctions**:\n  * Economic growth and industrialisation.\n  * Large-scale **urbanisation** (impersonal city living where caste identities are less visible).\n  * Expansion of **literacy and education**.\n  * **Occupational mobility** (shift away from hereditary occupations).\n  * Weakening of the position of landlords in villages.\n  * Constitutional prohibition of castediscrimination.\n\n#### 2. Caste IN Politics\nCaste manifests in politics in several distinct ways:\n1. **Nomination of Candidates**: Political parties keep the caste composition of the electorate in mind when selecting candidates for elections to secure winning majorities.\n2. **Cabinet Formation**: When forming governments, political parties ensure that representatives of different castes and tribes find a place in the council of ministers.\n3. **Appeals to Caste Sentiment**: Political parties and candidates make explicit appeals to caste sentiments during election campaigns ("caste vote bank").\n4. **Political Awakening of Disadvantaged Castes**: Universal adult franchise and'one person, one vote' compelled political leaders to mobilize lower and backward castes, creating a new politicalconsciousness among Dalits and OBCs.\n\n###Critical Myth-Busting regarding Caste in Elections:\n* **Elections are NOT purely about caste**:\n * No parliamentary or assembly constituency in India has a clear single-caste majority. Every candidate needs voters from multiple castes. **Coalition of Sub-Castes**: Each caste group tries to become bigger by incorporating within it neighboring sub-castes that were previously excluded.\n2. **Forming Caste Coalitions**: Various caste groups enter into coalitions or negotiations with other castes, engaging in dialogue and power-sharing.\n3. **New Caste Groupings**: New political caste categories have emerged in the political vocabulary, such as **'Backward' and 'Forward'caste groups**, or Dalit and Bahujan alliances.\n\n#### 4. Positive and Negative Effects of Caste in Politics\n* **Positive Impact**:\n * Gives voice to historically marginalized castes (Dalits, Adivasis, OBCs) to demand their fair share of power, resources, land, and educational access.\n* **Negative Impact**:\n * Exclusive focus on caste diverts attention from urgent public issues like poverty, corruption, infrastructure, and development.\n * Can lead to caste violence, social conflict, and fragmentation of society.\n\n---\n\n## SECTION 4: KEY TECHNICAL GLOSSARY & CONCEPTUAL DEFINITIONS\n\n1. **Sexual Division of Labor**: A system in which all work inside the home is done by women or organized by them, while men work outside.\n2. **Feminist**: A woman or man who believes in equal rights and opportunities for women and men.\n3. **Patriarchy**: A social system ruled by men, where women are subordinate and men hold primary power.\n4. **Family Laws**: Laws dealing with family-related matters such as marriage, divorce, adoption, guardianship, and inheritance. In India, different personal laws apply to followers of different religions.\n5. **Urbanisation**: The shift of population from rural areas to urban settlements.\n6. **Occupational Mobility**: Shift from one occupation to another, especially away from ancestral or hereditary occupations.\n7. **Caste Hierarchy**: A ladder-like social structure where all caste groups are placed from highest to lowest.\n8. **Communalism**: An ideology that considers religion as the principal or sole basis of a social community, fostering hostility toward other religious groups.\n9. **Secular State**: A state that has no official religion, treats all religions equally, and guarantees freedom of faith to all citizens. Significance\n===============================================================================================\n1947 Partition of British India Communal violence and mass displacement shape India's secular constitutional choice.
 1950 (26 January)      Enactment of Constitution of India                     Guarantees Articles 15 (Non-discrimination), 17 (Abolition of Untouchability), & 25 (Religious Freedom).
 1976                   Equal Remuneration Act, 1976                           Mandates equal wages for equal work regardless of gender.
 1992                   73rd and 74th Constitutional Amendments                Mandates 33% (1/3rd) seat reservation for women in Panchayats and Municipalities.
@@ -454,7 +318,7 @@ S.No.  Required Topic / Sub-topic                         Prescription Status  C
 ## SECTION 10: MASTER SOURCE INVENTORY & REFERENCE LOG
 
 1. **BSER Official Curriculum Document (`10_2027.pdf`)**: Board of Secondary Education, Rajasthan, Ajmer. Confirms Subject Code 08, Political Science weightage (20 marks), and 04-mark allotment for *Gender, Religion and Caste*.
-2. **NCERT Prescribed Textbook**: *Democratic Politics – II* (लोकतांत्रिक राजनीति – II), Class X, NCERT. Prescribed primary source for all conceptual definitions, statistics, and examples.
+2. **NCERT Prescribed Textbook**: *Democratic Politics – II* (Democratic Politics – II), Class X, NCERT. Prescribed primary source for all conceptual definitions, statistics, and examples.
 3. **NCERT Rationalised Content Guide**: Confirms textual retention of Chapter 3 (*Gender, Religion and Caste*) with minor image rationalisations, and complete removal of Chapters 3, 5, and 8.
 4. **BSER Secondary Main Examination Papers**:
    * **2024 Main Paper (S-08)**: Q1(xi) Casteist definition, Q10 Forms of discrimination against women, Q19 Patriarchal discrimination vs. Secular governance choice.

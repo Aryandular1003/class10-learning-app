@@ -2,8 +2,8 @@
 
 - **Chapter ID**: `sst-21`
 - **Subject ID**: `sst`
-- **Discipline**: Economics (*Understanding Economic Development* / *आर्थिक विकास की समझ*)
-- **Chapter Title**: Globalisation and the Indian Economy (*वैश्वीकरण और भारतीय अर्थव्यवस्था*)
+- **Discipline**: Economics (*Understanding Economic Development* / *Understanding Economic Development*)
+- **Chapter Title**: Globalization and the Indian Economy (*Globalization and Indian Economy*)
 - **Academic Session**: 2026–27 (Target Examination: 2027)
 - **Board**: Board of Secondary Education, Rajasthan (BSER / RBSE, Ajmer)
 - **Language**: English
@@ -497,6 +497,6 @@
 4. **BSER Secondary Supplementary (D&D) Examination Paper 2024 (S-124.pdf)**: *Social Science (08)*, BSER Ajmer, Q11 [Foreign trade definition], Q19 [Loss due to Globalisation], Q25 [Globalisation concept].
 5. **BSER Secondary Main Examination Paper 2023 (S-08.pdf)**: *Social Science (08)*, BSER Ajmer, Q1(xi) [Main aim of WTO].
 6. **BSER Secondary Main Examination Paper 2022 (S-08.pdf)**: *Social Science (08)*, BSER Ajmer, Q2(i) [MNC definition fill-in-blank], Q2(vi) [Technology stimulus], Q16 [MNC working mechanism].
-7. **NCERT Prescribed Core Textbook**: *Understanding Economic Development (आर्थिक विकास की समझ)*, Class X, Chapter 4: *Globalisation and the Indian Economy*, Published by NCERT under Copyright / Adopted by BSER Ajmer.
+7. **NCERT Prescribed Core Textbook**: *Understanding Economic Development*, Class X, Chapter 4: *Globalisation and the Indian Economy*, Published by NCERT under Copyright / Adopted by BSER Ajmer.
 
 ---

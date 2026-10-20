@@ -2,9 +2,58 @@ import { useState, useEffect } from 'react'
 import { isSupabaseConfigured, supabase } from '../lib/supabase'
 import { RBSE_MATH_CH1_CONTENT } from '../data/rbseVerifiedData'
 import { CHAPTER_NOTES } from '../data/chapterNotesData'
-import { getSocialScienceSource, parseSocialScienceMarkdown } from '../data/socialScienceContent'
+import { getSocialScienceSource, parseMarkdownContent } from '../data/socialScienceContent'
 import { MATH_CHAPTERS } from '../data/mathContent'
 import { SCIENCE_CHAPTERS } from '../data/scienceContent'
+import { ENGLISH_CHAPTERS } from '../data/englishContent'
+
+const LOCAL_SUBJECTS = {
+  'social-science': {
+    label: 'Social Science',
+    sources: getSocialScienceSource,
+    path: 'social-science',
+  },
+  math: {
+    label: 'Mathematics',
+    sources: (chapterId) => MATH_CHAPTERS.find((chapter) => chapter.id === chapterId),
+    path: 'math',
+  },
+  science: {
+    label: 'Science',
+    sources: (chapterId) => SCIENCE_CHAPTERS.find((chapter) => chapter.id === chapterId),
+    path: 'science',
+  },
+  english: {
+    label: 'English',
+    sources: (chapterId) => ENGLISH_CHAPTERS.find((chapter) => chapter.id === chapterId),
+    path: 'english',
+  },
+}
+
+async function loadLocalChapterContent(chapterId, subjectId) {
+  const subject = LOCAL_SUBJECTS[subjectId]
+  if (!subject) return null
+
+  const normalizedChapterId = subjectId === 'english'
+    ? chapterId.replace(/^english-0?/, 'english-')
+    : chapterId
+  const source = subject.sources(normalizedChapterId)
+  if (!source) return null
+
+  const response = await fetch(`/content/${subject.path}/${source.file}`)
+  if (!response.ok) return null
+
+  const markdown = await response.text()
+  return {
+    notes: parseMarkdownContent(
+      markdown,
+      { id: chapterId, name: source.title, weight: 5 },
+      subject.label,
+      source.unit,
+      source.file,
+    ),
+  }
+}
 
 function toRevisionContent(notes) {
   if (!notes) return null
@@ -44,6 +93,18 @@ export function useContent(chapterId, subjectId = 'math') {
       setError(null)
 
       try {
+        // The bundled chapter Markdown is the complete, verified source for
+        // all subjects. Load it first so a stale Supabase row cannot hide a
+        // chapter that is already present in the app bundle.
+        const bundledContent = await loadLocalChapterContent(chapterId, subjectId)
+        if (bundledContent) {
+          if (active) {
+            setContent(bundledContent)
+            setLoading(false)
+          }
+          return
+        }
+
         if (isSupabaseConfigured && supabase) {
           // Fetch from Supabase content_items using existing schema
           const { data, error: dbError } = await supabase
@@ -68,60 +129,14 @@ export function useContent(chapterId, subjectId = 'math') {
           }
         }
 
-        // Verified local repository fallback keeps revision useful offline.
+        // Older, richer in-app notes remain a final fallback for legacy chapters.
         const localNotes = toRevisionContent(CHAPTER_NOTES[chapterId])
-        if (localNotes) {
+        if (localNotes || chapterId === 'math-1') {
           if (active) {
-            setContent(localNotes)
+            setContent(localNotes || RBSE_MATH_CH1_CONTENT)
             setLoading(false)
           }
           return
-        }
-
-        if (chapterId === 'math-1') {
-          if (active) {
-            setContent(RBSE_MATH_CH1_CONTENT)
-            setLoading(false)
-          }
-          return
-        }
-
-        const socialScienceSource = getSocialScienceSource(chapterId)
-        if (socialScienceSource) {
-          const response = await fetch(`/content/social-science/${socialScienceSource.file}`)
-          if (!response.ok) throw new Error(`Unable to load ${socialScienceSource.file}`)
-          const markdown = await response.text()
-          if (active) {
-            setContent({ notes: parseSocialScienceMarkdown(markdown, { id: chapterId, name: chapterId, weight: 5 }) })
-            setLoading(false)
-          }
-          return
-        }
-
-        const mathSource = MATH_CHAPTERS.find((m) => m.id === chapterId)
-        if (mathSource) {
-          const response = await fetch(`/content/math/${mathSource.file}`)
-          if (response.ok) {
-            const markdown = await response.text()
-            if (active) {
-              setContent({ notes: parseSocialScienceMarkdown(markdown, { id: chapterId, name: mathSource.title, weight: 6 }) })
-              setLoading(false)
-            }
-            return
-          }
-        }
-
-        const scienceSource = SCIENCE_CHAPTERS.find((s) => s.id === chapterId)
-        if (scienceSource) {
-          const response = await fetch(`/content/science/${scienceSource.file}`)
-          if (response.ok) {
-            const markdown = await response.text()
-            if (active) {
-              setContent({ notes: parseSocialScienceMarkdown(markdown, { id: chapterId, name: scienceSource.title, weight: 6 }) })
-              setLoading(false)
-            }
-            return
-          }
         }
 
         if (active) {

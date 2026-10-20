@@ -3,11 +3,11 @@
 ## Part 1: Chapter Metadata & Board Examination Blueprint
 
 ### Chapter Metadata
-* **Subject**: Social Science (*सामाजिक विज्ञान*)
+* **Subject**: Social Science (*Social Science*)
 * **Subject Code**: 08
-* **Discipline**: Economics (*Understanding Economic Development* / *आर्थिक विकास की समझ*)
+* **Discipline**: Economics (*Understanding Economic Development* / *Understanding Economic Development*)
 * **Chapter Number (Working List)**: 18 (Economics Chapter 1)
-* **Chapter Title**: Development (*विकास*)
+* **Chapter Title**: Development (*Development*)
 * **Chapter ID**: `sst-18`
 * **Subject ID**: `sst`
 * **Academic Session**: 2026–27

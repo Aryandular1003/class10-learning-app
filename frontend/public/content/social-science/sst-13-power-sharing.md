@@ -3,11 +3,11 @@
 ## Chapter Metadata & Official Examination Scheme
 
 * **Working List Chapter ID**: `sst-13`
-* **Subject ID**: `sst` (Social Science / सामाजिक विज्ञान)
+* **Subject ID**: `sst` (Social Science / Social Science)
 * **Subject Code**: 08
-* **Discipline**: Political Science / Civics (*Democratic Politics – II* / *लोकतांत्रिक राजनीति – 2*)
+* **Discipline**: Political Science / Civics (*Democratic Politics – II* / *Democratic Politics – 2*)
 * **Chapter Title**: Power-sharing
-* **Hindi Title**: सत्ता की साझेदारी
+* **Hindi Title**: Power sharing
 * **Academic Session**: 2026–27 (Targeting the 2027 Secondary Board Examination)
 * **Prescribed Textbook**: *Democratic Politics – II* (NCERT / BSER Ajmer)
 * **Examination Board**: Board of Secondary Education, Rajasthan, Ajmer (BSER / RBSE)

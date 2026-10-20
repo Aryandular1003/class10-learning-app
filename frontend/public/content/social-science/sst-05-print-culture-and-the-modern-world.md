@@ -1,7 +1,7 @@
 # BoardReady SST Master Chapter Content
 ## RBSE Class 10 Social Science — Academic Session 2026–27 (2027 Examination)
 ### Discipline: History (India and the Contemporary World – Part 2)
-### Chapter ID: sst-05 | Chapter Title: Print Culture and the Modern World (मुद्रण संस्कृति और आधुनिक दुनिया)
+### Chapter ID: sst-05 | Chapter Title: Print Culture and the Modern World
 
 ---
 
@@ -9,16 +9,16 @@
 
 | Parameter | Official Board Specification |
 | :--- | :--- |
-| **Subject Name** | Social Science (सामाजिक विज्ञान) |
+| **Subject Name** | Social Science (Social Science)
 | **Subject Code** | 08 |
-| **Class** | 10th (Secondary / माध्यमिक परीक्षा 2027) |
+| **Class** | 10th (Secondary/Madhyamik Exam 2027)
 | **Academic Session** | 2026–27 |
 | **Board Name** | Board of Secondary Education, Rajasthan, Ajmer (BSER / RBSE) |
 | **Discipline / Domain** | History (Section I: India and the Contemporary World – Part 2) |
 | **Chapter Number (Working List)** | Chapter 5 (Unit III: Everyday Life, Culture and Politics) |
 | **Chapter ID** | `sst-05` |
 | **Chapter Title (English)** | Print Culture and the Modern World |
-| **Chapter Title (Hindi)** | मुद्रण संस्कृति और आधुनिक दुनिया |
+| **Chapter Title (Hindi)** | Printing Culture and the Modern World
 | **Prescribed Primary Textbook** | *India and the Contemporary World – Part 2* (NCERT Textbook published under BSER copyright) |
 | **Theory Exam Duration** | 3 Hours 15 Minutes |
 | **Total Subject Marks Split** | 80 Theory Marks + 20 Sessional Marks = 100 Total Marks |

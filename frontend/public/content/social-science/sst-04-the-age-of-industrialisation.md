@@ -2,7 +2,7 @@
 ## RBSE Class 10 Social Science (Session 2026–27 | Examination 2027)
 ### Discipline: History (India and the Contemporary World – Part 2)
 ### Chapter ID: sst-04 | Subject Code: 08
-### Chapter Title: The Age of Industrialisation (औद्योगीकरण का युग)
+### Chapter Title: The Age of Industrialisation
 
 ---
 
@@ -26,7 +26,7 @@
 | :--- | :--- |
 | **Chapter ID** | `sst-04` |
 | **Working List Number** | Chapter 4 (History) |
-| **Subject Code** | 08 (Social Science / सामाजिक विज्ञान) |
+| **Subject Code** | 08 (Social Science / Social Science)
 | **Textbook Accreditation** | *India and the Contemporary World – Part 2* (NCERT / BSER) |
 | **Total Marks (Subject)** | 100 Marks (80 Theory Paper + 20 Sessional/Internal) |
 | **Chapter Weightage** | **04 Marks** |
@@ -115,162 +115,7 @@
   * Colonial port cities of **Bombay** and **Calcutta** grew rapidly under European control, marking the shift from traditional Indian merchant networks to colonial trade patterns.
 
 #### 3. The Condition of Weavers and the Gomasthas
-* **East India Company's Monopoly**: After securing political power in Bengal and Carnatic in the 1760s, the British East India Company established direct control over textile production to eliminate competition from French, Dutch, and Portuguese traders.
-* **Appointment of Gomasthas**:
-  * The Company appointed paid servants called **Gomasthas** to supervise weavers, collect supplies, and inspect cloth quality.
-  * **System of Advances**: Weavers were given loans to purchase raw materials. Once an advance was taken, weavers were contractually bound to deliver the finished cloth exclusively to the Company.
-* **Clash Between Weavers and Gomasthas**:
-  * Gomasthas were outsiders with no social link to villages. They acted arrogantly, marched into villages with sepoys and peons, and punished weavers with beatings for delays.
-  * Weavers lost the freedom to bargain or sell to other buyers at higher market rates.
-  * Consequence: Many weavers deserted villages, migrated to other districts, or abandoned weaving to become agricultural labourers.
-
-#### 4. Manchester Comes to India
-* **Decline of Indian Textile Exports**:
-  * British textile manufacturers pressured the British government to impose heavy import duties on Indian cotton textiles entering Britain.
-  * Simultaneously, Manchester machine-made cotton goods were flooded into the Indian market tariff-free.
-* **Dual Plight of Indian Weavers (1850s–1860s)**:
-  1. **Collapse of Export Market**: Indian weaver exports drastically declined. By 1850–51, piece-goods exports fell below 3%.
-  2. **Invasion of Domestic Market**: Cheap, durable Manchester machine-goods captured Indian retail markets.
-  3. **Raw Cotton Crisis (1860s)**: During the **American Civil War** (1861–1865), American raw cotton supplies to Britain were cut off. Britain bought massive quantities of raw cotton from India, causing raw cotton prices in India to skyrocket. Indian weavers could no longer afford raw material.
-
----
-
-### Section 4: Factories Come Up (Early Entrepreneurs & Workers)
-
-#### 1. Early Indian Capitalists & Capital Accumulation
-Many Indian entrepreneurs made their initial fortunes through the **China trade** (exporting Indian opium to China and importing tea to Britain) or through domestic trade networks.
-
-| Entrepreneur | Region / Base | Major Industrial Contributions & Achievements |
-| :--- | :--- | :--- |
-| **Dwarkanath Tagore** | Bengal | Made fortune in China trade; set up 6 joint-stock companies in Bengal in the 1830s–1840s. |
-| **Dinshaw Petit** | Bombay | Parsi industrialist; built early cotton mills in Bombay. |
-| **Jamsetjee Nusserwanjee Tata** | Bombay & Jamshedpur | Parsi capitalist; built cotton mills and founded the **Tata Iron and Steel Company (TISCO)** at Jamshedpur (1907). |
-| **Seth Hukumchand** | Calcutta | Marwari businessman; established the **first Indian-owned Jute Mill** in Calcutta in **1917**. |
-| **G.D. Birla** | Calcutta & National | Prominent Marwari industrialist; built a diversified manufacturing empire from trade profits. |
-
-#### 2. Colonial Restrictions on Indian Capital
-* European Managing Agencies (such as **Bird Heiglers & Co.**, **Andrew Yule**, and **Jardine Skinner & Co.**) controlled vast proportions of Indian industrial capital.
-* Indian businessmen were barred from joining European chambers of commerce and restricted to trade in raw materials (raw cotton, opium, jute, food grains) needed by Britain.
-
-#### 3. Recruitment of Workers: The Jobber System
-* **Demand for Industrial Labour**: As cotton, jute, and steel mills expanded, thousands of peasants and landless agricultural workers migrated from surrounding rural districts (e.g., Ratnagiri to Bombay mills) in search of work.
-* **Role of the Jobber**:
-  * Industrialists hired an old and trusted worker called a **Jobber** to recruit new workers.
-  * The Jobber enjoyed immense authority: he got people from his village, provided them jobs, helped them settle in cities, and advanced them money during crises.
-  * Over time, Jobbers began demanding money, gifts, and favors for granting jobs, controlling the lives of workers.
-
----
-
-### Section 5: The Peculiarities of Industrial Growth
-
-#### 1. Focus on Specific Non-Competitive Products
-* European industrial houses in India focused on export-oriented products non-competitive with British home industries: tea, coffee, indigo, jute, and mining.
-* Early Indian textile mills produced **coarse cotton yarn** rather than finished cloth. Yarn was exported to China or used by Indian handloom weavers.
-
-#### 2. Impact of the Swadeshi Movement (1905)
-* The **Swadeshi Movement** mobilized people to boycott foreign cloth and buy Indian-made goods.
-* Indian industrial groups organized themselves to demand tariff protection and concessions.
-* Textile industrialists shifted from yarn production to **woven piece-goods** (cloth) as yarn exports to China declined due to Chinese and Japanese competition.
-
-#### 3. First World War: A Major Turning Point for Indian Industry
-* **British Industrial Diversion**: During WWI (1914–1918), British mills were diverted to produce war materials. Imports of Manchester goods into India declined sharply.
-* **Indian Market Expansion**: Indian factories were called upon to supply war requirements: jute bags, cloth for army uniforms, tents, boots, and wooden cart wheels.
-* **Long-Term Consequence**:
-  * New factories were set up and existing units ran multiple shifts.
-  * Post-WWI, Manchester could never recapture its dominant position in the Indian market. The British economy collapsed under war debt and competition from the USA, Japan, and Germany.
-
-#### 4. Predominance of Small-Scale Industries
-* Despite factory growth, large-scale mechanized industries formed only a small segment of the economy. In 1911, only 5% of total industrial workers lived in factory centers like Bombay and Calcutta (10% by 1931).
-* **Handloom Expansion & Fly Shuttle**:
-  * Handloom cloth production expanded steadily in the 20th century.
-  * Weavers adopted technology like the **fly shuttle** (a mechanical device operated by ropes and pulleys that speeds up weaving and handles wider looms).
-  * By 1931, over 35% of handlooms in India were fitted with fly shuttles (up to 70–80% in Travancore, Cochin, Mysore, Bengal, and Madras).
-
----
-
-### Section 6: Market for Goods (Advertising Strategies)
-
-Industrialists used persuasive marketing tools to create consumer desire and establish brand loyalty in India.
-
-#### 1. Product Labels ("Made in Manchester")
-* Foreign manufacturers attached prominent labels to cloth bundles.
-* The label carried the place of manufacture ("Made in Manchester") in bold text to signify quality assurance.
-* **Use of Gods and Goddesses**: Labels featured striking illustrations of Indian gods and goddesses (e.g., **Krishna**, **Saraswati**, **Lakshmi**). This gave foreign goods a familiar, sacred, and culturally acceptable appearance to Indian buyers.
-
-#### 2. Printing Calendars
-* Calendars were distributed widely to tea shops, offices, middle-class homes, and poor households.
-* Unlike newspapers or posters, calendars hung on walls for an entire year, ensuring continuous visual repetition of brand logos and products.
-
-#### 3. Figures of Royalty and Nawabs
-* Advertisements featured portraits of historical emperors, maharajas, and nawabs.
-* Message: *"If this product is endorsed or used by royalty, its quality is unquestionable."*
-
-#### 4. Nationalist Appeal
-* Indian manufacturers used advertisements to spread swadeshi and patriotic messages.
-* Slogan/Theme: *"If you care about the nation, buy products made in India."*
-
----
-
-## 4. MASTER CHRONOLOGICAL TIMELINE
-
-| Year / Period | Historical Event / Industrial Milestone |
-| :--- | :--- |
-| **1730s** | First factories set up in England. |
-| **1760** | Britain imports 2.5 million pounds of raw cotton for its industry. |
-| **1764** | **James Hargreaves** invents the **Spinning Jenny**. |
-| **1781** | **James Watt** patents the improved steam engine; manufactured with **Matthew Boulton**. |
-| **1787** | British raw cotton import soars to 22 million pounds. |
-| **1830s–1840s** | **Dwarkanath Tagore** sets up six joint-stock companies in Bengal. |
-| **1854** | First cotton mill in India established in **Bombay** (begins production). |
-| **1855** | First jute mill established at **Rishra** (near Calcutta) by European capital. |
-| **1860s** | Elgin Mill started in Kanpur (1860); First cotton mill of Ahmedabad set up (1861). |
-| **1861–1865** | **American Civil War** causes severe raw cotton crisis for Indian handloom weavers. |
-| **1873** | British export of iron and steel reaches £77 million. |
-| **1874** | First spinning and weaving mill of Madras begins production. |
-| **1905** | **Swadeshi Movement** triggers boycott of foreign cloth in India. |
-| **1907** | **Jamsetjee Nusserwanjee Tata** establishes **TISCO** (Tata Iron and Steel Company) at Jamshedpur. |
-| **1914–1918** | **First World War** boosts Indian domestic production and factory expansion. |
-| **1917** | **Seth Hukumchand** sets up the first Indian-owned Jute Mill in Calcutta. |
-| **1931** | Over 35% of handlooms in India equipped with **fly shuttles**. |
-
----
-
-## 5. COMPARATIVE STRUCTURAL MATRICES
-
-### A. Proto-Industrialisation vs. Factory-Based Industrialisation
-
-| Comparison Parameter | Proto-Industrial System | Factory-Based Industrial System |
-| :--- | :--- | :--- |
-| **Primary Location** | Countryside / Rural Households | Urban Industrial Cities & Centralized Factories |
-| **Production Machinery** | Traditional hand tools (hand-spindles, looms) | Powered machinery (Steam engines, Powerlooms) |
-| **Capital & Supervision** | Merchant clothier advancing cash; decentralized | Factory owner managing under one roof |
-| **Control of Work** | Artisans worked at their own pace in family units | Strict factory discipline, fixed hours, wage labour |
-| **Output Scale** | Small, scattered batches per household | Mass, standardized production at high speed |
-
-### B. Pre-Colonial Indian Ports vs. Colonial Port Cities
-
-| Structural Feature | Pre-Colonial Ports (Surat & Hooghly) | Colonial Port Cities (Bombay & Calcutta) |
-| :--- | :--- | :--- |
-| **Era of Dominance** | Up to the mid-18th century (Pre-1750s) | Late 18th century onwards (Post-1750s) |
-| **Controlling Network** | Indian merchants, bankers, and local rulers | European chartered trading companies |
-| **Primary Trade Routes** | Gulf, Red Sea, and Southeast Asian ports | Export routes to Europe and China |
-| **Economic Fate** | Collapsed under European monopoly trade | Flourished into major industrial and administrative hubs |
-
----
-
-## 6. VERIFIED PREVIOUS-YEAR BOARD QUESTIONS (PYQs)
-
-### Question 1 (BSER Main Exam 2024, Paper S-08, Q5)
-**Question**: What is Industrialization? *(औद्योगीकरण किसे कहते हैं?)* [02 Marks]  
-**Model Answer**:  
-Industrialization is the economic and social process characterized by the transition from an agrarian economy based on manual hand labour to an industrial economy dominated by machine-based manufacturing, factory production, division of labour, and technological innovation.
-
-### Question 2 (BSER Main Exam 2023, Paper S-08, Q14)
-**Question**: How did the lives of workers get affected due to abundance of labour in the market? Write. [03 Marks]  
-**OR**  
-What impact did the inventions of the eighteenth century have on the production process? Describe it. [03 Marks]  
-**Model Answer (Option 1)**:  
-The abundance of labour in 19th-century Britain affected workers' lives in the following ways:
+* **East India Company's Monopoly**: After securing political power in Bengal and Carnatic in the 1760s, the British East India Company established direct control over textile production to eliminate competition from French, Dutch, and Portuguese traders.\n* **Appointment of Gomasthas**:\n  * The Company appointed paid servants called **Gomasthas** to supervise weavers, collect supplies, and inspect cloth quality.\n  * **System of Advances**: Weavers were given loans to purchase raw materials. Once an advance was taken, weavers were contractually bound to deliver the finished cloth exclusively to the Company.\n* **Clash Between Weavers and Gomasthas**:\n  * Gomasthas were outsiders with no social link to villages. They acted arrogantly, marched into villages with sepoys and peons, and punished weavers with beatings for delays.\n  * Weavers lost the freedom to bargain or sell to other buyers at higher market rates.\n  * Consequence: Many weavers deserted villages, migrated to other districts, or abandoned weaving to become agricultural labourers.\n\n#### 4. Manchester Comes to India\n* **Decline of Indian Textile Exports**:\n  * British textile manufacturers pressured the British government to impose heavy import duties on Indian cotton textiles entering Britain.\n  * Simultaneously, Manchester machine-made cotton goods were flooded into the Indian market tariff-free.\n* **Dual Plight of Indian Weavers (1850s–1860s)**:\n  1. **Collapse of Export Market**: Indian weaver exports declined drastically. By 1850–51, piece-goods exports fell below 3%.\n  2. **Invasion of Domestic Market**: Cheap, durable Manchester machine-goods captured Indian retail markets.\n  3. **Raw Cotton Crisis (1860s)**: During the **American Civil War** (1861–1865), American raw cotton supplies to Britain were cut off. Britain bought massive quantities of raw cotton from India, causing raw cotton prices in India to skyrocket. Indian weavers could no longer afford raw material.\n\n---\n\n### Section 4: Factories Come Up (Early Entrepreneurs & Workers)\n\n#### 1. Early Indian Capitalists & Capital Accumulation\nMany Indian entrepreneurs made their initial fortunes through the **China trade** (exporting Indian opium to China and importing tea to Britain) or through domestic trade networks.\n\n| Entrepreneur | Region / Base | Major Industrial Contributions & Achievements |\n| :--- | :--- | :--- |\n| **Dwarkanath Tagore** | Bengal | Made fortune in China trade; set up 6 joint-stock companies in Bengal in the 1830s–1840s. |\n| **Dinshaw Petit** | Bombay | Parsi industrialist; built early cotton mills in Bombay. |\n| **Jamsetjee Nusserwanjee Tata** | Bombay & Jamshedpur | Parsi capitalist; built cotton mills and founded the **Tata Iron and Steel Company (TISCO)** at Jamshedpur (1907). |\n| **Seth Hukumchand** | Calcutta | Marwari businessman; established the **first Indian-owned Jute Mill** in Calcutta in **1917**. |\n| **G.D. Birla** | Calcutta & National | Prominent Marwari industrialist; built a diversified manufacturing empire from trade profits. |\n\n#### 2. Colonial Restrictions on Indian Capital\n* European Managing Agencies (such as **Bird Heiglers & Co.**, **Andrew Yule**, and **Jardine Skinner & Co.**) controlled vast proportions of Indian industrial capital.\n* Indian businessmen were barred from joining European chambers of commerce and restricted to trade in raw materials (raw cotton, opium, jute, food grains) needed by Britain.\n\n#### 3. Recruitment of Workers: The Jobber System\n* **Demand for Industrial Labor**: As cotton, jute, and steel mills expanded, thousands of peasants and landless agricultural workers migrated from surrounding rural districts (e.g., Ratnagiri to Bombay mills) in search of work.\n* **Role of the Jobber**:\n  * Industrialists hired an old and trusted worker called a **Jobber** to recruit new workers.\n  * The Jobber enjoyed immense authority: he got people from his village, provided them jobs, helped them settle in cities, and advanced them money during crises.\n  * Over time, Jobbers began demanding money, gifts, and favors for granting jobs, controlling the lives of workers.\n\n---\n\n### Section 5: The Peculiarities of Industrial Growth\n\n#### 1. Focus on Specific Non-Competitive Products\n* European industrial houses in India focused on export-oriented products non-competitive with British home industries: tea, coffee, indigo, jute, and mining.\n* Early Indian textile mills produced **coarse cotton yarn** rather than finished cloth. Yarn was exported to China or used by Indian handloom weavers.\n\n#### 2. Impact of the Swadeshi Movement (1905)\n* The **Swadeshi Movement** mobilized people to boycott foreign cloth and buy Indian-made goods.\n* Indian industrial groups organized themselves to demand tariff protection and concessions.\n* Textile industrialists shifted from yarn production to **woven piece-goods** (cloth) as yarn exports to China declined due to Chinese and Japanese competition.\n\n#### 3. First World War: A Major Turning Point for Indian Industry\n* **British Industrial Diversion**: During WWI (1914–1918), British mills were diverted to produce war materials. Imports of Manchester goods into India declined sharply.\n* **Indian Market Expansion**: Indian factories were called upon to supply war requirements: jute bags, cloth for army uniforms, tents, boots, and wooden cart wheels.\n* **Long-Term Consequence**:\n  * New factories were set up and existing units ran multiple shifts.\n  * Post-WWI, Manchester could never recapture its dominant position in the Indian market. The British economy collapsed under war debt and competition from the USA, Japan, and Germany.\n\n#### 4. Predominance of Small-Scale Industries\n* Despite factory growth, large-scale mechanized industries formed only a small segment of the economy. In 1911, only 5% of total industrial workers lived in factory centers like Bombay and Calcutta (10% by 1931).\n* **Handloom Expansion & Fly Shuttle**:\n  * Handloom cloth production expanded steadily in the 20th century.\n  * Weavers adopted technology like the **fly shuttle** (a mechanical device operated by ropes and pulleys that speeds up weaving and handles wider looms).\n  * By 1931, over 35% of handlooms in India were fitted with fly shuttles (up to 70–80% in Travancore, Cochin, Mysore, Bengal, and Madras).\n\n---\n\n### Section 6: Market for Goods (Advertising Strategies)\n\nIndustrialists used persuasive marketing tools to create consumer desire and establish brand loyalty in India.\n\n#### 1. Product Labels ("Made in Manchester")\n* Foreign manufacturers attached prominent labels to cloth bundles.\n* The label carried the place of manufacture ("Made in Manchester") in bold text to signify quality assurance.\n* **Use of Gods and Goddesses**: Labels featured striking illustrations of Indian gods and goddesses (e.g., **Krishna**, **Saraswati**, **Lakshmi**). This gave foreign goods a familiar, sacred, and culturally acceptable appearance to Indian buyers.\n\n#### 2. Printing Calendars\n* Calendars were distributed widely to tea shops, offices, middle-class homes, and poor households.\n* Unlike newspapers or posters, calendars hang on walls for an entire year, ensuring continuous visual repetition of brand logos and products.\n\n#### 3. Figures of Royalty and Nawabs\n* Advertisements featured portraits of historical emperors, maharajas, and nawabs.\n* Message: *"If this product is endorsed or used by royalty, its quality is unquestionable."*\n\n#### 4. Nationalist Appeal\n* Indian manufacturers used advertisements to spread swadeshi and patriotic messages.\n* Slogan/Theme: *"If you care about the nation, buy products made in India."*\n\n---\n\n## 4. MASTER CHRONOLOGICAL TIMELINE\n\n| Year / Period | Historical Event / Industrial Milestone |\n| :--- | :--- |\n| **1730s** | First factories set up in England. |\n| **1760** | Britain imports 2.5 million pounds of raw cotton for its industry. |\n| **1764** | **James Hargreaves** invents the **Spinning Jenny**. |\n| **1781** | **James Watt** patents the improved steam engine; manufactured with **Matthew Boulton**. |\n| **1787** | British raw cotton import soars to 22 million pounds. |\n| **1830s–1840s** | **Dwarkanath Tagore** sets up six joint-stock companies in Bengal. |\n| **1854** | First cotton mill in India established in **Bombay** (begins production). |\n| **1855** | First jute mill established at **Rishra** (near Calcutta) by European capital. |\n| **1860s** | Elgin Mill started in Kanpur (1860); First cotton mill of Ahmedabad set up (1861). |\n| **1861–1865** **American Civil War** causes severe raw cotton crisis for Indian handloom weavers. |\n| **1873** | British export of iron and steel reaches £77 million. |\n| **1874** | First spinning and weaving mill of Madras begins production. |\n| **1905** | **Swadeshi Movement** triggers boycott of foreign cloth in India. |\n| **1907** | **Jamsetjee Nusserwanjee Tata** establishes **TISCO** (Tata Iron and Steel Company) at Jamshedpur. |\n| **1914–1918** **First World War** boosts Indian domestic production and factory expansion. |\n| **1917** | **Seth Hukumchand** sets up the first Indian-owned Jute Mill in Calcutta. |\n| **1931** | Over 35% of handlooms in India equipped with **fly shuttles**. |\n\n---\n\n## 5. COMPARATIVE STRUCTURAL MATRICES\n\n### A. Proto-Industrialisation vs. Factory-Based Industrialization\n\n| Comparison Parameter | Proto-Industrial System | Factory-Based Industrial System |\n| :--- | :--- | :--- |\n| **Primary Location** | Countryside / Rural Households | Urban Industrial Cities & Centralized Factories |\n| **Production Machinery** | Traditional hand tools (hand-spindles, looms) Powered machinery (Steam engines, Powerlooms)\n| **Capital & Supervision** | Merchant clothier advancing cash; decentralized | Factory owner managing under one roof.\n| **Control of Work** | Artisans worked at their own pace in family units. Strict factory discipline, fixed hours, wage labour.\n| **Output Scale** | Small, scattered batches per household. Mass, standardized production at high speed.\n\n### B. Pre-Colonial Indian Ports vs. Colonial Port Cities\n\n| Structural Features Pre-Colonial Ports (Surat & Hooghly) Colonial Port Cities (Bombay & Calcutta)\n| :--- | :--- | :--- |\n| **Era of Dominance** | Up to the mid-18th century (Pre-1750s) Late 18th century onwards (Post-1750s)\n| **Controlling Network** | Indian merchants, bankers, and local rulers. European chartered trading companies |\n| **Primary Trade Routes** | Gulf, Red Sea, and Southeast Asian ports. Export routes to Europe and China |\n| **Economic Fate** | Collapsed under European monopoly trade. Flourished into major industrial and administrative hubs.\n\n---\n\n## 6. VERIFIED PREVIOUS-YEAR BOARD QUESTIONS (PYQs)\n\n### Question 1 (BSER Main Exam 2024, Paper S-08, Q5)\n**Question**: What is Industrialization? *(What is industrialization?)* [02 Marks]  \n**Model Answer**:  \nIndustrialization is the economic and social process characterized by the transition from an agrarian economy based on manual hand labor to an industrial economy dominated by machine-based manufacturing, factory production, division of labor, and technological innovation.\n\n### Question 2 (BSER Main Exam 2023, Paper S-08, Q14)\n**Question**: How did the lives of workers get affected due to abundance of labor in the market? Write. [03 Marks]  \n**OR**  \nWhat impact did the inventions of the eighteenth century have on the production process? Describe it. [03 Marks]  \n**Model Answer (Option 1)**:  \nThe abundance of labor in 19th-century Britain affected workers' lives in the following ways:
 1. **Low Wages & Job Uncertainty**: A vast pool of rural migrants reduced wage rates. Finding a job depended heavily on personal connections and networks with existing factory workers.
 2. **Prolonged Periods of Unemployment**: Most urban industries were seasonal (e.g., breweries, printing, gasworks). After seasonal work ended, workers were forced back onto the streets, sleeping in night shelters or casual wards.
 3. **Hostility to Machinery**: Fearing loss of employment, workers fiercely resisted new technology. For instance, female spinners attacked the Spinning Jenny introduced by James Hargreaves in 1764.

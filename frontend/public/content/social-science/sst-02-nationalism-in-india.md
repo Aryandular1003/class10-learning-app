@@ -1,5 +1,5 @@
 # BoardReady Master Chapter File: RBSE Class 10 Social Science (History)
-## Chapter ID: sst-02 | Chapter 2: Nationalism in India (भारत में राष्ट्रवाद)
+## Chapter ID: sst-02 | Chapter 2: Nationalism in India
 ### Academic Session: 2026–27 | Target Board Examination: Secondary Examination 2027
 ### Governing Body: Board of Secondary Education, Rajasthan (BSER / RBSE), Ajmer
 ### Subject: Social Science (Subject Code: 08 / S-08) | Discipline: History (India and the Contemporary World – Part 2)
@@ -10,10 +10,10 @@
 
 * **Chapter Working ID**: `sst-02`
 * **Subject ID**: `sst`
-* **Subject Code**: 08 (Social Science / सामाजिक विज्ञान)
+* **Subject Code**: 08 (Social Science / Social Science)
 * **Discipline**: History (*India and the Contemporary World – Part 2*)
 * **Chapter Title (English)**: Nationalism in India
-* **Chapter Title (Hindi)**: भारत में राष्ट्रवाद
+* **Chapter Title (Hindi)**: Nationalism in India
 * **Prescribed Textbook**: *India and the Contemporary World – Part 2* (NCERT Textbook, copyright adopted and published by Board of Secondary Education, Rajasthan, Ajmer)
 * **Official Chapter Marks Allocation**: **04 Marks** (out of total 80 Theory Marks)
 * **Examination Weightage Split**:
@@ -61,30 +61,7 @@
 [First World War &        [Differing Strands in        [Towards Civil               [Collective Belonging
  Early Satyagrahas]        Non-Cooperation Movement]   Disobedience Movement]        & Cultural Icons]
  1914–1919                 1920–1922                    1928–1934                    1920s–1942
- • Economic Distress       • Towns: Boycott & Limits    • Simon Commission (1928)    • Abanindranath's Bharat Mata
- • Champaran (1917)        • Countryside: Baba          • Lahore Congress (1929)     • Rabindranath & Natesa Sastri
- • Kheda (1917)              Ramchandra (Awadh)           (Purna Swaraj)               • Tricolor Flag (1921)
- • Ahmedabad (1918)        • Tribal: Alluri Sitarama    • Salt March (1930)          • Reinterpretation of History
- • Rowlatt Act (1919)        Raju (Gudem Hills)         • Dandi (6 April 1930)       • Quit India Movement (1942)
- • Jallianwala Bagh        • Plantations: Assam Inland  • Round Table Conf. /
- • Khilafat Movement         Emigration Act (1859)        Poona Pact (1932)
-```
-
----
-
-### SUB-TOPIC 1: THE FIRST WORLD WAR, KHILAFAT, AND NON-COOPERATION
-
-#### 1. Impact of the First World War (1914–1918) on Indian Society & Economy:
-The First World War created a completely new economic and political situation in India:
-* **Defense Expenditure & Taxation**: The British government increased defense expenditure, financed by war loans and increased taxes. Custom duties were raised and income tax was introduced for the first time.
-* **Price Rise & Inflation**: Prices doubled between 1913 and 1918, leading to extreme hardship for the common people.
-* **Forced Recruitment (जबरन भर्ती)**: Rural areas were forced to supply soldiers for the British imperial army, causing widespread anger in villages.
-* **Crop Failures & Influenza Epidemic (1918–1921)**: Crop failures in 1918–19 and 1920–21 led to acute food shortages, accompanied by an influenza epidemic. According to the 1921 Census, 12 to 13 million (120–130 lakh) people perished due to famines and epidemic.
-
-#### 2. The Idea of Satyagraha (सत्याग्रह का विचार):
-* **Concept**: Satyagraha emphasized the **power of truth** and the **need to search for truth**. It suggested that if the cause was true and the struggle was against injustice, physical force was not necessary to fight the oppressor.
-* **Methodology**: A Satyagrahi could win the battle through non-violence (*Ahimsa*) by appealing to the conscience of the oppressor rather than using coercion.
-* **Mahatma Gandhi's Return**: Gandhiji returned to India from South Africa in **January 1915**, where he had successfully fought racist regime with satyagraha.
+ • Economic Distress       • Towns: Boycott & Limits    • Simon Commission (1928)    • Abanindranath'Bharat Mata\n • Champaran (1917) • Countryside: Baba • Lahore Congress (1929) • Rabindranath & Natesa Sastri\n • Kheda (1917) Ramchandra (Awadh) (Purna Swaraj) • Tricolor Flag (1921)\n • Ahmedabad (1918) • Tribal: Alluri Sitarama • Salt March (1930) • Reinterpretation of History\n • Rowlatt Act (1919) Raju (Gudem Hills) • Dandi (6 April 1930) • Quit India Movement (1942)\n • Jallianwala Bagh • Plantations: Assam Inland • Round Table Conf. /\n • Khilafat Movement Emigration Act (1859) Poona Pact (1932)\n```\n\n---\n\n### SUB-TOPIC 1: THE FIRST WORLD WAR, KHILAFAT, AND NON-COOPERATION\n\n#### 1. Impact of the First World War (1914–1918) on Indian Society & Economy:\nThe First World War created a completely new economic and political situation in India:\n* **Defense Expenditure & Taxation**: The British government increased defense expenditure, financed by war loans and increased taxes. Custom duties were raised and income tax was introduced for the first time.\n* **Price Rise & Inflation**: Prices doubled between 1913 and 1918, leading to extreme hardship for the common people.\n* **Forced Recruitment**: Rural areas were forced to supply soldiers for the British imperial army, causing widespread anger in villages.\n* **Crop Failures & Influenza Epidemic (1918–1921)**: Crop failures in 1918–19 and 1920–21 led to acute food shortages, accompanied by an influenza epidemic. According to the 1921 Census, 12 to 13 million (120–130 lakh) people perished due to famines and epidemic.\n\n#### 2. The Idea of Satyagraha:\n* **Concept**: Satyagraha emphasized the **power of truth** and the **need to search for truth**. It suggested that if the cause was true and the struggle was against injustice, physical force was not necessary to fight the oppressor.\n* **Methodology**: A Satyagrahi could win the battle through non-violence (*Ahimsa*) by appealing to the conscience of the oppressor rather than using coercion.\n* **Mahatma Gandhi's Return**: Gandhiji returned to India from South Africa in **January 1915**, where he had successfully fought racist regime with satyagraha.
 
 #### 3. Early Local Satyagrahas led by Gandhiji (1917–1918):
 1. **Champaran (Bihar, 1917)**: Inspired peasants to struggle against the oppressive indigo plantation system (*Tinkathia system*).
@@ -216,7 +193,7 @@ The Non-Cooperation–Khilafat Movement began in **January 1921**. Various socia
 
 Nationalism spreads when people begin to believe that they are all part of the same nation and discover unified identity through cultural processes:
 
-#### 1. Visual Allegories – Bharat Mata (भारत माता):
+#### 1. Visual Allegories – Bharat Mata (Bharat Mata):
 * **Bankim Chandra Chattopadhyay**: Created the image of Bharat Mata and wrote **'Vande Mataram'** in the 1870s as a hymn to the motherland (later included in his novel *Anandamath*).
 * **Abanindranath Tagore (1905)**: Painted his famous image of **Bharat Mata** depicted as an ascetic figure—calm, composed, divine, and spiritual.
 
@@ -229,165 +206,7 @@ Nationalism spreads when people begin to believe that they are all part of the s
 * **Swaraj Flag (1921)**: Designed by Mahatma Gandhi. Tricolor (red, green, white) with a **spinning wheel** (*Charkha*) in the center, representing the Gandhian ideal of self-help.
 
 #### 4. Reinterpretation of History:
-British historians portrayed Indians as backward, primitive, and incapable of governing themselves. In response, Indian historians wrote about India's glorious past achievements in art, architecture, science, mathematics, religion, and trade, urging readers to take pride in Indian history.
-
-#### 5. Quit India Movement (भारत छोड़ो आंदोलन, 1942):
-* **Context**: Failure of the Cripps Mission (1942) and World War II pressures.
-* **Resolution**: Passed by Congress Working Committee at Wardha (July 1942) and endorsed at **Bombay on 8 August 1942**.
-* **Slogan**: Gandhiji gave the famous mantra: **"Do or Die"** (*करो या मरो*).
-* **Nature**: A mass movement where peasants, youth, students, and workers participated. Leaders like Jayaprakash Narayan, Ram Manohar Lohia, and Aruna Asaf Ali engaged in underground activities. Women like Matangini Hazra (Bengal), Kanaklata Barua (Assam), and Rama Devi (Odisha) showed heroic resistance.
-
----
-
-## SECTION 4: MASTER TIMELINE & PRESCRIBED MAP WORK CATALOG
-
-### 1. Chronological Master Timeline (1914 – 1942)
-
-```
-1914───────► First World War Begins
-1915───────► Jan: Gandhiji Returns to India from South Africa
-1917───────► Champaran (Bihar) Indigo Satyagraha & Kheda Peasant Satyagraha
-1918───────► Ahmedabad Cotton Mill Workers Satyagraha
-1919───────► March: Rowlatt Act Passed; Khilafat Committee Formed (Bombay)
-            13 April: Jallianwala Bagh Massacre (Amritsar)
-1920───────► Sept: Calcutta Congress Session (Khilafat & Non-Cooperation agreement)
-            Dec: Nagpur Congress Session (Non-Cooperation Programme adopted)
-1921───────► Jan: Non-Cooperation–Khilafat Movement launched
-1922───────► 5 Feb: Chauri Chaura Incident; Movement withdrawn by Gandhiji
-1923───────► Formation of Swaraj Party (Motilal Nehru & C.R. Das)
-1924───────► Execution of Tribal Leader Alluri Sitarama Raju
-1928───────► Arrival of Simon Commission ("Go Back Simon"); All Parties Conference
-1929───────► Dec: Lahore Congress Session (Purna Swaraj resolution under J.L. Nehru)
-1930───────► 26 Jan: First Independence Day pledge taken
-            12 March–6 April: Dandi Salt March & Civil Disobedience launch
-            Dr. B.R. Ambedkar forms Depressed Classes Association
-1931───────► 5 March: Gandhi-Irwin Pact signed; Second Round Table Conference
-1932───────► Sept: Poona Pact signed between Gandhiji and Dr. B.R. Ambedkar
-1934───────► Civil Disobedience Movement completely fades out
-1942───────► 8 August: Quit India Resolution adopted at Bombay ("Do or Die")
-```
-
----
-
-### 2. Prescribed Map Work Locations Inventory (History - 4 Marks Map Question)
-
-The BSER Social Science paper includes 1 compulsory Map Question (Question 22/28) carrying 4 marks. Map items from History are drawn strictly from the **6 Key Indian National Movement Centers**:
-
-| Location Name | State | Historical Significance / Event Tag | BSER Past Paper Appearance |
-| :--- | :--- | :--- | :--- |
-| **Champaran** | Bihar | Movement of Indigo Planters (1917) | Model Paper 2026–27 |
-| **Kheda** | Gujarat | Peasant Satyagraha against revenue collection (1917) | BSER 2023, 2024 |
-| **Ahmedabad** | Gujarat | Cotton Mill Workers Satyagraha (1918) | BSER 2022, 2024 |
-| **Amritsar** | Punjab | Jallianwala Bagh Massacre site (13 April 1919) | BSER 2022, 2023, 2024 |
-| **Chauri Chaura** | Uttar Pradesh | Site of violent clash causing withdrawal of Non-Cooperation Movement (1922) | BSER 2023, 2024 |
-| **Dandi** | Gujarat | Coastal town where Salt March ended and Civil Disobedience launched (1930) | BSER 2022, 2023, 2024 |
-
----
-
-## SECTION 5: VERIFIED PREVIOUS-YEAR BOARD QUESTIONS (PYQs)
-
-### 1. Multiple Choice Questions (1 Mark):
-
-* **PYQ 1 (BSER Secondary Main Exam 2022)**
-  * **Question**: When did the Jallianwala Bagh massacre take place?
-    (A) 9 April 1919  (B) 10 April 1919  (C) 13 April 1919  (D) 19 April 1919
-  * **Answer**: **(C) 13 April 1919**
-  * **Source**: BSER 2022 Main Exam Paper, S-08, Q.1(i).
-
-* **PYQ 2 (BSER Secondary Main Exam 2022)**
-  * **Question**: In which Round Table Conference did Mahatma Gandhi participate?
-    (A) First  (B) Second  (C) Third  (D) None of these
-  * **Answer**: **(B) Second**
-  * **Source**: BSER 2022 Main Exam Paper, S-08, Q.1(ii).
-
-* **PYQ 3 (BSER Supplementary Exam 2024 - D&D S-124)**
-  * **Question**: In which year did Mahatma Gandhi return to India from South Africa?
-    (A) 1915 AD  (B) 1951 AD  (C) 1927 AD  (D) 1918 AD
-  * **Answer**: **(A) 1915 AD**
-  * **Source**: BSER 2024 Supplementary Paper, S-124, Q.1(i).
-
----
-
-### 2. Short Answer Questions (2 Marks):
-
-* **PYQ 4 (BSER Secondary Main Exam 2022)**
-  * **Question**: For what reasons were the peasants of Kheda district not in a position to pay the land revenue? [2 Marks]
-  * **Model Answer**:
-    1. **Crop Failure**: Crops failed in Kheda district of Gujarat in 1917 due to monsoon failure, leaving peasants without produce.
-    2. **Plague Epidemic**: The region was struck by a severe plague epidemic, disrupting normal livelihoods. Consequently, peasants could not pay the high land revenue demanded by the British government and requested revenue relaxation.
-  * **Source**: BSER 2022 Main Paper, S-08, Q.5.
-
----
-
-### 3. Essay / Long Answer Questions (4 Marks):
-
-* **PYQ 5 (BSER Secondary Main Exam 2024)**
-  * **Question**: How did the Non-Cooperation Movement spread in the towns? Explain. [4 Marks]
-  * **Model Answer**:
-    1. **Middle-Class Participation**: The movement began in towns with middle-class participation. Thousands of students left government-controlled schools and colleges. Headmasters and teachers resigned, and lawyers gave up their legal practice.
-    2. **Boycott of Foreign Goods**: Foreign cloth was boycotted and burnt in huge public bonfires. Liquor shops were picketed across towns.
-    3. **Boycott of Council Elections**: Council elections were boycotted in most provinces, except in Madras where the Justice Party felt entering councils was a way of gaining power.
-    4. **Economic Impact**: Imports of foreign cloth halved between 1921 and 1922, its value dropping from Rs 102 crore to Rs 57 crore. Merchants and traders refused to trade in foreign goods or finance foreign trade.
-  * **Source**: BSER 2024 Main Exam Paper, S-08, Q.20 (OR option).
-
-* **PYQ 6 (BSER Secondary Main Exam 2023)**
-  * **Question**: Explain the events before the Non-Cooperation Movement. [4 Marks]
-  * **Model Answer**:
-    1. **First World War Impacts**: Created economic distress, high prices, forced recruitment, and crop failures combined with an influenza epidemic (12–13 million deaths).
-    2. **Arrival of Gandhiji & Local Satyagrahas**: Gandhiji brought the technique of Satyagraha and organized movements in Champaran (1917), Kheda (1917), and Ahmedabad (1918).
-    3. **Rowlatt Act & Nationwide Hartal (1919)**: The repressive Rowlatt Act allowed two-year detention without trial. Gandhiji called for a nation-wide *hartal* on 6 April 1919.
-    4. **Jallianwala Bagh Massacre (13 April 1919)**: General Dyer opened fire on unarmed citizens in Amritsar, causing widespread outrage across the nation.
-    5. **Khilafat Issue & Alliance**: To unite Hindus and Muslims, Gandhiji supported Ali Brothers on the Khilafat issue, leading to the adoption of Non-Cooperation at the Nagpur Congress Session in December 1920.
-  * **Source**: BSER 2023 Main Exam Paper, S-08, Q.18.
-
-* **PYQ 7 (BSER Secondary Main Exam 2022 / 2023)**
-  * **Question**: "Ideas of nationalism also developed through a movement to revive Indian folklore." Explain the statement with arguments. [4 Marks]
-  * **Model Answer**:
-    1. **Preservation of National Identity**: In late 19th-century India, nationalists began recording folk tales sung by bards and tour villages to gather songs and legends. They believed these tales gave a true picture of traditional culture that had been corrupted by foreign rule.
-    2. **Contributions in Bengal**: Rabindranath Tagore himself began collecting ballads, nursery rhymes, and myths, and led the movement for folk revival to re-establish pride in national heritage.
-    3. **Contributions in Madras**: In Madras, Natesa Sastri published a massive four-volume collection of Tamil folk tales, *The Folklore of Southern India*. He believed that folklore was national literature and "the most trustworthy manifestation of people’s real thoughts".
-    4. **Restoring Self-Respect**: Restoring folk traditions helped instill a sense of national pride and restored confidence among Indians against colonial cultural superiority.
-  * **Source**: BSER 2022 Main Paper Q.21 (OR) & BSER 2023 Main Paper Q.18 (OR).
-
----
-
-## SECTION 6: PRACTICE & PREDICTED QUESTIONS WITH ANSWERS
-
-### 1. Short Answer Practice Questions (2–3 Marks):
-
-* **Question 1**: Explain the concept of Satyagraha as advocated by Mahatma Gandhi.
-  * **Answer**:
-    1. Satyagraha emphasized the power of truth and the need to search for truth.
-    2. It suggested that if the cause was true and struggle was against injustice, physical force was not necessary to fight the oppressor.
-    3. Without seeking vengeance or being aggressive, a satyagrahi could win the battle through non-violence by appealing to the conscience of the oppressor.
-
-* **Question 2**: Why was the Simon Commission boycotted by Indians?
-  * **Answer**:
-    1. The Indian Statutory Commission (Simon Commission) was set up by the British Government to look into the functioning of the constitutional system in India and suggest changes.
-    2. The main problem was that **it did not have a single Indian member**; all its seven members were British.
-    3. When it arrived in 1928, all Indian political parties (Congress and Muslim League) boycotted it with the slogan "Go Back Simon".
-
-* **Question 3**: What was the Inland Emigration Act of 1859? How did plantation workers in Assam react to it?
-  * **Answer**:
-    1. Under the Inland Emigration Act of 1859, tea plantation workers in Assam were not permitted to leave the tea gardens without written permission, which was rarely given.
-    2. When workers heard of the Non-Cooperation Movement, thousands defied authorities, left plantations, and headed for home, believing *Gandhi Raj* was coming.
-
----
-
-### 2. Original Predicted Long Answer Questions for Board Exam 2027:
-
-* **Predicted Question 1**: Describe the Salt March (Dandi March) and explain why it became an effective symbol of resistance against British colonialism. [4 Marks]
-  * **Answer**:
-    1. **Selection of Salt as a Symbol**: Gandhiji found in salt a powerful symbol that could unite the nation. Salt was something consumed by the rich and the poor alike, and was an essential item of food. The tax on salt and government monopoly over its production revealed the oppressive nature of British rule.
-    2. **The Ultimatum**: On 31 January 1930, Gandhiji sent a letter to Viceroy Irwin stating 11 demands. When Irwin refused to negotiate, Gandhiji launched the Salt March.
-    3. **The Dandi March**: Accompanied by 78 trusted volunteers, Gandhiji walked over 240 miles from Sabarmati Ashram to Dandi in 24 days. Thousands came to hear him along the way.
-    4. **Breaking the Law & Mass Impact**: On 6 April 1930, Gandhiji reached Dandi and ceremonially manufactured salt by boiling sea water. This broke the salt law and inaugurated the Civil Disobedience Movement across the country, where thousands manufactured salt, picketed liquor shops, and boycotted foreign goods.
-
-* **Predicted Question 2**: Analyze the role of different social groups in the Civil Disobedience Movement, highlighting why rich peasants and business classes participated. [4 Marks]
-  * **Answer**:
-    1. **Rich Peasants (Patidars & Jats)**:
-       * Being producers of commercial crops, they were hard hit by the trade depression and falling agricultural prices.
-       * As their cash income disappeared, they found it impossible to pay the government's revenue demand.
+British historians portrayed Indians as backward, primitive, and incapable of governing themselves. In response, Indian historians wrote about India's glorious past achievements in art, architecture, science, mathematics, religion, and trade, urging readers to take pride in Indian history.\n\n#### 5. Quit India Movement (Quit India Movement, 1942):\n* **Context**: Failure of the Cripps Mission (1942) and World War II pressures.\n* **Resolution**: Passed by Congress Working Committee at Wardha (July 1942) and endorsed at **Bombay on 8 August 1942**.\n* **Slogan**: Gandhiji gave the famous mantra: **"Do or Die"** (*Do or die*).\n* **Nature**: A mass movement where farmers, youth, students, and workers participated. Leaders like Jayaprakash Narayan, Ram Manohar Lohia, and Aruna Asaf Ali engaged in underground activities. Women like Matangini Hazra (Bengal), Kanaklata Barua (Assam), and Rama Devi (Odisha) showed heroic resistance.\n\n---\n\n## SECTION 4: MASTER TIMELINE & PRESCRIBED MAP WORK CATALOG\n\n### 1. Chronological Master Timeline (1914 – 1942)\n\n```\n1914─────── ► First World War Begins\n1915─────── ► Jan: Gandhiji Returns to India from South Africa\n1917─────── ► Champaran (Bihar) Indigo Satyagraha & Kheda Peasant Satyagraha\n1918─────── ► Ahmedabad Cotton Mill Workers Satyagraha\n1919─────── ► March: Rowlatt Act Passed; Khilafat Committee Formed (Bombay)\n            13 April: Jallianwala Bagh Massacre (Amritsar)\n1920─────── ► Sept: Calcutta Congress Session (Khilafat & Non-Cooperation agreement)\n            Dec: Nagpur Congress Session (Non-Cooperation Program adopted)\n1921─────── ► Jan: Non-Cooperation–Khilafat Movement launched\n1922─────── ► 5 Feb: Chauri Chaura Incident; Movement withdrawn by Gandhiji\n1923─────── ► Formation of Swaraj Party (Motilal Nehru & C.R. Das)\n1924─────── ► Execution of Tribal Leader Alluri Sitarama Raju\n1928─────── ► Arrival of Simon Commission ("Go Back Simon"); All Parties Conference\n1929─────── ► Dec: Lahore Congress Session (Purna Swaraj resolution under J.L. Nehru)\n1930─────── ► 26 Jan: First Independence Day pledge taken\n            12 March–6 April: Dandi Salt March & Civil Disobedience launched\n            Dr. B.R. Ambedkar forms Depressed Classes Association\n1931─────── ► 5 March: Gandhi-Irwin Pact signed; Second Round Table Conference\n1932─────── ► Sept: Poona Pact signed between Gandhiji and Dr. B.R. Ambedkar\n1934─────── ► Civil Disobedience Movement completely fades out\n1942─────── ► 8 August: Quit India Resolution adopted at Bombay ("Do or Die")\n```\n\n---\n\n### 2. Prescribed Map Work Locations Inventory (History - 4 Marks Map Question)\n\nThe BSER Social Science paper includes 1 compulsory Map Question (Question 22/28) carrying 4 marks. Map items from History are drawn strictly from the **6 Key Indian National Movement Centres**:\n\n| Location Name | State | Historical Significance / Event Tag | BSER Past Paper Appearance |\n| :--- | :--- | :--- | :--- |\n| **Champaran** Bihar | Movement of Indigo Planters (1917) Model Paper 2026–27 |\n| **Kheda** Gujarat | Peasant Satyagraha against revenue collection (1917) BSER 2023, 2024 |\n| **Ahmedabad** | Gujarat | Cotton Mill Workers Satyagraha (1918) BSER 2022, 2024 |\n| **Amritsar** | Punjab | Jallianwala Bagh Massacre site (13 April 1919) BSER 2022, 2023, 2024 |\n| **Chauri Chaura** Uttar Pradesh | Site of violent clash causing withdrawal of Non-Cooperation Movement (1922) | BSER 2023, 2024 |\n| **Dandi** | Gujarat | Coastal town where Salt March ended and Civil Disobedience launched (1930) BSER 2022, 2023, 2024 |\n\n---\n\n## SECTION 5: VERIFIED PREVIOUS-YEAR BOARD QUESTIONS (PYQs)\n\n### 1. Multiple Choice Questions (1 Mark):\n\n* **PYQ 1 (BSER Secondary Main Exam 2022)**\n  * **Question**: When did the Jallianwala Bagh massacre take place?\n    (A) 9 April 1919 (B) 10 April 1919 (C) 13 April 1919 (D) 19 April 1919\n  * **Answer**: **(C) 13 April 1919**\n  * **Source**: BSER 2022 Main Exam Paper, S-08, Q.1(i).\n\n* **PYQ 2 (BSER Secondary Main Exam 2022)**\n  * **Question**: In which Round Table Conference did Mahatma Gandhi participate?\n    (A) First (B) Second (C) Third (D) None of these\n  * **Answer**: **(B) Second**\n  * **Source**: BSER 2022 Main Exam Paper, S-08, Q.1(ii).\n\n* **PYQ 3 (BSER Supplementary Exam 2024 - D&D S-124)**\n  * **Question**: In which year did Mahatma Gandhi return to India from South Africa?\n    (A) 1915 AD (B) 1951 AD (C) 1927 AD (D) 1918 AD\n  * **Answer**: **(A) 1915 AD**\n  * **Source**: BSER 2024 Supplementary Paper, S-124, Q.1(i).\n\n---\n\n### 2. Short Answer Questions (2 Marks):\n\n* **PYQ 4 (BSER Secondary Main Exam 2022)**\n  * **Question**: For what reasons were the farmers of Kheda district not in a position to pay the land revenue? [2 Marks]\n  * **Model Answer**:\n    1. **Crop Failure**: Crops failed in Kheda district of Gujarat in 1917 due to monsoon failure, leaving farmers without produce.\n    2. **Plague Epidemic**: The region was struck by a severe plague epidemic, disrupting normal livelihoods. Consequently, peasants could not pay the high land revenue demanded by the British government and requested revenue relaxation.\n  * **Source**: BSER 2022 Main Paper, S-08, Q.5.\n\n---\n\n### 3. Essay / Long Answer Questions (4 Marks):\n\n* **PYQ 5 (BSER Secondary Main Exam 2024)**\n  * **Question**: How did the Non-Cooperation Movement spread in the towns? Explain. [4 Marks]\n  * **Model Answer**:\n    1. **Middle-Class Participation**: The movement began in towns with middle-class participation. Thousands of students left government-controlled schools and colleges. Headmasters and teachers resigned, and lawyers gave up their legal practice.\n    2. **Boycott of Foreign Goods**: Foreign cloth was boycotted and burnt in huge public bonfires. Liquor shops were picketed across towns.\n    3. **Boycott of Council Elections**: Council elections were boycotted in most provinces, except in Madras where the Justice Party felt entering councils was a way of gaining power.\n    4. **Economic Impact**: Imports of foreign cloth halved between 1921 and 1922, its value dropping from Rs 102 crore to Rs 57 crore. Merchants and traders refused to trade in foreign goods or finance foreign trade.\n  * **Source**: BSER 2024 Main Exam Paper, S-08, Q.20 (OR option).\n\n* **PYQ 6 (BSER Secondary Main Exam 2023)**\n  * **Question**: Explain the events before the Non-Cooperation Movement. [4 Marks]\n  * **Model Answer**:\n    1. **First World War Impacts**: Created economic distress, high prices, forced recruitment, and crop failures combined with an influenza epidemic (12–13 million deaths).\n    2. **Arrival of Gandhiji & Local Satyagrahas**: Gandhiji brought the technique of Satyagraha and organized movements in Champaran (1917), Kheda (1917), and Ahmedabad (1918).\n    3. **Rowlatt Act & Nationwide Hartal (1919)**: The repressive Rowlatt Act allowed two-year detention without trial. Gandhiji called for a nation-wide *hartal* on 6 April 1919.\n    4. **Jallianwala Bagh Massacre (13 April 1919)**: General Dyer opened fire on unarmed citizens in Amritsar, causing widespread outrage across the nation.\n    5. **Khilafat Issue & Alliance**: To unite Hindus and Muslims, Gandhiji supported Ali Brothers on the Khilafat issue, leading to the adoption of Non-Cooperation at the Nagpur Congress Session in December 1920.\n  * **Source**: BSER 2023 Main Exam Paper, S-08, Q.18.\n\n* **PYQ 7 (BSER Secondary Main Exam 2022 / 2023)**\n  * **Question**: "Ideas of nationalism also developed through a movement to revive Indian folklore." Explain the statement with arguments. [4 Marks]\n  * **Model Answer**:\n    1. **Preservation of National Identity**: In late 19th-century India, nationalists began recording folk tales sung by bards and tour villages to gather songs and legends. They believed these tales gave a true picture of traditional culture that had been corrupted by foreign rule.\n    2. **Contributions in Bengal**: Rabindranath Tagore himself began collecting ballads, nursery rhymes, and myths, and led the movement for folk revival to re-establish pride in national heritage.\n    3. **Contributions in Madras**: In Madras, Natesa Sastri published a massive four-volume collection of Tamil folk tales, *The Folklore of Southern India*. He believed that folklore was national literature and "the most trustworthy manifestation of people’s real thoughts".\n    4. **Restoring Self-Respect**: Restoring folk traditions helped instill a sense of national pride and restored confidence among Indians against colonial cultural superiority.\n  * **Source**: BSER 2022 Main Paper Q.21 (OR) & BSER 2023 Main Paper Q.18 (OR).\n\n---\n\n## SECTION 6: PRACTICE & PREDICTED QUESTIONS WITH ANSWERS\n\n### 1. Short Answer Practice Questions (2–3 Marks):\n\n* **Question 1**: Explain the concept of Satyagraha as advocated by Mahatma Gandhi.\n  * **Answer**:\n    1. Satyagraha emphasized the power of truth and the need to search for truth.\n    2. It suggested that if the cause was true and struggle was against injustice, physical force was not necessary to fight the oppressor.\n    3. Without seeking vengeance or being aggressive, a satyagrahi could win the battle through non-violence by appealing to the conscience of the oppressor.\n\n* **Question 2**: Why was the Simon Commission boycotted by Indians?\n  * **Answer**:\n    1. The Indian Statutory Commission (Simon Commission) was set up by the British Government to look into the functioning of the constitutional system in India and suggest changes.\n    2. The main problem was that **it did not have a single Indian member**; all its seven members were British.\n    3. When it arrived in 1928, all Indian political parties (Congress and Muslim League) boycotted it with the slogan "Go Back Simon".\n\n* **Question 3**: What was the Inland Emigration Act of 1859? How did plantation workers in Assam react to it?\n  * **Answer**:\n    1. Under the Inland Emigration Act of 1859, tea plantation workers in Assam were not permitted to leave the tea gardens without written permission, which was rarely given.\n    2. When workers heard of the Non-Cooperation Movement, thousands defied authorities, left plantations, and headed for home, believing *Gandhi Raj* was coming.\n\n---\n\n### 2. Original Predicted Long Answer Questions for Board Exam 2027:\n\n* **Predicted Question 1**: Describe the Salt March (Dandi March) and explain why it became an effective symbol of resistance against British colonialism. [4 Marks]\n  * **Answer**:\n    1. **Selection of Salt as a Symbol**: Gandhiji found in salt a powerful symbol that could unite the nation. Salt was something consumed by the rich and the poor alike, and was an essential item of food. The tax on salt and government monopoly over its production revealed the oppressive nature of British rule.\n    2. **The Ultimatum**: On 31 January 1930, Gandhiji sent a letter to Viceroy Irwin stating 11 demands. When Irwin refused to negotiate, Gandhiji launched the Salt March.\n    3. **The Dandi March**: Accompanied by 78 trusted volunteers, Gandhiji walked over 240 miles from Sabarmati Ashram to Dandi in 24 days. Thousands came to hear him along the way.\n    4. **Breaking the Law & Mass Impact**: On 6 April 1930, Gandhiji reached Dandi and ceremonially manufactured salt by boiling sea water. This broke the salt law and inaugurated the Civil Disobedience Movement across the country, where thousands manufactured salt, picketed liquor shops, and boycotted foreign goods.\n\n* **Predicted Question 2**: Analyze the role of different social groups in the Civil Disobedience Movement, highlighting why rich peasants and business classes participated. [4 Marks]\n  * **Answer**:\n    1. **Rich Peasants (Patidars & Jats)**:\n       * Being producers of commercial crops, they were hard hit by the trade depression and falling agricultural prices.\n       * As their cash income disappeared, they found it impossible to pay the government's revenue demand.
        * They became enthusiastic supporters of Civil Disobedience, organizing their communities to demand revenue reduction.
     2. **Business Classes (FICCI & Industrialists)**:
        * During WWI, Indian merchants made huge profits and wanted protection against imports of foreign goods and a favorable exchange ratio.
@@ -509,7 +328,7 @@ The BSER Social Science paper includes 1 compulsory Map Question (Question 22/28
     * **Answer**: **(C) Abanindranath Tagore**
     * *Note*: Abanindranath Tagore painted the iconic calm, ascetic Bharat Mata image.
 
-15. **The slogan "Do or Die" (करो या मरो) was given by Mahatma Gandhi during which movement?**
+15. **The slogan "Do or Die" was given by Mahatma Gandhi during which movement?**
     (A) Non-Cooperation Movement
     (B) Civil Disobedience Movement
     (C) Rowlatt Satyagraha
